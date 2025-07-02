@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zodiac App - Soporte</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background: linear-gradient(135deg, #1a1a2e, #16213e);
+            color: #fff;
+        }
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-top: 20px;
+        }
+        .language-selector {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .flag-btn {
+            cursor: pointer;
+            width: 40px;
+            height: 30px;
+            margin: 0 5px;
+            border: none;
+            background-color: transparent;
+            transition: transform 0.2s;
+        }
+        .flag-btn:hover {
+            transform: scale(1.1);
+        }
+        .flag-btn.active {
+            transform: scale(1.15);
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+            transition: all 0.3s ease;
+        }
+        .content {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .language-content {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+        h1 {
+            color: #ff9d00;
+            margin-bottom: 20px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #ff9d00;
+            font-size: 22px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            padding: 20px;
+            color: #999;
+            font-size: 14px;
+        }
+        @media (max-width: 600px) {
+            .container {
+                width: 95%;
+            }
+            h1 {
+                font-size: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Zodiac App</h1>
+        </div>
+        
+        <div class="language-selector">
+            <button class="flag-btn active" onclick="changeLanguage('es')">
+                <img src="https://flagcdn.com/48x36/es.png" alt="Español" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NTAgNTAwIj48cGF0aCBmaWxsPSIjYzYwYjFlIiBkPSJNMCAwaDc1MHY1MDBIMHoiLz48cGF0aCBmaWxsPSIjZmZjNDAwIiBkPSJNMCAxMjVoNzUwdjI1MEgweiIvPjwvc3ZnPg=='">
+            </button>
+            <button class="flag-btn" onclick="changeLanguage('en')">
+                <img src="https://flagcdn.com/48x36/gb.png" alt="English" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYwMCI+PHBhdGggZmlsbD0iIzAxMjE2OSIgZD0iTTAgMGgxMjAwdjYwMEgweiIvPjxwYXRoIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxMjAiIGQ9Ik0wIDBoMTIwMHY2MDBIMHoiLz48cGF0aCBzdHJva2U9IiNjODEwMmUiIHN0cm9rZS13aWR0aD0iODAiIGQ9Ik0wIDBoMTIwMHY2MDBIMHoiLz48cGF0aCBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMjAwIiBkPSJNMCAzMDBoMTIwME02MDAgMHY2MDAiLz48cGF0aCBzdHJva2U9IiNjODEwMmUiIHN0cm9rZS13aWR0aD0iMTIwIiBkPSJNMCAzMDBoMTIwME02MDAgMHY2MDAiLz48L3N2Zz4='">
+            </button>
+            <button class="flag-btn" onclick="changeLanguage('de')">
+                <img src="https://flagcdn.com/48x36/de.png" alt="Deutsch" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1IDMiPjxwYXRoIGQ9Ik0wIDBoNXYzSDB6Ii8+PHBhdGggZmlsbD0iI0QwMCIgZD0iTTAgMWg1djJIMHoiLz48cGF0aCBmaWxsPSIjRkZDRTAwIiBkPSJNMCAyaDV2MUgweiIvPjwvc3ZnPg=='">
+            </button>
+            <button class="flag-btn" onclick="changeLanguage('it')">
+                <img src="https://flagcdn.com/48x36/it.png" alt="Italiano" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjxwYXRoIGZpbGw9IiMwMDkyNDYiIGQ9Ik0wIDBoMXYySDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEgMGgxdjJIMXoiLz48cGF0aCBmaWxsPSIjY2UyYjM3IiBkPSJNMiAwaDF2MkgyeiIvPjwvc3ZnPg=='">
+            </button>
+            <button class="flag-btn" onclick="changeLanguage('fr')">
+                <img src="https://flagcdn.com/48x36/fr.png" alt="Français" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjxwYXRoIGZpbGw9IiMwMDAwODkiIGQ9Ik0wIDBoMXYySDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEgMGgxdjJIMXoiLz48cGF0aCBmaWxsPSIjZTAwMDE1IiBkPSJNMiAwaDF2MkgyeiIvPjwvc3ZnPg=='">
+            </button>
+            <button class="flag-btn" onclick="changeLanguage('pt')">
+                <img src="https://flagcdn.com/48x36/pt.png" alt="Português" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNDAwIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzY3YmQ2YSIvPjxyZWN0IHdpZHRoPSIyNDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjZWYyYjJkIi8+PGNpcmNsZSBjeD0iMjQwIiBjeT0iMjAwIiByPSI2OCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEuNSIvPjxwYXRoIGQ9Ik0xODAgMTc1aDEyMHY1MEgxODB6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTI0MCAxNDB2MTIwTTE4MCAxNzVoMTIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMjAiLz48L3N2Zz4='">
+            </button>
+        </div>
+        
+        <div class="content">
+            <!-- Español -->
+            <div id="es" class="language-content show">
+                <h1>Zodiac App - Soporte</h1>
+                <p>Bienvenido al centro de soporte oficial de Zodiac App, tu aplicación de astrología y horóscopo preferida.</p>
+                
+                <h2>Sobre la App</h2>
+                <p>Zodiac App te ofrece predicciones diarias personalizadas, compatibilidad entre signos, características detalladas de cada signo zodiacal y mucho más, con un diseño místico e interfaz intuitiva.</p>
+                
+                <h2>Planes Premium</h2>
+                <ul>
+                    <li><strong>Suscripción Mensual:</strong> 4,99€/mes</li>
+                    <li><strong>Plan de por Vida:</strong> 49,99€ (pago único)</li>
+                </ul>
+                
+                <h2>Contacto</h2>
+                <p>Para cualquier consulta o asistencia: support@zodiacapp.com</p>
+            </div>
+            
+            <!-- English -->
+            <div id="en" class="language-content">
+                <h1>Zodiac App - Support</h1>
+                <p>Welcome to the official support center for Zodiac App, your favorite astrology and horoscope application.</p>
+                
+                <h2>About the App</h2>
+                <p>Zodiac App offers you personalized daily predictions, compatibility between signs, detailed characteristics of each zodiac sign and much more, with a mystical design and intuitive interface.</p>
+                
+                <h2>Premium Plans</h2>
+                <ul>
+                    <li><strong>Monthly Subscription:</strong> $4.99/month</li>
+                    <li><strong>Lifetime Plan:</strong> $49.99 (one-time payment)</li>
+                </ul>
+                
+                <h2>Contact</h2>
+                <p>For any inquiries or assistance: support@zodiacapp.com</p>
+            </div>
+            
+            <!-- Deutsch -->
+            <div id="de" class="language-content">
+                <h1>Zodiac App - Support</h1>
+                <p>Willkommen im offiziellen Support-Center für Zodiac App, Ihre bevorzugte Astrologie- und Horoskop-Anwendung.</p>
+                
+                <h2>Über die App</h2>
+                <p>Zodiac App bietet Ihnen personalisierte tägliche Vorhersagen, Kompatibilität zwischen Zeichen, detaillierte Eigenschaften jedes Tierkreiszeichens und vieles mehr, mit einem mystischen Design und einer intuitiven Oberfläche.</p>
+                
+                <h2>Premium-Pläne</h2>
+                <ul>
+                    <li><strong>Monatliches Abonnement:</strong> 4,99€/Monat</li>
+                    <li><strong>Lebenslanger Plan:</strong> 49,99€ (einmalige Zahlung)</li>
+                </ul>
+                
+                <h2>Kontakt</h2>
+                <p>Für Anfragen oder Hilfestellung: support@zodiacapp.com</p>
+            </div>
+            
+            <!-- Italiano -->
+            <div id="it" class="language-content">
+                <h1>Zodiac App - Supporto</h1>
+                <p>Benvenuto al centro di supporto ufficiale di Zodiac App, la tua applicazione preferita di astrologia e oroscopo.</p>
+                
+                <h2>Sull'App</h2>
+                <p>Zodiac App ti offre previsioni giornaliere personalizzate, compatibilità tra segni, caratteristiche dettagliate di ogni segno zodiacale e molto altro, con un design mistico e un'interfaccia intuitiva.</p>
+                
+                <h2>Piani Premium</h2>
+                <ul>
+                    <li><strong>Abbonamento Mensile:</strong> 4,99€/mese</li>
+                    <li><strong>Piano a Vita:</strong> 49,99€ (pagamento unico)</li>
+                </ul>
+                
+                <h2>Contatto</h2>
+                <p>Per qualsiasi domanda o assistenza: support@zodiacapp.com</p>
+            </div>
+            
+            <!-- Français -->
+            <div id="fr" class="language-content">
+                <h1>Zodiac App - Support</h1>
+                <p>Bienvenue au centre de support officiel de Zodiac App, votre application préférée d'astrologie et d'horoscope.</p>
+                
+                <h2>À propos de l'App</h2>
+                <p>Zodiac App vous offre des prédictions quotidiennes personnalisées, la compatibilité entre les signes, les caractéristiques détaillées de chaque signe du zodiaque et bien plus encore, avec un design mystique et une interface intuitive.</p>
+                
+                <h2>Plans Premium</h2>
+                <ul>
+                    <li><strong>Abonnement Mensuel:</strong> 4,99€/mois</li>
+                    <li><strong>Plan à Vie:</strong> 49,99€ (paiement unique)</li>
+                </ul>
+                
+                <h2>Contact</h2>
+                <p>Pour toute question ou assistance: support@zodiacapp.com</p>
+            </div>
+            
+            <!-- Português -->
+            <div id="pt" class="language-content">
+                <h1>Zodiac App - Suporte</h1>
+                <p>Bem-vindo ao centro de suporte oficial do Zodiac App, seu aplicativo favorito de astrologia e horóscopo.</p>
+                
+                <h2>Sobre o App</h2>
+                <p>Zodiac App oferece previsões diárias personalizadas, compatibilidade entre signos, características detalhadas de cada signo do zodíaco e muito mais, com um design místico e interface intuitiva.</p>
+                
+                <h2>Planos Premium</h2>
+                <ul>
+                    <li><strong>Assinatura Mensal:</strong> 4,99€/mês</li>
+                    <li><strong>Plano Vitalício:</strong> 49,99€ (pagamento único)</li>
+                </ul>
+                
+                <h2>Contato</h2>
+                <p>Para quaisquer consultas ou assistência: support@zodiacapp.com</p>
+            </div>
+        </div>
+        
+        <div class="footer">
+            &copy; 2025 Zodiac App. Todos los derechos reservados.
+        </div>
+    </div>
+    
+    <script>
+        function changeLanguage(lang) {
+            // Ocultar todos los contenidos
+            var contents = document.getElementsByClassName('language-content');
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].classList.remove('show');
+            }
+            
+            // Mostrar el contenido del idioma seleccionado
+            document.getElementById(lang).classList.add('show');
+            
+            // Actualizar botones activos
+            var buttons = document.getElementsByClassName('flag-btn');
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove('active');
+            }
+            
+            // Activar botón del idioma seleccionado
+            event.currentTarget.classList.add('active');
+            
+            // Actualizar el atributo lang del HTML
+            document.documentElement.lang = lang;
+        }
+        
+        // Detectar idioma del navegador y mostrar el contenido apropiado
+        function detectLanguage() {
+            var userLang = navigator.language || navigator.userLanguage;
+            userLang = userLang.split('-')[0]; // Obtener solo el código de idioma principal
+            
+            // Verificar si el idioma está soportado
+            var supportedLangs = ['es', 'en', 'de', 'it', 'fr', 'pt'];
+            if (!supportedLangs.includes(userLang)) {
+                userLang = 'en'; // Inglés por defecto si el idioma no está soportado
+            }
+            
+            changeLanguage(userLang);
+            
+            // También activar el botón correspondiente
+            var buttons = document.getElementsByClassName('flag-btn');
+            for (var i = 0; i < buttons.length; i++) {
+                if (buttons[i].getAttribute('onclick').includes(userLang)) {
+                    buttons[i].classList.add('active');
+                } else {
+                    buttons[i].classList.remove('active');
+                }
+            }
+        }
+        
+        // Ejecutar al cargar la página
+        window.onload = function() {
+            // Comentado para mantener español como idioma por defecto
+            // detectLanguage();
+        };
+    </script>
+</body>
+</html>
