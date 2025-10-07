@@ -1,0 +1,50 @@
+Analyzing zodiac_app...                                         
+
+  error • Enums can't be declared inside classes • lib/services/conversion_analytics_service.dart:34:3 • enum_in_class
+  error • Enums can't be declared inside classes • lib/services/conversion_analytics_service.dart:52:3 • enum_in_class
+  error • The name 'ConversionStage' isn't a type, so it can't be used as a type argument • lib/services/conversion_analytics_service.dart:79:13 • non_type_as_type_argument
+  error • The name 'PricingTrigger' isn't a type, so it can't be used as a type argument • lib/services/conversion_analytics_service.dart:80:13 • non_type_as_type_argument
+  error • The name 'ConversionEvent' isn't a type, so it can't be used as a type argument • lib/services/conversion_analytics_service.dart:81:14 • non_type_as_type_argument
+  error • Classes can't be declared inside other classes • lib/services/conversion_analytics_service.dart:87:3 • class_in_class
+  error • Undefined name 'PricingTrigger' • lib/services/conversion_analytics_service.dart:157:27 • undefined_identifier
+  error • Undefined name 'PricingTrigger' • lib/services/conversion_analytics_service.dart:159:27 • undefined_identifier
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:172:23 • undefined_identifier
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:174:25 • undefined_identifier
+  error • Undefined class 'ConversionStage' • lib/services/conversion_analytics_service.dart:189:5 • undefined_class
+  error • The method 'ConversionEvent' isn't defined for the type 'ConversionAnalyticsService' • lib/services/conversion_analytics_service.dart:198:21 • undefined_method
+  error • Undefined class 'PricingTrigger' • lib/services/conversion_analytics_service.dart:225:5 • undefined_class
+  error • The method 'ConversionEvent' isn't defined for the type 'ConversionAnalyticsService' • lib/services/conversion_analytics_service.dart:232:21 • undefined_method
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:233:16 • undefined_identifier
+  error • Undefined class 'ConversionEvent' • lib/services/conversion_analytics_service.dart:254:38 • undefined_class
+  error • Undefined class 'ConversionStage' • lib/services/conversion_analytics_service.dart:296:43 • undefined_class
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:311:27 • undefined_identifier
+warning • The property 'stage' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:322:58 • unchecked_use_of_nullable_value
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:322:67 • undefined_identifier
+warning • The property 'stage' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:324:11 • unchecked_use_of_nullable_value
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:324:20 • undefined_identifier
+warning • The property 'stage' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:325:11 • unchecked_use_of_nullable_value
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:325:20 • undefined_identifier
+  error • Undefined class 'ConversionStage' • lib/services/conversion_analytics_service.dart:337:32 • undefined_class
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:339:26 • undefined_identifier
+warning • The property 'stage' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:342:64 • unchecked_use_of_nullable_value
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:343:29 • undefined_identifier
+warning • The property 'stage' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:344:65 • unchecked_use_of_nullable_value
+  error • Undefined class 'ConversionStage' • lib/services/conversion_analytics_service.dart:373:41 • undefined_class
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:378:14 • undefined_identifier
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:381:14 • undefined_identifier
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:384:14 • undefined_identifier
+  error • Undefined name 'PricingTrigger' • lib/services/conversion_analytics_service.dart:404:11 • undefined_identifier
+warning • The property 'stage' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:570:11 • unchecked_use_of_nullable_value
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:570:20 • undefined_identifier
+warning • The property 'stage' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:571:11 • unchecked_use_of_nullable_value
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:571:20 • undefined_identifier
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:594:25 • undefined_identifier
+warning • The property 'stage' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:595:57 • unchecked_use_of_nullable_value
+  error • Undefined name 'PricingTrigger' • lib/services/conversion_analytics_service.dart:606:27 • undefined_identifier
+warning • The property 'triggerType' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:608:11 • unchecked_use_of_nullable_value
+warning • The property 'metadata' can't be unconditionally accessed because the receiver can be 'null' • lib/services/conversion_analytics_service.dart:613:13 • unchecked_use_of_nullable_value
+  error • Undefined name 'PricingTrigger' • lib/services/conversion_analytics_service.dart:645:24 • undefined_identifier
+  error • Undefined name 'PricingTrigger' • lib/services/conversion_analytics_service.dart:705:11 • undefined_identifier
+  error • Undefined name 'ConversionStage' • lib/services/conversion_analytics_service.dart:756:9 • undefined_identifier
+
+46 issues found. (ran in 4.1s)

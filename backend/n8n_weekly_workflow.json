@@ -1,0 +1,286 @@
+{
+  "name": "Weekly Horoscope Generator",
+  "description": "Generates weekly horoscopes for all zodiac signs and languages every Monday at 6 AM",
+  "version": 1,
+  "workflow": {
+    "nodes": [
+      {
+        "id": "cron-trigger",
+        "type": "Cron",
+        "name": "Weekly Cron (Monday 6 AM)",
+        "parameters": {
+          "rule": {
+            "interval": [
+              {
+                "field": "cronExpression",
+                "expression": "0 6 * * 1"
+              }
+            ]
+          }
+        },
+        "position": [20, 200]
+      },
+      {
+        "id": "set-week-dates",
+        "type": "Set",
+        "name": "Calculate Week Dates",
+        "parameters": {
+          "values": {
+            "string": [
+              {
+                "name": "week_start",
+                "value": "={{ DateTime.now().startOf('week').toFormat('yyyy-MM-dd') }}"
+              },
+              {
+                "name": "week_end", 
+                "value": "={{ DateTime.now().endOf('week').toFormat('yyyy-MM-dd') }}"
+              },
+              {
+                "name": "generation_date",
+                "value": "={{ DateTime.now().toFormat('yyyy-MM-dd') }}"
+              }
+            ]
+          }
+        },
+        "position": [240, 200]
+      },
+      {
+        "id": "signs-languages-loop",
+        "type": "Set",
+        "name": "Create Sign-Language Combinations",
+        "parameters": {
+          "values": {
+            "array": [
+              {
+                "name": "combinations",
+                "value": [
+                  {"sign": "Aries", "languageCode": "es", "languageName": "español"},
+                  {"sign": "Aries", "languageCode": "en", "languageName": "english"},
+                  {"sign": "Aries", "languageCode": "de", "languageName": "deutsch"},
+                  {"sign": "Aries", "languageCode": "fr", "languageName": "français"},
+                  {"sign": "Aries", "languageCode": "it", "languageName": "italiano"},
+                  {"sign": "Aries", "languageCode": "pt", "languageName": "português"},
+                  {"sign": "Tauro", "languageCode": "es", "languageName": "español"},
+                  {"sign": "Taurus", "languageCode": "en", "languageName": "english"},
+                  {"sign": "Stier", "languageCode": "de", "languageName": "deutsch"},
+                  {"sign": "Taureau", "languageCode": "fr", "languageName": "français"},
+                  {"sign": "Toro", "languageCode": "it", "languageName": "italiano"},
+                  {"sign": "Touro", "languageCode": "pt", "languageName": "português"}
+                ]
+              }
+            ]
+          }
+        },
+        "position": [460, 200]
+      },
+      {
+        "id": "split-combinations",
+        "type": "SplitInBatches",
+        "name": "Process Each Combination",
+        "parameters": {
+          "batchSize": 1,
+          "options": {}
+        },
+        "position": [680, 200]
+      },
+      {
+        "id": "prepare-openai-input",
+        "type": "Set", 
+        "name": "Prepare OpenAI Input",
+        "parameters": {
+          "values": {
+            "string": [
+              {
+                "name": "sign",
+                "value": "={{ $json.combinations[$splitInBatches.index].sign }}"
+              },
+              {
+                "name": "languageCode",
+                "value": "={{ $json.combinations[$splitInBatches.index].languageCode }}"
+              },
+              {
+                "name": "languageName",
+                "value": "={{ $json.combinations[$splitInBatches.index].languageName }}"
+              },
+              {
+                "name": "week_start",
+                "value": "={{ $('set-week-dates').item.json.week_start }}"
+              },
+              {
+                "name": "week_end",
+                "value": "={{ $('set-week-dates').item.json.week_end }}"
+              },
+              {
+                "name": "generation_date",
+                "value": "={{ $('set-week-dates').item.json.generation_date }}"
+              }
+            ]
+          }
+        },
+        "position": [900, 200]
+      },
+      {
+        "id": "openai-weekly-generation",
+        "type": "OpenAI",
+        "name": "Generate Weekly Horoscope",
+        "parameters": {
+          "resource": "chat",
+          "operation": "message",
+          "model": "gpt-4",
+          "messages": {
+            "values": [
+              {
+                "role": "system",
+                "content": "PASTE_WEEKLY_PROMPT_HERE_FROM_weekly_prompt.txt"
+              },
+              {
+                "role": "user", 
+                "content": "Generate weekly horoscope for {{ $json.sign }} in {{ $json.languageName }} for week {{ $json.week_start }} to {{ $json.week_end }}"
+              }
+            ]
+          },
+          "options": {
+            "temperature": 0.8,
+            "maxTokens": 1200
+          }
+        },
+        "credentials": {
+          "openAiApi": "OpenAI_API_Key"
+        },
+        "position": [1120, 200]
+      },
+      {
+        "id": "parse-json-response",
+        "type": "Set",
+        "name": "Parse JSON Response", 
+        "parameters": {
+          "values": {
+            "string": [
+              {
+                "name": "horoscope_json",
+                "value": "={{ JSON.parse($json.message.content) }}"
+              }
+            ]
+          }
+        },
+        "position": [1340, 200]
+      },
+      {
+        "id": "collect-all-horoscopes",
+        "type": "Set",
+        "name": "Collect All Horoscopes",
+        "parameters": {
+          "values": {
+            "array": [
+              {
+                "name": "weekly_horoscopes",
+                "value": "={{ $json.horoscope_json }}"
+              }
+            ]
+          }
+        },
+        "position": [1560, 200]
+      },
+      {
+        "id": "send-to-backend",
+        "type": "HTTP Request",
+        "name": "Send to Backend",
+        "parameters": {
+          "method": "POST",
+          "url": "https://your-railway-backend.com/api/coaching/notify",
+          "headers": {
+            "Content-Type": "application/json"
+          },
+          "body": {
+            "type": "weekly",
+            "horoscopes": "={{ $json.weekly_horoscopes }}"
+          },
+          "options": {
+            "response": {
+              "responseFormat": "json"
+            }
+          }
+        },
+        "position": [1780, 200]
+      },
+      {
+        "id": "log-result",
+        "type": "Set",
+        "name": "Log Success",
+        "parameters": {
+          "values": {
+            "string": [
+              {
+                "name": "status",
+                "value": "Weekly horoscopes generated and sent successfully"
+              },
+              {
+                "name": "timestamp", 
+                "value": "={{ DateTime.now().toISO() }}"
+              },
+              {
+                "name": "count",
+                "value": "={{ $json.weekly_horoscopes.length }}"
+              }
+            ]
+          }
+        },
+        "position": [2000, 200]
+      }
+    ],
+    "connections": {
+      "cron-trigger": {
+        "main": [
+          ["set-week-dates"]
+        ]
+      },
+      "set-week-dates": {
+        "main": [
+          ["signs-languages-loop"]  
+        ]
+      },
+      "signs-languages-loop": {
+        "main": [
+          ["split-combinations"]
+        ]
+      },
+      "split-combinations": {
+        "main": [
+          ["prepare-openai-input"]
+        ]
+      },
+      "prepare-openai-input": {
+        "main": [
+          ["openai-weekly-generation"]
+        ]
+      },
+      "openai-weekly-generation": {
+        "main": [
+          ["parse-json-response"]
+        ]
+      },
+      "parse-json-response": {
+        "main": [
+          ["collect-all-horoscopes"]
+        ]
+      },
+      "collect-all-horoscopes": {
+        "main": [
+          ["send-to-backend"]
+        ]
+      },
+      "send-to-backend": {
+        "main": [
+          ["log-result"]
+        ]
+      }
+    }
+  },
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "staticData": {},
+  "tags": ["horoscope", "weekly", "astrology"],
+  "triggerCount": 1,
+  "updatedAt": "2025-08-26T00:00:00.000Z"
+}

@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "created": "2025-09-16",
+    "description": "Configuration for Zodiac Life Coach Self-Improvement System",
+    "last_updated": "2025-09-16"
+  },
+
+  "system_parameters": {
+    "cycle_interval": 3600,
+    "research_interval": 86400,
+    "safety_threshold": 0.85,
+    "learning_rate": 0.01,
+    "max_concurrent_improvements": 3,
+    "knowledge_update_batch_size": 10,
+    "performance_monitoring_interval": 300,
+    "rollback_trigger_threshold": 0.85,
+    "validation_timeout": 1800
+  },
+
+  "performance_targets": {
+    "task_completion_rate": {
+      "target": 0.95,
+      "critical_threshold": 0.85,
+      "monitoring_interval": 300,
+      "alert_enabled": true
+    },
+    "response_quality": {
+      "target": 9.0,
+      "critical_threshold": 7.5,
+      "monitoring_interval": 600,
+      "alert_enabled": true
+    },
+    "learning_velocity": {
+      "target": 5.0,
+      "critical_threshold": 2.0,
+      "monitoring_interval": 86400,
+      "alert_enabled": true
+    },
+    "coordination_efficiency": {
+      "target": 0.90,
+      "critical_threshold": 0.80,
+      "monitoring_interval": 1800,
+      "alert_enabled": true
+    },
+    "error_reduction_rate": {
+      "target": 0.05,
+      "critical_threshold": -0.02,
+      "monitoring_interval": 86400,
+      "alert_enabled": true
+    }
+  },
+
+  "research_sources": {
+    "flutter": {
+      "enabled": true,
+      "priority": "high",
+      "check_interval": 86400,
+      "sources": [
+        {
+          "url": "https://flutter.dev/docs/release/release-notes",
+          "type": "documentation",
+          "relevance_weight": 0.9
+        },
+        {
+          "url": "https://api.github.com/repos/flutter/flutter/releases",
+          "type": "api",
+          "relevance_weight": 1.0
+        },
+        {
+          "url": "https://medium.com/flutter",
+          "type": "blog",
+          "relevance_weight": 0.7
+        }
+      ]
+    },
+    "react_native": {
+      "enabled": true,
+      "priority": "medium",
+      "check_interval": 172800,
+      "sources": [
+        {
+          "url": "https://reactnative.dev/changelog",
+          "type": "documentation",
+          "relevance_weight": 0.8
+        }
+      ]
+    },
+    "backend": {
+      "enabled": true,
+      "priority": "high",
+      "check_interval": 86400,
+      "sources": [
+        {
+          "url": "https://railway.app/changelog",
+          "type": "platform_updates",
+          "relevance_weight": 0.9
+        },
+        {
+          "url": "https://nodejs.org/en/blog/",
+          "type": "runtime_updates",
+          "relevance_weight": 0.7
+        }
+      ]
+    },
+    "app_stores": {
+      "enabled": true,
+      "priority": "high",
+      "check_interval": 604800,
+      "sources": [
+        {
+          "url": "https://developer.apple.com/app-store/review/guidelines/",
+          "type": "guidelines",
+          "relevance_weight": 1.0
+        },
+        {
+          "url": "https://play.google.com/console/about/guides/",
+          "type": "guidelines",
+          "relevance_weight": 1.0
+        }
+      ]
+    },
+    "astrology": {
+      "enabled": true,
+      "priority": "medium",
+      "check_interval": 259200,
+      "sources": [
+        {
+          "url": "https://api.github.com/search/repositories?q=astrology+topic:api",
+          "type": "community",
+          "relevance_weight": 0.6
+        }
+      ]
+    },
+    "ai_ml": {
+      "enabled": true,
+      "priority": "medium",
+      "check_interval": 172800,
+      "sources": [
+        {
+          "url": "https://papers.arxiv.org/search/?query=personality+prediction",
+          "type": "research",
+          "relevance_weight": 0.5
+        }
+      ]
+    }
+  },
+
+  "learning_algorithms": {
+    "reinforcement_learning": {
+      "enabled": true,
+      "learning_rate": 0.01,
+      "discount_factor": 0.95,
+      "exploration_rate": 0.1,
+      "success_reward": 1.0,
+      "failure_penalty": -0.5
+    },
+    "pattern_recognition": {
+      "enabled": true,
+      "window_size": 168,
+      "min_pattern_length": 3,
+      "confidence_threshold": 0.8
+    },
+    "evolutionary_optimization": {
+      "enabled": false,
+      "population_size": 20,
+      "mutation_rate": 0.1,
+      "crossover_rate": 0.7,
+      "generations": 100
+    }
+  },
+
+  "safety_mechanisms": {
+    "validation_requirements": [
+      "compatibility_test",
+      "performance_test",
+      "security_scan",
+      "regression_test"
+    ],
+    "rollback_triggers": [
+      "performance_drop_threshold",
+      "error_spike",
+      "user_satisfaction_drop",
+      "system_instability"
+    ],
+    "monitoring_alerts": {
+      "performance_degradation": {
+        "threshold": 0.15,
+        "action": "alert_and_investigate"
+      },
+      "error_rate_spike": {
+        "threshold": 2.0,
+        "action": "immediate_rollback"
+      },
+      "response_time_increase": {
+        "threshold": 0.5,
+        "action": "performance_analysis"
+      }
+    },
+    "change_validation": {
+      "max_concurrent_changes": 3,
+      "required_approval_threshold": 0.7,
+      "testing_duration_minutes": 30,
+      "monitoring_duration_hours": 24
+    }
+  },
+
+  "agent_specific_configs": {
+    "flutter_developer": {
+      "performance_metrics": [
+        "build_success_rate",
+        "code_quality_score",
+        "dependency_conflict_rate",
+        "ui_consistency_score"
+      ],
+      "learning_domains": [
+        "flutter_updates",
+        "dart_improvements",
+        "ui_patterns",
+        "performance_optimization"
+      ],
+      "improvement_priorities": [
+        "build_stability",
+        "code_maintainability",
+        "ui_performance",
+        "dependency_management"
+      ]
+    },
+    "backend_specialist": {
+      "performance_metrics": [
+        "api_response_time",
+        "uptime_percentage",
+        "database_performance",
+        "security_compliance"
+      ],
+      "learning_domains": [
+        "database_optimization",
+        "api_design",
+        "security_updates",
+        "infrastructure_management"
+      ],
+      "improvement_priorities": [
+        "response_performance",
+        "system_reliability",
+        "security_hardening",
+        "scalability"
+      ]
+    },
+    "ui_specialist": {
+      "performance_metrics": [
+        "accessibility_score",
+        "design_consistency",
+        "user_experience_rating",
+        "animation_performance"
+      ],
+      "learning_domains": [
+        "design_trends",
+        "accessibility_standards",
+        "animation_techniques",
+        "user_behavior_patterns"
+      ],
+      "improvement_priorities": [
+        "user_accessibility",
+        "visual_consistency",
+        "interaction_smoothness",
+        "responsive_design"
+      ]
+    },
+    "arquitecto_principal": {
+      "performance_metrics": [
+        "system_integration_score",
+        "decision_quality",
+        "coordination_efficiency",
+        "strategic_alignment"
+      ],
+      "learning_domains": [
+        "architecture_patterns",
+        "technology_trends",
+        "project_management",
+        "team_coordination"
+      ],
+      "improvement_priorities": [
+        "system_cohesion",
+        "strategic_planning",
+        "team_effectiveness",
+        "technical_excellence"
+      ]
+    }
+  },
+
+  "zodiac_specific": {
+    "domain_priorities": {
+      "astrology_accuracy": 0.9,
+      "cultural_sensitivity": 0.8,
+      "personalization": 0.9,
+      "spiritual_authenticity": 0.7
+    },
+    "market_adaptation": {
+      "app_store_trends": {
+        "monitoring_enabled": true,
+        "adaptation_speed": "medium",
+        "compliance_priority": "high"
+      },
+      "user_behavior_tracking": {
+        "enabled": true,
+        "privacy_compliant": true,
+        "adaptation_threshold": 0.1
+      },
+      "competitor_analysis": {
+        "enabled": true,
+        "frequency": "weekly",
+        "feature_gap_detection": true
+      }
+    },
+    "content_evolution": {
+      "horoscope_accuracy_feedback": true,
+      "user_preference_learning": true,
+      "cultural_trend_integration": true,
+      "ai_content_improvement": true
+    }
+  },
+
+  "monitoring_dashboard": {
+    "enabled": true,
+    "refresh_interval": 300,
+    "metrics_retention_days": 90,
+    "alert_channels": ["log", "console"],
+    "visualization": {
+      "performance_trends": true,
+      "learning_progress": true,
+      "system_health": true,
+      "improvement_history": true
+    }
+  },
+
+  "export_settings": {
+    "backup_interval": 86400,
+    "backup_retention_days": 30,
+    "export_formats": ["json", "csv"],
+    "include_sensitive_data": false
+  }
+}

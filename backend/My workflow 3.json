@@ -1,0 +1,223 @@
+{
+  "name": "My workflow 3",
+  "nodes": [
+    {
+      "parameters": {
+        "triggerTimes": {
+          "item": [
+            {
+              "hour": 6
+            },
+            {}
+          ]
+        }
+      },
+      "id": "86ef4782-d493-4f7c-b79e-7a5a5bfc2455",
+      "name": "Daily Trigger 6 AM",
+      "type": "n8n-nodes-base.cron",
+      "typeVersion": 1,
+      "position": [
+        -160,
+        -120
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// 🤖 GENERACIÓN CONTENIDO COACHING PERSONAL MULTIIDIOMA\n// 12 signos × 6 idiomas = 72 contenidos de coaching diarios\n\nconst zodiacSigns = [\n  'Aries', 'Tauro', 'Géminis', 'Cáncer', 'Leo', 'Virgo',\n  'Libra', 'Escorpio', 'Sagitario', 'Capricornio', 'Acuario', 'Piscis'\n];\n\nconst languages = [\n  { code: 'es', name: 'Spanish' },\n  { code: 'en', name: 'English' },\n  { code: 'de', name: 'German' },\n  { code: 'fr', name: 'French' },\n  { code: 'it', name: 'Italian' },\n  { code: 'pt', name: 'Portuguese' }\n];\n\n// Crear todas las combinaciones signo-idioma\nconst combinations = [];\nfor (const sign of zodiacSigns) {\n  for (const lang of languages) {\n    combinations.push({\n      sign: sign,\n      languageCode: lang.code,\n      languageName: lang.name,\n      id: `${sign}_${lang.code}`,\n      date: new Date().toISOString().split('T')[0],\n      contentType: 'cosmic_coaching'\n    });\n  }\n}\n\nconsole.log(`🤖 Generando ${combinations.length} contenidos de coaching cósmico`);\n\nreturn combinations.map(combo => ({\n  json: combo\n}));"
+      },
+      "id": "a8553870-2afb-4dfd-b730-e3342058a00b",
+      "name": "Prepare Cosmic Coaching Content",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        160,
+        -60
+      ]
+    },
+    {
+      "parameters": {
+        "resource": "chat",
+        "model": "gpt-3.5-turbo-0125",
+        "prompt": {
+          "messages": [
+            {
+              "role": "system",
+              "content": "Eres \"Cosmic Coach\", una IA experta en astrología y coaching de vida. Tu propósito es guiar a los usuarios hacia el autoconocimiento y el crecimiento personal, utilizando la astrología como herramienta principal. Tu tono es sabio, empático y motivador.  Debes generar contenido diario de coaching personalizado para un signo zodiacal específico y en un idioma determinado.  Tu respuesta DEBE ser **únicamente** un objeto JSON válido, sin ningún texto adicional antes o después.  La estructura del JSON debe ser exactamente esta:  {   \"coaching_focus\": \"string\",   \"ai_insight\": \"string\",   \"content\": \"string\",   \"rating\": integer (entre 3 y 5),   \"lucky_numbers\": [integer, integer, integer],   \"lucky_colors\": [\"string\", \"string\"],   \"advice\": \"string\",   \"content_type\": \"cosmic_coaching\",   \"generated_at\": \"YYYY-MM-DD\" }\n\n"
+            },
+            {
+              "content": "=Eres \"Cosmic Coach\", una IA sabia y empática experta en astrología y coaching de vida. Tu tarea es generar un objeto JSON completo y válido en idioma {{$json.languageName}}, con un coaching diario personalizado para el signo {{$json.sign}}, para la fecha {{$json.date}}.\n\nLa salida debe ser **solo** un objeto JSON, sin ningún texto adicional antes o después.\n\nEstructura:\n\n{\n\"sign\": \"{{$json.sign}}\",\n  \"language_code\": \"{{$json.languageCode}}\",\n  \"date\": \"{{$json.date}}\",\n  \"coaching_focus\": \"string\",                       // 2 a 4 palabras. Ej: \"Impulso profesional\"\n  \"ai_insight\": \"string\",                           // Observación astrológica breve (15-25 palabras)\n  \"content\": \"string\",                              // Coaching práctico (80-100 palabras)\n  \"rating\": integer (entre 3 y 5),                  // Número entre 3 y 5\n  \"lucky_numbers\": [int, int, int],                 // Tres números entre 1 y 99\n  \"lucky_colors\": [\"string\", \"string\"],             // Dos colores\n  \"advice\": \"string\",                               // Consejo breve (10-15 palabras)\n  \"content_type\": \"cosmic_coaching\",                // Literal fijo\n  \"generated_at\": \"{{$json.date}}\"                  // Fecha exacta\n}\nLa respuesta DEBE ser **solo** un objeto JSON válido, sin texto adicional, y con la siguiente estructura exacta:\n\n{\n\"sign\": \"{{$json.sign}}\",\n  \"language_code\": \"{{$json.languageCode}}\",\n  \"date\": \"{{$json.date}}\",\n  \"coaching_focus\": \"string\",\n  \"ai_insight\": \"string\",\n  \"content\": \"string\",\n  \"rating\": integer (entre 3 y 5),\n  \"lucky_numbers\": [integer, integer, integer],\n  \"lucky_colors\": [\"string\", \"string\"],\n  \"advice\": \"string\",\n  \"content_type\": \"cosmic_coaching\",\n  \"generated_at\": \"{{$json.date}}\"\n}\n\n### Instrucciones clave para cada campo:\n\n- `\"coaching_focus\"`: 2 a 4 palabras, tema central del día. Ej: \"Impulso Profesional\"\n- `\"ai_insight\"`: observación astrológica corta (15-25 palabras).\n- `\"content\"`: coaching práctico e inspirador (80-100 palabras), no genérico.\n- `\"rating\"`: número entero entre 3 y 5.\n- `\"lucky_numbers\"`: tres enteros entre 1 y 99.\n- `\"lucky_colors\"`: dos colores como strings.\n- `\"advice\"`: consejo corto (10-15 palabras) que resuma la acción del día.\n- `\"content_type\"`: debe ser siempre `\"cosmic_coaching\"`\n- `\"generated_at\"`: debe coincidir exactamente con la fecha {{$json.date}}\n\nTu salida debe ser **solo** ese JSON."
+            }
+          ]
+        },
+        "options": {},
+        "requestOptions": {}
+      },
+      "id": "3b5221ec-5c64-41bc-9be2-e2b24b41fd39",
+      "name": "AI Cosmic Coaching Generation",
+      "type": "n8n-nodes-base.openAi",
+      "typeVersion": 1,
+      "position": [
+        300,
+        -300
+      ],
+      "credentials": {
+        "openAiApi": {
+          "id": "iaimEYNxQjIyAaN2",
+          "name": "OpenAi account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "jsCode": "const items = $input.all();\nconst prepItems = $(\"Prepare Cosmic Coaching Content\").all(); // accedemos a los 72 datos originales\nconst results = [];\n\nfor (let i = 0; i < items.length; i++) {\n  const input = items[i].json;\n  const chatResponse = input.message?.content || input.choices?.[0]?.message?.content || \"{}\";\n  const prep = prepItems[i]?.json || {};\n\n  try {\n    const jsonMatch = chatResponse.match(/{[\\s\\S]*}/);\n    const coachingData = jsonMatch ? JSON.parse(jsonMatch[0]) : {};\n\n    const finalJson = {\n      sign: prep.sign || \"Unknown\",\n      language_code: prep.languageCode || \"es\",\n      date: prep.date || new Date().toISOString().split(\"T\")[0],\n      coaching_focus: coachingData.coaching_focus || \"Enfoque del Día\",\n      ai_insight: coachingData.ai_insight || \"Análisis astrológico general.\",\n      content: coachingData.content || \"Contenido de coaching no disponible.\",\n      rating: coachingData.rating || 4,\n      lucky_numbers: coachingData.lucky_numbers || [5, 10, 25],\n      lucky_colors: coachingData.lucky_colors || [\"plata\", \"índigo\"],\n      advice: coachingData.advice || \"Sigue tu intuición y brilla.\",\n      content_type: coachingData.content_type || \"cosmic_coaching\",\n      generated_at: prep.date || new Date().toISOString().split(\"T\")[0]\n    };\n\n    results.push({ json: finalJson });\n\n  } catch (error) {\n    results.push({\n      json: {\n        error: \"Error processing AI response\",\n        errorMessage: error.message,\n        originalResponse: chatResponse\n      }\n    });\n  }\n}\n\nreturn results;"
+      },
+      "id": "e42008c9-693a-4c52-8af5-4a9538ecb387",
+      "name": "Process Coaching Response",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 1,
+      "position": [
+        460,
+        -80
+      ]
+    },
+    {
+      "parameters": {
+        "table": "daily_horoscopes",
+        "columns": "sign,language_code,date,content,rating,lucky_numbers,lucky_colors,advice,coaching_focus,ai_insight,content_type,generated_at",
+        "additionalFields": {}
+      },
+      "id": "602d7dba-967a-4693-a7cd-83f9e337b989",
+      "name": "Store Coaching Content",
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 1,
+      "position": [
+        600,
+        -300
+      ],
+      "alwaysOutputData": false,
+      "credentials": {
+        "postgres": {
+          "id": "pOdyOeCfLXGB8QG5",
+          "name": "Postgres account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "requestMethod": "POST",
+        "url": "https://flutter-horoscope-backend-production.up.railway.app/api/coaching/notify",
+        "responseFormat": "string",
+        "options": {}
+      },
+      "id": "7fbd6227-3e0d-42d9-b3e4-28defe0d0bba",
+      "name": "Notify Coaching Content Ready",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 2,
+      "position": [
+        740,
+        -100
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "executeQuery",
+        "query": "DELETE FROM daily_horoscopes\nWHERE date < CURRENT_DATE ",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.postgres",
+      "typeVersion": 2.6,
+      "position": [
+        0,
+        -300
+      ],
+      "id": "2f9494bd-c045-41b2-9df0-2c2f7a6e4fea",
+      "name": "Execute a SQL query",
+      "credentials": {
+        "postgres": {
+          "id": "pOdyOeCfLXGB8QG5",
+          "name": "Postgres account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Daily Trigger 6 AM": {
+      "main": [
+        [
+          {
+            "node": "Execute a SQL query",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Prepare Cosmic Coaching Content": {
+      "main": [
+        [
+          {
+            "node": "AI Cosmic Coaching Generation",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "AI Cosmic Coaching Generation": {
+      "main": [
+        [
+          {
+            "node": "Process Coaching Response",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Process Coaching Response": {
+      "main": [
+        [
+          {
+            "node": "Store Coaching Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Store Coaching Content": {
+      "main": [
+        [
+          {
+            "node": "Notify Coaching Content Ready",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Execute a SQL query": {
+      "main": [
+        [
+          {
+            "node": "Prepare Cosmic Coaching Content",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "56766d22-bba6-4edc-b7a6-5844ec8792a0",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "78b93bea37bd1640b7f3e6bf7a82494355d7e4b703d67e8148a4a51d43768daa"
+  },
+  "id": "SmnokhCpkK0ybtOQ",
+  "tags": []
+}

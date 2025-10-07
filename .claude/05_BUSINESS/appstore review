@@ -1,0 +1,84 @@
+Hello,
+
+The issues we previously identified still need your attention.
+
+If you have any questions, we are here to help. Reply to this message in App Store Connect and let us know.
+
+Review Environment
+
+Submission ID: d1028ca6-0579-451e-bb82-a98ee2b7cd12
+Review date: August 20, 2025
+Version reviewed: 1.0
+
+Guideline 4.3(b) - Design - Spam
+
+Your app primarily features astrology, horoscopes, palm reading, fortune telling or zodiac reports that duplicate the content and functionality of similar apps in a saturated category.
+
+These app features may be useful, informative or entertaining, and your app may include features or characteristics that distinguish it. However, there are already enough of these apps on the App Store.
+
+Next Steps
+
+We encourage you to reconsider your app concept and submit a new app that provides a unique experience not already found on the App Store.
+
+Resources
+
+- You may consider creating a web app, which looks and behaves like a native app when the user adds it to their Home screen. See Configuring Web Applications for more information.
+- To learn more about our policies for saturated app categories, see App Review Guideline 4.3(b) - Spam.
+
+Guideline 2.1 - Performance - App Completeness
+
+We found that your in-app purchase products exhibited one or more bugs which create a poor user experience. Specifically, we were unable to purchase premium features. Please review the details and resources below and complete the next steps.
+
+Review device details:
+
+- Device type: iPad Air (5th generation)
+- OS version: iPadOS 18.6
+
+Next Steps
+
+When validating receipts on your server, your server needs to be able to handle a production-signed app getting its receipts from Apple’s test environment. The recommended approach is for your production server to always validate receipts against the production App Store first. If validation fails with the error code "Sandbox receipt used in production," you should validate against the test environment instead.
+
+Additionally, note that the Account Holder must accept the Paid Apps Agreement in the Business section of App Store Connect before paid in-app purchases will function.
+
+Resources
+
+- Learn how to set up and test in-app purchase products in the sandbox environment.
+- Learn more about validating receipts with the App Store.
+
+Guideline 3.1.2 - Business - Payments - Subscriptions
+Issue Description
+
+The submission did not include all the required information for apps offering auto-renewable subscriptions.
+
+The app's binary is missing the following required information:
+
+- A functional link to the Terms of Use (EULA)
+
+The app's metadata is missing the following required information:
+
+- A functional link to the Terms of Use (EULA). If you are using the standard Apple Terms of Use (EULA), include a link to the Terms of Use in the App Description. If you are using a custom EULA, add it in App Store Connect.
+
+Next Steps
+
+Update the app binary and metadata to include the information specified above.
+
+Support
+
+- Reply to this message in your preferred language if you need assistance. If you need additional support, use the Contact Us module.
+- Consult with fellow developers and Apple engineers on the Apple Developer Forums.
+- Request an App Review Appointment at Meet with Apple to discuss your app's review. Appointments subject to availability during your local business hours on Tuesdays and Thursdays.
+- Provide feedback on this message and your review experience by completing a short survey.
+  Request a phone call from App Review
+
+At your request, we can arrange for an Apple Representative to call you within the next three to five business days to discuss your App Review issue.
+
+Request a call to discuss your app's review
+
+Recursos a tener en cuenta
+
+https://developer.apple.com/app-store/review/guidelines/#spam
+
+https://developer.apple.com/help/app-store-connect/manage-agreements/sign-and-update-agreements
+https://developer.apple.com/help/app-store-connect/test-in-app-purchases/manage-sandbox-apple-account-settings
+https://developer.apple.com/documentation/storekit/testing-in-app-purchases-with-sandbox
+https://developer.apple.com/documentation/storekit/validating-receipts-with-the-app-store

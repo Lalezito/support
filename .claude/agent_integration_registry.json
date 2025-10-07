@@ -1,0 +1,396 @@
+{
+  "metadata": {
+    "version": "3.0",
+    "created": "2025-08-29",
+    "description": "Complete registry for all agents, plans, and implementations in centralized .claude structure",
+    "last_updated": "2025-09-16",
+    "organization_update": "Complete consolidation: agents, plans, and implementations centralized"
+  },
+
+  "centralized_structure": {
+    "agents_training": {
+      "base_path": ".claude/10_AGENTS_TRAINING/",
+      "structure": {
+        "MANUALS/": "Training manuals and capability matrices",
+        "EXECUTION_PLANS/": "Agent-ready execution plans",
+        "ANALYSIS_REPORTS/": "Multi-agent analysis reports",
+        "SUCCESS_REPORTS/": "Achievement and victory reports"
+      },
+      "critical_files": {
+        "training_manual": "MANUALS/AGENT_TRAINING_MANUAL.md",
+        "capability_matrix": "MANUALS/01_AGENT_CAPABILITY_MATRIX.md",
+        "victory_report": "SUCCESS_REPORTS/VICTORY_REPORT_ZERO_ISSUES.md",
+        "deep_analysis": "ANALYSIS_REPORTS/DEEP_CODE_ANALYSIS_REPORT.md"
+      }
+    },
+    "implementation_plans": {
+      "base_path": ".claude/11_IMPLEMENTATION_PLANS/",
+      "structure": {
+        "MASTER_PLANS/": "Strategic plans and status reports",
+        "BUSINESS_MONETIZATION/": "Revenue and monetization strategies",
+        "UX_DESIGN/": "User experience and cosmic design plans",
+        "TECHNICAL_FIXES/": "Bug fixes and technical improvements",
+        "DEPLOYMENT/": "Production deployment and app store",
+        "PREMIUM_FEATURES/": "Premium subscription features",
+        "COORDINATION/": "Project coordination and tracking"
+      },
+      "index_file": "README_IMPLEMENTATION_INDEX.md",
+      "total_plans": 22
+    },
+    "completed_implementations": {
+      "base_path": ".claude/12_COMPLETED_IMPLEMENTATIONS/",
+      "structure": {
+        "BACKEND_COMPLETED/": "Backend fixes and infrastructure",
+        "UX_COMPLETED/": "UX research and optimization",
+        "SECURITY_COMPLETED/": "Security audits and compliance",
+        "DEPLOYMENT_COMPLETED/": "Production deployment status",
+        "REFERENCE_MATERIALS/": "Documentation and references"
+      },
+      "index_file": "README_COMPLETED_INDEX.md",
+      "total_completed": 5
+    }
+  },
+  
+  "standalone_experts_mapping": {
+    "flutter_mobile_expert": {
+      "file_path": ".claude/flutter_mobile_expert.md",
+      "maps_to_agent": "flutter_developer",
+      "activation_triggers": [
+        "flutter_issues",
+        "mobile_optimization",
+        "ui_ux_problems",
+        "navigation_issues"
+      ],
+      "authority_level": "principal",
+      "coordinates_with": ["ui_specialist", "animation_expert"],
+      "status": "active"
+    },
+    
+    "backend_api_expert": {
+      "file_path": ".claude/backend_api_expert.md",
+      "maps_to_agent": "backend_specialist",
+      "activation_triggers": [
+        "railway_deployment",
+        "api_issues",
+        "backend_optimization",
+        "database_problems"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["data_manager", "sync_manager"],
+      "status": "active"
+    },
+    
+    "ux_ui_design_expert": {
+      "file_path": ".claude/ux_ui_design_expert.md",
+      "maps_to_agent": "ui_specialist",
+      "activation_triggers": [
+        "design_issues",
+        "user_experience",
+        "accessibility",
+        "theme_problems"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["flutter_developer", "animation_expert"],
+      "status": "active"
+    },
+    
+    "business_monetization_expert": {
+      "file_path": ".claude/business_monetization_expert.md",
+      "maps_to_agent": "monetization_specialist",
+      "activation_triggers": [
+        "subscription_issues",
+        "monetization_strategy",
+        "app_store_compliance",
+        "revenue_optimization"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["compliance_checker", "subscription_manager"],
+      "status": "active"
+    },
+    
+    "security_expert": {
+      "file_path": ".claude/security_expert.md",
+      "maps_to_agent": "compliance_checker",
+      "activation_triggers": [
+        "security_vulnerabilities",
+        "privacy_compliance",
+        "data_protection",
+        "app_store_guidelines"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["monetization_specialist", "data_manager"],
+      "status": "active"
+    },
+    
+    "performance_expert": {
+      "file_path": ".claude/performance_expert.md",
+      "maps_to_agent": "performance_monitor",
+      "activation_triggers": [
+        "performance_issues",
+        "memory_leaks",
+        "optimization_needed",
+        "battery_consumption"
+      ],
+      "authority_level": "specialist", 
+      "coordinates_with": ["qa_tester", "cache_optimizer"],
+      "status": "active"
+    },
+    
+    "localization_expert": {
+      "file_path": ".claude/localization_expert.md",
+      "maps_to_agent": "i18n_specialist",
+      "activation_triggers": [
+        "translation_issues",
+        "localization_bugs",
+        "arb_file_problems",
+        "multi_language_support"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["arb_manager", "translation_validator"],
+      "status": "active"
+    },
+    
+    "ai_content_expert": {
+      "file_path": ".claude/ai_content_expert.md", 
+      "maps_to_agent": "ai_coach_developer",
+      "activation_triggers": [
+        "ai_coaching_issues",
+        "content_generation",
+        "personalization_problems",
+        "cosmic_insights"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["mood_analyzer", "insight_generator"],
+      "status": "active"
+    },
+    
+    "devops_expert": {
+      "file_path": ".claude/devops_expert.md",
+      "maps_to_agent": "deployment_specialist",
+      "activation_triggers": [
+        "deployment_issues",
+        "ci_cd_problems",
+        "build_failures",
+        "dependency_conflicts"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["build_manager", "dependency_resolver"],
+      "status": "active"
+    },
+    
+    "product_strategy_expert": {
+      "file_path": ".claude/product_strategy_expert.md",
+      "maps_to_agent": "arquitecto_principal",
+      "activation_triggers": [
+        "architectural_decisions",
+        "strategic_planning",
+        "product_roadmap",
+        "feature_prioritization"
+      ],
+      "authority_level": "principal",
+      "coordinates_with": ["*"],
+      "status": "active"
+    }
+  },
+  
+  "analysis_agents_mapping": {
+    "architecture_analysis_expert": {
+      "file_path": ".claude/ANALISIS/architecture_analysis_expert.md",
+      "maps_to_agent": "arquitecto_principal",
+      "activation_triggers": [
+        "architecture_review",
+        "system_analysis",
+        "technical_debt_assessment"
+      ],
+      "authority_level": "analysis",
+      "coordinates_with": ["flutter_developer", "backend_specialist"],
+      "status": "active"
+    },
+    
+    "performance_analysis_expert": {
+      "file_path": ".claude/ANALISIS/performance_analysis_expert.md",
+      "maps_to_agent": "performance_monitor",
+      "activation_triggers": [
+        "performance_analysis",
+        "bottleneck_identification",
+        "optimization_recommendations"
+      ],
+      "authority_level": "analysis",
+      "coordinates_with": ["qa_tester", "cache_optimizer"],
+      "status": "active"
+    },
+    
+    "security_analysis_expert": {
+      "file_path": ".claude/ANALISIS/security_analysis_expert.md",
+      "maps_to_agent": "compliance_checker",
+      "activation_triggers": [
+        "security_audit",
+        "vulnerability_assessment",
+        "compliance_review"
+      ],
+      "authority_level": "analysis",
+      "coordinates_with": ["monetization_specialist", "data_manager"],
+      "status": "active"
+    },
+    
+    "code_quality_metrics_expert": {
+      "file_path": ".claude/ANALISIS/code_quality_metrics_expert.md",
+      "maps_to_agent": "qa_tester",
+      "activation_triggers": [
+        "code_quality_review",
+        "metrics_analysis",
+        "technical_debt_measurement"
+      ],
+      "authority_level": "analysis",
+      "coordinates_with": ["test_automation", "performance_monitor"],
+      "status": "active"
+    },
+    
+    "backend_database_analysis_expert": {
+      "file_path": ".claude/ANALISIS/backend_database_analysis_expert.md",
+      "maps_to_agent": "backend_specialist",
+      "activation_triggers": [
+        "database_performance",
+        "backend_analysis",
+        "data_architecture_review"
+      ],
+      "authority_level": "analysis",
+      "coordinates_with": ["data_manager", "sync_manager"],
+      "status": "active"
+    },
+    
+    "accessibility_ux_analysis_expert": {
+      "file_path": ".claude/ANALISIS/accessibility_ux_analysis_expert.md",
+      "maps_to_agent": "ui_specialist",
+      "activation_triggers": [
+        "accessibility_audit",
+        "ux_analysis",
+        "usability_review"
+      ],
+      "authority_level": "analysis",
+      "coordinates_with": ["flutter_developer", "i18n_specialist"],
+      "status": "active"
+    },
+    
+    "integration_dependencies_analysis_expert": {
+      "file_path": ".claude/ANALISIS/integration_dependencies_analysis_expert.md",
+      "maps_to_agent": "dependency_resolver",
+      "activation_triggers": [
+        "dependency_analysis",
+        "integration_review",
+        "compatibility_assessment"
+      ],
+      "authority_level": "analysis",
+      "coordinates_with": ["deployment_specialist", "backend_specialist"],
+      "status": "active"
+    }
+  },
+  
+  "testing_agents_mapping": {
+    "unit_testing_expert": {
+      "file_path": ".claude/testing/unit_testing_expert.md",
+      "maps_to_agent": "test_automation",
+      "activation_triggers": [
+        "unit_testing",
+        "test_coverage",
+        "automated_testing"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["qa_tester", "performance_monitor"],
+      "status": "active"
+    },
+    
+    "integration_testing_expert": {
+      "file_path": ".claude/testing/integration_testing_expert.md",
+      "maps_to_agent": "test_automation",
+      "activation_triggers": [
+        "integration_testing",
+        "end_to_end_testing",
+        "system_testing"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["qa_tester", "backend_specialist"],
+      "status": "active"
+    },
+    
+    "widget_testing_expert": {
+      "file_path": ".claude/testing/widget_testing_expert.md",
+      "maps_to_agent": "test_automation",
+      "activation_triggers": [
+        "widget_testing",
+        "ui_testing",
+        "flutter_testing"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["flutter_developer", "ui_specialist"],
+      "status": "active"
+    },
+    
+    "e2e_testing_expert": {
+      "file_path": ".claude/testing/e2e_testing_expert.md",
+      "maps_to_agent": "test_automation",
+      "activation_triggers": [
+        "e2e_testing",
+        "full_flow_testing",
+        "user_journey_testing"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["qa_tester", "deployment_specialist"],
+      "status": "active"
+    },
+    
+    "backend_api_testing_expert": {
+      "file_path": ".claude/testing/backend_api_testing_expert.md",
+      "maps_to_agent": "test_automation",
+      "activation_triggers": [
+        "api_testing",
+        "backend_testing",
+        "service_integration_testing"
+      ],
+      "authority_level": "specialist",
+      "coordinates_with": ["backend_specialist", "data_manager"],
+      "status": "active"
+    }
+  },
+  
+  "activation_rules": {
+    "priority_order": [
+      "principal",
+      "specialist", 
+      "analysis"
+    ],
+    "conflict_resolution": {
+      "same_level_conflicts": "collaborative_decision",
+      "cross_level_conflicts": "defer_to_higher_authority",
+      "deadlock_resolution": "escalate_to_arquitecto_principal"
+    },
+    "collaboration_protocols": {
+      "cross_expert_coordination": "required_for_overlapping_domains",
+      "analysis_integration": "analysis_agents_inform_execution_agents",
+      "testing_integration": "testing_agents_validate_all_implementations"
+    }
+  },
+  
+  "workflow_integration": {
+    "emergency_protocols": {
+      "critical_bug_response": {
+        "primary_agents": ["qa_tester", "arquitecto_principal"],
+        "supporting_agents": "domain_specific_experts",
+        "escalation_path": "arquitecto_principal -> deployment_specialist"
+      },
+      "security_incident": {
+        "primary_agents": ["compliance_checker", "arquitecto_principal"],
+        "supporting_agents": ["backend_specialist", "data_manager"],
+        "escalation_path": "immediate_arquitecto_principal_involvement"
+      }
+    },
+    "development_workflows": {
+      "feature_development": {
+        "planning": "arquitecto_principal + product_strategy_expert",
+        "implementation": "domain_specific_agents",
+        "validation": "qa_tester + analysis_agents",
+        "deployment": "deployment_specialist"
+      }
+    }
+  }
+}

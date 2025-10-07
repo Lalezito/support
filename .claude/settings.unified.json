@@ -1,0 +1,113 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "mcp__ide__getDiagnostics", 
+      "mcp__ide__executeCode",
+      "Bash(flutter:*)",
+      "Bash(dart:*)",
+      "Bash(xcode-select:*)",
+      "Bash(xcodebuild:*)",
+      "Bash(xcrun simctl list:*)",
+      "Bash(xcrun simctl boot:*)",
+      "Bash(xcrun simctl shutdown:*)",
+      "Bash(xcrun simctl erase:*)",
+      "Bash(xcrun simctl delete:*)",
+      "Bash(sudo xcrun simctl list delete:*)",
+      "Bash(pod install:*)",
+      "Bash(open:*)",
+      "Bash(open ios/Runner.xcworkspace)",
+      "Bash(otool:*)",
+      "Bash(ln:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)",
+      "Bash(sed:*)",
+      "Bash(chmod:*)",
+      "Bash(cd:*)",
+      "Bash(rm:*)",
+      "Bash(pkill:*)",
+      "Bash(killall:*)",
+      "Bash(python3:*)",
+      "Bash(node:*)",
+      "Bash(npm install)",
+      "Bash(npm outdated)",
+      "Bash(npm test)",
+      "Bash(npm run:*)",
+      "Bash(npm audit:*)",
+      "Bash(npm start)",
+      "Bash(git add:*)",
+      "Bash(railway:*)",
+      "Bash(railway status:*)",
+      "Bash(railway --version)",
+      "Bash(railway whoami:*)",
+      "Bash(railway login:*)",
+      "Bash(railway service:*)",
+      "Bash(railway service add:*)",
+      "Bash(railway add:*)",
+      "Bash(railway variables:*)",
+      "Bash(railway variables set:*)",
+      "Bash(railway up:*)",
+      "Bash(curl:*)",
+      "Bash(command -v:*)",
+      "Bash(nslookup:*)",
+      "Bash(for:*)",
+      "Bash(do echo \"=== $file ===\")",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Bash(done)",
+      "Bash(timeout 90 flutter build ios --debug --no-codesign)",
+      "Bash(timeout 90 flutter build ios --release --no-codesign)",
+      "Bash(NODE_ENV=development OPENAI_API_KEY=test DATABASE_URL=postgresql://test node deploy.js)",
+      "Bash(export NODE_ENV=\"production\")",
+      "Bash(NODE_ENV=development npm start)",
+      "Bash(./railway-deployment-complete.sh)",
+      "Bash(./railway-direct-deploy.sh)",
+      "Bash(./validate_entitlements.sh:*)",
+      "Read(//opt/homebrew/Caskroom/flutter/3.29.2/flutter/packages/flutter_tools/bin/**)",
+      "Read(//Users/alejandrocaceres/Library/Developer/Xcode/DerivedData/Runner-dogsuuagmjztkxczhpsmbncnnaot/Build/Products/Debug-iphonesimulator/Runner.app/**)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "/opt/homebrew/Caskroom/flutter/3.29.2/flutter/bin",
+      "/Users/alejandrocaceres/Desktop",
+      "/opt/homebrew/Caskroom/flutter/3.29.2/flutter/packages/flutter_tools/bin",
+      "/Users/alejandrocaceres/Library/Caches",
+      "/Users/alejandrocaceres/Library",
+      "/",
+      "/tmp"
+    ],
+    "contexts": {
+      "development": {
+        "description": "Full development permissions for active coding",
+        "additional_permissions": [
+          "Bash(*)",
+          "Read(*)",
+          "Write(*)",
+          "Edit(*)"
+        ]
+      },
+      "production": {
+        "description": "Restricted permissions for production deployment",
+        "excluded_permissions": [
+          "Bash(rm:*)",
+          "Bash(sudo:*)"
+        ]
+      },
+      "agent_collaboration": {
+        "description": "Permissions for multi-agent workflows",
+        "additional_permissions": [
+          "Task",
+          "TodoWrite",
+          "MultiEdit",
+          "NotebookEdit"
+        ]
+      }
+    }
+  },
+  "agent_integration": {
+    "enabled": true,
+    "default_context": "development",
+    "collaborative_mode": true
+  }
+}

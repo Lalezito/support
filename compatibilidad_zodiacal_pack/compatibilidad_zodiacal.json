@@ -1,0 +1,6920 @@
+[
+  {
+    "pair_id": "aries_aries",
+    "sign_a": "aries",
+    "sign_b": "aries",
+    "sign_a_en": "aries",
+    "sign_b_en": "aries",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 77,
+    "chemistry": 77,
+    "emotional": 75,
+    "communication": 81,
+    "values": 77,
+    "stability": 77,
+    "summary": "Aries con Aries: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad aries aries",
+      "aries con aries amor",
+      "aries aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_tauro",
+    "sign_a": "aries",
+    "sign_b": "tauro",
+    "sign_a_en": "aries",
+    "sign_b_en": "taurus",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 57,
+    "chemistry": 57,
+    "emotional": 61,
+    "communication": 61,
+    "values": 60,
+    "stability": 61,
+    "summary": "Aries con Tauro: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad aries tauro",
+      "aries con tauro amor",
+      "aries tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_geminis",
+    "sign_a": "aries",
+    "sign_b": "géminis",
+    "sign_a_en": "aries",
+    "sign_b_en": "gemini",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 92,
+    "chemistry": 94,
+    "emotional": 91,
+    "communication": 97,
+    "values": 92,
+    "stability": 92,
+    "summary": "Aries con Géminis: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad aries géminis",
+      "aries con géminis amor",
+      "aries géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_cancer",
+    "sign_a": "aries",
+    "sign_b": "cáncer",
+    "sign_a_en": "aries",
+    "sign_b_en": "cancer",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 65,
+    "chemistry": 61,
+    "emotional": 69,
+    "communication": 69,
+    "values": 65,
+    "stability": 61,
+    "summary": "Aries con Cáncer: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad aries cáncer",
+      "aries con cáncer amor",
+      "aries cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_leo",
+    "sign_a": "aries",
+    "sign_b": "leo",
+    "sign_a_en": "aries",
+    "sign_b_en": "leo",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 86,
+    "chemistry": 90,
+    "emotional": 86,
+    "communication": 92,
+    "values": 88,
+    "stability": 88,
+    "summary": "Aries con Leo: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad aries leo",
+      "aries con leo amor",
+      "aries leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_virgo",
+    "sign_a": "aries",
+    "sign_b": "virgo",
+    "sign_a_en": "aries",
+    "sign_b_en": "virgo",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 60,
+    "summary": "Aries con Virgo: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad aries virgo",
+      "aries con virgo amor",
+      "aries virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_libra",
+    "sign_a": "aries",
+    "sign_b": "libra",
+    "sign_a_en": "aries",
+    "sign_b_en": "libra",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 80,
+    "chemistry": 94,
+    "emotional": 76,
+    "communication": 84,
+    "values": 80,
+    "stability": 78,
+    "summary": "Aries con Libra: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad aries libra",
+      "aries con libra amor",
+      "aries libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_escorpio",
+    "sign_a": "aries",
+    "sign_b": "escorpio",
+    "sign_a_en": "aries",
+    "sign_b_en": "scorpio",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 56,
+    "summary": "Aries con Escorpio: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad aries escorpio",
+      "aries con escorpio amor",
+      "aries escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_sagitario",
+    "sign_a": "aries",
+    "sign_b": "sagitario",
+    "sign_a_en": "aries",
+    "sign_b_en": "sagittarius",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 91,
+    "chemistry": 95,
+    "emotional": 91,
+    "communication": 97,
+    "values": 93,
+    "stability": 93,
+    "summary": "Aries con Sagitario: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad aries sagitario",
+      "aries con sagitario amor",
+      "aries sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_capricornio",
+    "sign_a": "aries",
+    "sign_b": "capricornio",
+    "sign_a_en": "aries",
+    "sign_b_en": "capricorn",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 64,
+    "chemistry": 60,
+    "emotional": 68,
+    "communication": 68,
+    "values": 64,
+    "stability": 64,
+    "summary": "Aries con Capricornio: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad aries capricornio",
+      "aries con capricornio amor",
+      "aries capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_acuario",
+    "sign_a": "aries",
+    "sign_b": "acuario",
+    "sign_a_en": "aries",
+    "sign_b_en": "aquarius",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 86,
+    "chemistry": 88,
+    "emotional": 85,
+    "communication": 91,
+    "values": 86,
+    "stability": 86,
+    "summary": "Aries con Acuario: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad aries acuario",
+      "aries con acuario amor",
+      "aries acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "aries_piscis",
+    "sign_a": "aries",
+    "sign_b": "piscis",
+    "sign_a_en": "aries",
+    "sign_b_en": "pisces",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 69,
+    "chemistry": 69,
+    "emotional": 73,
+    "communication": 73,
+    "values": 72,
+    "stability": 69,
+    "summary": "Aries con Piscis: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad aries piscis",
+      "aries con piscis amor",
+      "aries piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_aries",
+    "sign_a": "tauro",
+    "sign_b": "aries",
+    "sign_a_en": "taurus",
+    "sign_b_en": "aries",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 63,
+    "chemistry": 63,
+    "emotional": 67,
+    "communication": 67,
+    "values": 66,
+    "stability": 67,
+    "summary": "Tauro con Aries: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro aries",
+      "tauro con aries amor",
+      "tauro aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_tauro",
+    "sign_a": "tauro",
+    "sign_b": "tauro",
+    "sign_a_en": "taurus",
+    "sign_b_en": "taurus",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 75,
+    "chemistry": 75,
+    "emotional": 79,
+    "communication": 73,
+    "values": 78,
+    "stability": 79,
+    "summary": "Tauro con Tauro: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro tauro",
+      "tauro con tauro amor",
+      "tauro tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_geminis",
+    "sign_a": "tauro",
+    "sign_b": "géminis",
+    "sign_a_en": "taurus",
+    "sign_b_en": "gemini",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "semisextil",
+    "level": "M",
+    "flags": [],
+    "overall": 72,
+    "chemistry": 72,
+    "emotional": 76,
+    "communication": 76,
+    "values": 75,
+    "stability": 76,
+    "summary": "Tauro con Géminis: Complemento interesante que requiere acuerdos claros..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro géminis",
+      "tauro con géminis amor",
+      "tauro géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_cancer",
+    "sign_a": "tauro",
+    "sign_b": "cáncer",
+    "sign_a_en": "taurus",
+    "sign_b_en": "cancer",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 87,
+    "chemistry": 89,
+    "emotional": 92,
+    "communication": 86,
+    "values": 90,
+    "stability": 91,
+    "summary": "Tauro con Cáncer: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro cáncer",
+      "tauro con cáncer amor",
+      "tauro cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_leo",
+    "sign_a": "tauro",
+    "sign_b": "leo",
+    "sign_a_en": "taurus",
+    "sign_b_en": "leo",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 61,
+    "chemistry": 57,
+    "emotional": 65,
+    "communication": 65,
+    "values": 61,
+    "stability": 61,
+    "summary": "Tauro con Leo: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro leo",
+      "tauro con leo amor",
+      "tauro leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_virgo",
+    "sign_a": "tauro",
+    "sign_b": "virgo",
+    "sign_a_en": "taurus",
+    "sign_b_en": "virgo",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 92,
+    "chemistry": 96,
+    "emotional": 98,
+    "communication": 92,
+    "values": 97,
+    "stability": 98,
+    "summary": "Tauro con Virgo: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro virgo",
+      "tauro con virgo amor",
+      "tauro virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_libra",
+    "sign_a": "tauro",
+    "sign_b": "libra",
+    "sign_a_en": "taurus",
+    "sign_b_en": "libra",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 60,
+    "summary": "Tauro con Libra: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro libra",
+      "tauro con libra amor",
+      "tauro libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_escorpio",
+    "sign_a": "tauro",
+    "sign_b": "escorpio",
+    "sign_a_en": "taurus",
+    "sign_b_en": "scorpio",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 75,
+    "chemistry": 89,
+    "emotional": 77,
+    "communication": 73,
+    "values": 78,
+    "stability": 77,
+    "summary": "Tauro con Escorpio: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro escorpio",
+      "tauro con escorpio amor",
+      "tauro escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_sagitario",
+    "sign_a": "tauro",
+    "sign_b": "sagitario",
+    "sign_a_en": "taurus",
+    "sign_b_en": "sagittarius",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 60,
+    "summary": "Tauro con Sagitario: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro sagitario",
+      "tauro con sagitario amor",
+      "tauro sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_capricornio",
+    "sign_a": "tauro",
+    "sign_b": "capricornio",
+    "sign_a_en": "taurus",
+    "sign_b_en": "capricorn",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 94,
+    "chemistry": 98,
+    "emotional": 99,
+    "communication": 94,
+    "values": 99,
+    "stability": 99,
+    "summary": "Tauro con Capricornio: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro capricornio",
+      "tauro con capricornio amor",
+      "tauro capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_acuario",
+    "sign_a": "tauro",
+    "sign_b": "acuario",
+    "sign_a_en": "taurus",
+    "sign_b_en": "aquarius",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 61,
+    "chemistry": 57,
+    "emotional": 65,
+    "communication": 65,
+    "values": 61,
+    "stability": 61,
+    "summary": "Tauro con Acuario: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro acuario",
+      "tauro con acuario amor",
+      "tauro acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "tauro_piscis",
+    "sign_a": "tauro",
+    "sign_b": "piscis",
+    "sign_a_en": "taurus",
+    "sign_b_en": "pisces",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 86,
+    "chemistry": 88,
+    "emotional": 91,
+    "communication": 85,
+    "values": 89,
+    "stability": 90,
+    "summary": "Tauro con Piscis: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad tauro piscis",
+      "tauro con piscis amor",
+      "tauro piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_aries",
+    "sign_a": "géminis",
+    "sign_b": "aries",
+    "sign_a_en": "gemini",
+    "sign_b_en": "aries",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 87,
+    "chemistry": 89,
+    "emotional": 86,
+    "communication": 92,
+    "values": 87,
+    "stability": 87,
+    "summary": "Géminis con Aries: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis aries",
+      "géminis con aries amor",
+      "géminis aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_tauro",
+    "sign_a": "géminis",
+    "sign_b": "tauro",
+    "sign_a_en": "gemini",
+    "sign_b_en": "taurus",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "semisextil",
+    "level": "M",
+    "flags": [],
+    "overall": 75,
+    "chemistry": 75,
+    "emotional": 79,
+    "communication": 79,
+    "values": 78,
+    "stability": 79,
+    "summary": "Géminis con Tauro: Complemento interesante que requiere acuerdos claros..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis tauro",
+      "géminis con tauro amor",
+      "géminis tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_geminis",
+    "sign_a": "géminis",
+    "sign_b": "géminis",
+    "sign_a_en": "gemini",
+    "sign_b_en": "gemini",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 82,
+    "chemistry": 82,
+    "emotional": 80,
+    "communication": 86,
+    "values": 82,
+    "stability": 82,
+    "summary": "Géminis con Géminis: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis géminis",
+      "géminis con géminis amor",
+      "géminis géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_cancer",
+    "sign_a": "géminis",
+    "sign_b": "cáncer",
+    "sign_a_en": "gemini",
+    "sign_b_en": "cancer",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 65,
+    "chemistry": 65,
+    "emotional": 69,
+    "communication": 69,
+    "values": 68,
+    "stability": 65,
+    "summary": "Géminis con Cáncer: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis cáncer",
+      "géminis con cáncer amor",
+      "géminis cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_leo",
+    "sign_a": "géminis",
+    "sign_b": "leo",
+    "sign_a_en": "gemini",
+    "sign_b_en": "leo",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 86,
+    "chemistry": 88,
+    "emotional": 85,
+    "communication": 91,
+    "values": 86,
+    "stability": 86,
+    "summary": "Géminis con Leo: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis leo",
+      "géminis con leo amor",
+      "géminis leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_virgo",
+    "sign_a": "géminis",
+    "sign_b": "virgo",
+    "sign_a_en": "gemini",
+    "sign_b_en": "virgo",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 64,
+    "chemistry": 60,
+    "emotional": 68,
+    "communication": 68,
+    "values": 64,
+    "stability": 64,
+    "summary": "Géminis con Virgo: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis virgo",
+      "géminis con virgo amor",
+      "géminis virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_libra",
+    "sign_a": "géminis",
+    "sign_b": "libra",
+    "sign_a_en": "gemini",
+    "sign_b_en": "libra",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 92,
+    "chemistry": 96,
+    "emotional": 92,
+    "communication": 98,
+    "values": 94,
+    "stability": 94,
+    "summary": "Géminis con Libra: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis libra",
+      "géminis con libra amor",
+      "géminis libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_escorpio",
+    "sign_a": "géminis",
+    "sign_b": "escorpio",
+    "sign_a_en": "gemini",
+    "sign_b_en": "scorpio",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 55,
+    "chemistry": 55,
+    "emotional": 59,
+    "communication": 59,
+    "values": 58,
+    "stability": 55,
+    "summary": "Géminis con Escorpio: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis escorpio",
+      "géminis con escorpio amor",
+      "géminis escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_sagitario",
+    "sign_a": "géminis",
+    "sign_b": "sagitario",
+    "sign_a_en": "gemini",
+    "sign_b_en": "sagittarius",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "oposición"
+    ],
+    "overall": 75,
+    "chemistry": 83,
+    "emotional": 71,
+    "communication": 79,
+    "values": 75,
+    "stability": 73,
+    "summary": "Géminis con Sagitario: Complemento interesante que requiere acuerdos claros.; opuestos complementarios.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis sagitario",
+      "géminis con sagitario amor",
+      "géminis sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_capricornio",
+    "sign_a": "géminis",
+    "sign_b": "capricornio",
+    "sign_a_en": "gemini",
+    "sign_b_en": "capricorn",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 55,
+    "chemistry": 55,
+    "emotional": 59,
+    "communication": 59,
+    "values": 58,
+    "stability": 59,
+    "summary": "Géminis con Capricornio: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis capricornio",
+      "géminis con capricornio amor",
+      "géminis capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_acuario",
+    "sign_a": "géminis",
+    "sign_b": "acuario",
+    "sign_a_en": "gemini",
+    "sign_b_en": "aquarius",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 94,
+    "chemistry": 98,
+    "emotional": 94,
+    "communication": 99,
+    "values": 96,
+    "stability": 96,
+    "summary": "Géminis con Acuario: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis acuario",
+      "géminis con acuario amor",
+      "géminis acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "geminis_piscis",
+    "sign_a": "géminis",
+    "sign_b": "piscis",
+    "sign_a_en": "gemini",
+    "sign_b_en": "pisces",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 68,
+    "chemistry": 64,
+    "emotional": 72,
+    "communication": 72,
+    "values": 68,
+    "stability": 64,
+    "summary": "Géminis con Piscis: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad géminis piscis",
+      "géminis con piscis amor",
+      "géminis piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_aries",
+    "sign_a": "cáncer",
+    "sign_b": "aries",
+    "sign_a_en": "cancer",
+    "sign_b_en": "aries",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 57,
+    "chemistry": 53,
+    "emotional": 61,
+    "communication": 61,
+    "values": 57,
+    "stability": 53,
+    "summary": "Cáncer con Aries: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer aries",
+      "cáncer con aries amor",
+      "cáncer aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_tauro",
+    "sign_a": "cáncer",
+    "sign_b": "tauro",
+    "sign_a_en": "cancer",
+    "sign_b_en": "taurus",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 90,
+    "chemistry": 92,
+    "emotional": 95,
+    "communication": 89,
+    "values": 93,
+    "stability": 94,
+    "summary": "Cáncer con Tauro: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer tauro",
+      "cáncer con tauro amor",
+      "cáncer tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_geminis",
+    "sign_a": "cáncer",
+    "sign_b": "géminis",
+    "sign_a_en": "cancer",
+    "sign_b_en": "gemini",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 61,
+    "chemistry": 61,
+    "emotional": 65,
+    "communication": 65,
+    "values": 64,
+    "stability": 61,
+    "summary": "Cáncer con Géminis: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer géminis",
+      "cáncer con géminis amor",
+      "cáncer géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_cancer",
+    "sign_a": "cáncer",
+    "sign_b": "cáncer",
+    "sign_a_en": "cancer",
+    "sign_b_en": "cancer",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 74,
+    "chemistry": 74,
+    "emotional": 78,
+    "communication": 72,
+    "values": 77,
+    "stability": 74,
+    "summary": "Cáncer con Cáncer: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer cáncer",
+      "cáncer con cáncer amor",
+      "cáncer cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_leo",
+    "sign_a": "cáncer",
+    "sign_b": "leo",
+    "sign_a_en": "cancer",
+    "sign_b_en": "leo",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "semisextil",
+    "level": "M",
+    "flags": [],
+    "overall": 80,
+    "chemistry": 80,
+    "emotional": 84,
+    "communication": 84,
+    "values": 83,
+    "stability": 80,
+    "summary": "Cáncer con Leo: Complemento interesante que requiere acuerdos claros..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer leo",
+      "cáncer con leo amor",
+      "cáncer leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_virgo",
+    "sign_a": "cáncer",
+    "sign_b": "virgo",
+    "sign_a_en": "cancer",
+    "sign_b_en": "virgo",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 87,
+    "chemistry": 89,
+    "emotional": 92,
+    "communication": 86,
+    "values": 90,
+    "stability": 91,
+    "summary": "Cáncer con Virgo: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer virgo",
+      "cáncer con virgo amor",
+      "cáncer virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_libra",
+    "sign_a": "cáncer",
+    "sign_b": "libra",
+    "sign_a_en": "cancer",
+    "sign_b_en": "libra",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 64,
+    "chemistry": 60,
+    "emotional": 68,
+    "communication": 68,
+    "values": 64,
+    "stability": 60,
+    "summary": "Cáncer con Libra: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer libra",
+      "cáncer con libra amor",
+      "cáncer libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_escorpio",
+    "sign_a": "cáncer",
+    "sign_b": "escorpio",
+    "sign_a_en": "cancer",
+    "sign_b_en": "scorpio",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 90,
+    "chemistry": 94,
+    "emotional": 96,
+    "communication": 90,
+    "values": 95,
+    "stability": 92,
+    "summary": "Cáncer con Escorpio: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer escorpio",
+      "cáncer con escorpio amor",
+      "cáncer escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_sagitario",
+    "sign_a": "cáncer",
+    "sign_b": "sagitario",
+    "sign_a_en": "cancer",
+    "sign_b_en": "sagittarius",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 63,
+    "chemistry": 63,
+    "emotional": 67,
+    "communication": 67,
+    "values": 66,
+    "stability": 63,
+    "summary": "Cáncer con Sagitario: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer sagitario",
+      "cáncer con sagitario amor",
+      "cáncer sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_capricornio",
+    "sign_a": "cáncer",
+    "sign_b": "capricornio",
+    "sign_a_en": "cancer",
+    "sign_b_en": "capricorn",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 82,
+    "chemistry": 96,
+    "emotional": 84,
+    "communication": 80,
+    "values": 85,
+    "stability": 84,
+    "summary": "Cáncer con Capricornio: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer capricornio",
+      "cáncer con capricornio amor",
+      "cáncer capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_acuario",
+    "sign_a": "cáncer",
+    "sign_b": "acuario",
+    "sign_a_en": "cancer",
+    "sign_b_en": "aquarius",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 57,
+    "chemistry": 57,
+    "emotional": 61,
+    "communication": 61,
+    "values": 60,
+    "stability": 57,
+    "summary": "Cáncer con Acuario: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer acuario",
+      "cáncer con acuario amor",
+      "cáncer acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "cancer_piscis",
+    "sign_a": "cáncer",
+    "sign_b": "piscis",
+    "sign_a_en": "cancer",
+    "sign_b_en": "pisces",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 87,
+    "chemistry": 91,
+    "emotional": 93,
+    "communication": 87,
+    "values": 92,
+    "stability": 89,
+    "summary": "Cáncer con Piscis: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad cáncer piscis",
+      "cáncer con piscis amor",
+      "cáncer piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_aries",
+    "sign_a": "leo",
+    "sign_b": "aries",
+    "sign_a_en": "leo",
+    "sign_b_en": "aries",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 89,
+    "chemistry": 93,
+    "emotional": 89,
+    "communication": 95,
+    "values": 91,
+    "stability": 91,
+    "summary": "Leo con Aries: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad leo aries",
+      "leo con aries amor",
+      "leo aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_tauro",
+    "sign_a": "leo",
+    "sign_b": "tauro",
+    "sign_a_en": "leo",
+    "sign_b_en": "taurus",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 60,
+    "chemistry": 56,
+    "emotional": 64,
+    "communication": 64,
+    "values": 60,
+    "stability": 60,
+    "summary": "Leo con Tauro: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad leo tauro",
+      "leo con tauro amor",
+      "leo tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_geminis",
+    "sign_a": "leo",
+    "sign_b": "géminis",
+    "sign_a_en": "leo",
+    "sign_b_en": "gemini",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 87,
+    "chemistry": 89,
+    "emotional": 86,
+    "communication": 92,
+    "values": 87,
+    "stability": 87,
+    "summary": "Leo con Géminis: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad leo géminis",
+      "leo con géminis amor",
+      "leo géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_cancer",
+    "sign_a": "leo",
+    "sign_b": "cáncer",
+    "sign_a_en": "leo",
+    "sign_b_en": "cancer",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "semisextil",
+    "level": "M",
+    "flags": [],
+    "overall": 80,
+    "chemistry": 80,
+    "emotional": 84,
+    "communication": 84,
+    "values": 83,
+    "stability": 80,
+    "summary": "Leo con Cáncer: Complemento interesante que requiere acuerdos claros..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad leo cáncer",
+      "leo con cáncer amor",
+      "leo cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_leo",
+    "sign_a": "leo",
+    "sign_b": "leo",
+    "sign_a_en": "leo",
+    "sign_b_en": "leo",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 83,
+    "chemistry": 83,
+    "emotional": 81,
+    "communication": 87,
+    "values": 83,
+    "stability": 83,
+    "summary": "Leo con Leo: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad leo leo",
+      "leo con leo amor",
+      "leo leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_virgo",
+    "sign_a": "leo",
+    "sign_b": "virgo",
+    "sign_a_en": "leo",
+    "sign_b_en": "virgo",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 60,
+    "summary": "Leo con Virgo: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad leo virgo",
+      "leo con virgo amor",
+      "leo virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_libra",
+    "sign_a": "leo",
+    "sign_b": "libra",
+    "sign_a_en": "leo",
+    "sign_b_en": "libra",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 86,
+    "chemistry": 88,
+    "emotional": 85,
+    "communication": 91,
+    "values": 86,
+    "stability": 86,
+    "summary": "Leo con Libra: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad leo libra",
+      "leo con libra amor",
+      "leo libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_escorpio",
+    "sign_a": "leo",
+    "sign_b": "escorpio",
+    "sign_a_en": "leo",
+    "sign_b_en": "scorpio",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 64,
+    "chemistry": 60,
+    "emotional": 68,
+    "communication": 68,
+    "values": 64,
+    "stability": 60,
+    "summary": "Leo con Escorpio: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad leo escorpio",
+      "leo con escorpio amor",
+      "leo escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_sagitario",
+    "sign_a": "leo",
+    "sign_b": "sagitario",
+    "sign_a_en": "leo",
+    "sign_b_en": "sagittarius",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 89,
+    "chemistry": 93,
+    "emotional": 89,
+    "communication": 95,
+    "values": 91,
+    "stability": 91,
+    "summary": "Leo con Sagitario: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad leo sagitario",
+      "leo con sagitario amor",
+      "leo sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_capricornio",
+    "sign_a": "leo",
+    "sign_b": "capricornio",
+    "sign_a_en": "leo",
+    "sign_b_en": "capricorn",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 62,
+    "chemistry": 62,
+    "emotional": 66,
+    "communication": 66,
+    "values": 65,
+    "stability": 66,
+    "summary": "Leo con Capricornio: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad leo capricornio",
+      "leo con capricornio amor",
+      "leo capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_acuario",
+    "sign_a": "leo",
+    "sign_b": "acuario",
+    "sign_a_en": "leo",
+    "sign_b_en": "aquarius",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 82,
+    "chemistry": 96,
+    "emotional": 78,
+    "communication": 86,
+    "values": 82,
+    "stability": 80,
+    "summary": "Leo con Acuario: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad leo acuario",
+      "leo con acuario amor",
+      "leo acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "leo_piscis",
+    "sign_a": "leo",
+    "sign_b": "piscis",
+    "sign_a_en": "leo",
+    "sign_b_en": "pisces",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 63,
+    "chemistry": 63,
+    "emotional": 67,
+    "communication": 67,
+    "values": 66,
+    "stability": 63,
+    "summary": "Leo con Piscis: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad leo piscis",
+      "leo con piscis amor",
+      "leo piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_aries",
+    "sign_a": "virgo",
+    "sign_b": "aries",
+    "sign_a_en": "virgo",
+    "sign_b_en": "aries",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 61,
+    "chemistry": 61,
+    "emotional": 65,
+    "communication": 65,
+    "values": 64,
+    "stability": 65,
+    "summary": "Virgo con Aries: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo aries",
+      "virgo con aries amor",
+      "virgo aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_tauro",
+    "sign_a": "virgo",
+    "sign_b": "tauro",
+    "sign_a_en": "virgo",
+    "sign_b_en": "taurus",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 91,
+    "chemistry": 95,
+    "emotional": 97,
+    "communication": 91,
+    "values": 96,
+    "stability": 97,
+    "summary": "Virgo con Tauro: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo tauro",
+      "virgo con tauro amor",
+      "virgo tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_geminis",
+    "sign_a": "virgo",
+    "sign_b": "géminis",
+    "sign_a_en": "virgo",
+    "sign_b_en": "gemini",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 62,
+    "chemistry": 58,
+    "emotional": 66,
+    "communication": 66,
+    "values": 62,
+    "stability": 62,
+    "summary": "Virgo con Géminis: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo géminis",
+      "virgo con géminis amor",
+      "virgo géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_cancer",
+    "sign_a": "virgo",
+    "sign_b": "cáncer",
+    "sign_a_en": "virgo",
+    "sign_b_en": "cancer",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 93,
+    "chemistry": 95,
+    "emotional": 98,
+    "communication": 92,
+    "values": 96,
+    "stability": 97,
+    "summary": "Virgo con Cáncer: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo cáncer",
+      "virgo con cáncer amor",
+      "virgo cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_leo",
+    "sign_a": "virgo",
+    "sign_b": "leo",
+    "sign_a_en": "virgo",
+    "sign_b_en": "leo",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 60,
+    "chemistry": 60,
+    "emotional": 64,
+    "communication": 64,
+    "values": 63,
+    "stability": 64,
+    "summary": "Virgo con Leo: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo leo",
+      "virgo con leo amor",
+      "virgo leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_virgo",
+    "sign_a": "virgo",
+    "sign_b": "virgo",
+    "sign_a_en": "virgo",
+    "sign_b_en": "virgo",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 76,
+    "chemistry": 76,
+    "emotional": 80,
+    "communication": 74,
+    "values": 79,
+    "stability": 80,
+    "summary": "Virgo con Virgo: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo virgo",
+      "virgo con virgo amor",
+      "virgo virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_libra",
+    "sign_a": "virgo",
+    "sign_b": "libra",
+    "sign_a_en": "virgo",
+    "sign_b_en": "libra",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 58,
+    "chemistry": 58,
+    "emotional": 62,
+    "communication": 62,
+    "values": 61,
+    "stability": 62,
+    "summary": "Virgo con Libra: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo libra",
+      "virgo con libra amor",
+      "virgo libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_escorpio",
+    "sign_a": "virgo",
+    "sign_b": "escorpio",
+    "sign_a_en": "virgo",
+    "sign_b_en": "scorpio",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 88,
+    "chemistry": 90,
+    "emotional": 93,
+    "communication": 87,
+    "values": 91,
+    "stability": 92,
+    "summary": "Virgo con Escorpio: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo escorpio",
+      "virgo con escorpio amor",
+      "virgo escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_sagitario",
+    "sign_a": "virgo",
+    "sign_b": "sagitario",
+    "sign_a_en": "virgo",
+    "sign_b_en": "sagittarius",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 66,
+    "chemistry": 62,
+    "emotional": 70,
+    "communication": 70,
+    "values": 66,
+    "stability": 66,
+    "summary": "Virgo con Sagitario: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo sagitario",
+      "virgo con sagitario amor",
+      "virgo sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_capricornio",
+    "sign_a": "virgo",
+    "sign_b": "capricornio",
+    "sign_a_en": "virgo",
+    "sign_b_en": "capricorn",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 89,
+    "chemistry": 93,
+    "emotional": 95,
+    "communication": 89,
+    "values": 94,
+    "stability": 95,
+    "summary": "Virgo con Capricornio: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo capricornio",
+      "virgo con capricornio amor",
+      "virgo capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_acuario",
+    "sign_a": "virgo",
+    "sign_b": "acuario",
+    "sign_a_en": "virgo",
+    "sign_b_en": "aquarius",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 60,
+    "summary": "Virgo con Acuario: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo acuario",
+      "virgo con acuario amor",
+      "virgo acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "virgo_piscis",
+    "sign_a": "virgo",
+    "sign_b": "piscis",
+    "sign_a_en": "virgo",
+    "sign_b_en": "pisces",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 81,
+    "chemistry": 95,
+    "emotional": 83,
+    "communication": 79,
+    "values": 84,
+    "stability": 83,
+    "summary": "Virgo con Piscis: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad virgo piscis",
+      "virgo con piscis amor",
+      "virgo piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_aries",
+    "sign_a": "libra",
+    "sign_b": "aries",
+    "sign_a_en": "libra",
+    "sign_b_en": "aries",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 76,
+    "chemistry": 90,
+    "emotional": 72,
+    "communication": 80,
+    "values": 76,
+    "stability": 74,
+    "summary": "Libra con Aries: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad libra aries",
+      "libra con aries amor",
+      "libra aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_tauro",
+    "sign_a": "libra",
+    "sign_b": "tauro",
+    "sign_a_en": "libra",
+    "sign_b_en": "taurus",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 63,
+    "chemistry": 63,
+    "emotional": 67,
+    "communication": 67,
+    "values": 66,
+    "stability": 67,
+    "summary": "Libra con Tauro: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad libra tauro",
+      "libra con tauro amor",
+      "libra tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_geminis",
+    "sign_a": "libra",
+    "sign_b": "géminis",
+    "sign_a_en": "libra",
+    "sign_b_en": "gemini",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 93,
+    "chemistry": 97,
+    "emotional": 93,
+    "communication": 99,
+    "values": 95,
+    "stability": 95,
+    "summary": "Libra con Géminis: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad libra géminis",
+      "libra con géminis amor",
+      "libra géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_cancer",
+    "sign_a": "libra",
+    "sign_b": "cáncer",
+    "sign_a_en": "libra",
+    "sign_b_en": "cancer",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 69,
+    "chemistry": 65,
+    "emotional": 73,
+    "communication": 73,
+    "values": 69,
+    "stability": 65,
+    "summary": "Libra con Cáncer: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad libra cáncer",
+      "libra con cáncer amor",
+      "libra cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_leo",
+    "sign_a": "libra",
+    "sign_b": "leo",
+    "sign_a_en": "libra",
+    "sign_b_en": "leo",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 91,
+    "chemistry": 93,
+    "emotional": 90,
+    "communication": 96,
+    "values": 91,
+    "stability": 91,
+    "summary": "Libra con Leo: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad libra leo",
+      "libra con leo amor",
+      "libra leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_virgo",
+    "sign_a": "libra",
+    "sign_b": "virgo",
+    "sign_a_en": "libra",
+    "sign_b_en": "virgo",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 66,
+    "chemistry": 66,
+    "emotional": 70,
+    "communication": 70,
+    "values": 69,
+    "stability": 70,
+    "summary": "Libra con Virgo: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad libra virgo",
+      "libra con virgo amor",
+      "libra virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_libra",
+    "sign_a": "libra",
+    "sign_b": "libra",
+    "sign_a_en": "libra",
+    "sign_b_en": "libra",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 79,
+    "chemistry": 79,
+    "emotional": 77,
+    "communication": 83,
+    "values": 79,
+    "stability": 79,
+    "summary": "Libra con Libra: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad libra libra",
+      "libra con libra amor",
+      "libra libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_escorpio",
+    "sign_a": "libra",
+    "sign_b": "escorpio",
+    "sign_a_en": "libra",
+    "sign_b_en": "scorpio",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 59,
+    "chemistry": 59,
+    "emotional": 63,
+    "communication": 63,
+    "values": 62,
+    "stability": 59,
+    "summary": "Libra con Escorpio: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad libra escorpio",
+      "libra con escorpio amor",
+      "libra escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_sagitario",
+    "sign_a": "libra",
+    "sign_b": "sagitario",
+    "sign_a_en": "libra",
+    "sign_b_en": "sagittarius",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 87,
+    "chemistry": 89,
+    "emotional": 86,
+    "communication": 92,
+    "values": 87,
+    "stability": 87,
+    "summary": "Libra con Sagitario: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad libra sagitario",
+      "libra con sagitario amor",
+      "libra sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_capricornio",
+    "sign_a": "libra",
+    "sign_b": "capricornio",
+    "sign_a_en": "libra",
+    "sign_b_en": "capricorn",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 56,
+    "chemistry": 52,
+    "emotional": 60,
+    "communication": 60,
+    "values": 56,
+    "stability": 56,
+    "summary": "Libra con Capricornio: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad libra capricornio",
+      "libra con capricornio amor",
+      "libra capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_acuario",
+    "sign_a": "libra",
+    "sign_b": "acuario",
+    "sign_a_en": "libra",
+    "sign_b_en": "aquarius",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 94,
+    "chemistry": 98,
+    "emotional": 94,
+    "communication": 99,
+    "values": 96,
+    "stability": 96,
+    "summary": "Libra con Acuario: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad libra acuario",
+      "libra con acuario amor",
+      "libra acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "libra_piscis",
+    "sign_a": "libra",
+    "sign_b": "piscis",
+    "sign_a_en": "libra",
+    "sign_b_en": "pisces",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 61,
+    "chemistry": 61,
+    "emotional": 65,
+    "communication": 65,
+    "values": 64,
+    "stability": 61,
+    "summary": "Libra con Piscis: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad libra piscis",
+      "libra con piscis amor",
+      "libra piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_aries",
+    "sign_a": "escorpio",
+    "sign_b": "aries",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "aries",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 57,
+    "chemistry": 57,
+    "emotional": 61,
+    "communication": 61,
+    "values": 60,
+    "stability": 57,
+    "summary": "Escorpio con Aries: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio aries",
+      "escorpio con aries amor",
+      "escorpio aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_tauro",
+    "sign_a": "escorpio",
+    "sign_b": "tauro",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "taurus",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 84,
+    "chemistry": 98,
+    "emotional": 86,
+    "communication": 82,
+    "values": 87,
+    "stability": 86,
+    "summary": "Escorpio con Tauro: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio tauro",
+      "escorpio con tauro amor",
+      "escorpio tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_geminis",
+    "sign_a": "escorpio",
+    "sign_b": "géminis",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "gemini",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 60,
+    "chemistry": 60,
+    "emotional": 64,
+    "communication": 64,
+    "values": 63,
+    "stability": 60,
+    "summary": "Escorpio con Géminis: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio géminis",
+      "escorpio con géminis amor",
+      "escorpio géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_cancer",
+    "sign_a": "escorpio",
+    "sign_b": "cáncer",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "cancer",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 88,
+    "chemistry": 92,
+    "emotional": 94,
+    "communication": 88,
+    "values": 93,
+    "stability": 90,
+    "summary": "Escorpio con Cáncer: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio cáncer",
+      "escorpio con cáncer amor",
+      "escorpio cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_leo",
+    "sign_a": "escorpio",
+    "sign_b": "leo",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "leo",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 69,
+    "chemistry": 65,
+    "emotional": 73,
+    "communication": 73,
+    "values": 69,
+    "stability": 65,
+    "summary": "Escorpio con Leo: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio leo",
+      "escorpio con leo amor",
+      "escorpio leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_virgo",
+    "sign_a": "escorpio",
+    "sign_b": "virgo",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "virgo",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 93,
+    "chemistry": 95,
+    "emotional": 98,
+    "communication": 92,
+    "values": 96,
+    "stability": 97,
+    "summary": "Escorpio con Virgo: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio virgo",
+      "escorpio con virgo amor",
+      "escorpio virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_libra",
+    "sign_a": "escorpio",
+    "sign_b": "libra",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "libra",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 61,
+    "chemistry": 61,
+    "emotional": 65,
+    "communication": 65,
+    "values": 64,
+    "stability": 61,
+    "summary": "Escorpio con Libra: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio libra",
+      "escorpio con libra amor",
+      "escorpio libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_escorpio",
+    "sign_a": "escorpio",
+    "sign_b": "escorpio",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "scorpio",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 72,
+    "chemistry": 72,
+    "emotional": 76,
+    "communication": 70,
+    "values": 75,
+    "stability": 72,
+    "summary": "Escorpio con Escorpio: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio escorpio",
+      "escorpio con escorpio amor",
+      "escorpio escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_sagitario",
+    "sign_a": "escorpio",
+    "sign_b": "sagitario",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "sagittarius",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 65,
+    "chemistry": 65,
+    "emotional": 69,
+    "communication": 69,
+    "values": 68,
+    "stability": 65,
+    "summary": "Escorpio con Sagitario: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio sagitario",
+      "escorpio con sagitario amor",
+      "escorpio sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_capricornio",
+    "sign_a": "escorpio",
+    "sign_b": "capricornio",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "capricorn",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 87,
+    "chemistry": 89,
+    "emotional": 92,
+    "communication": 86,
+    "values": 90,
+    "stability": 91,
+    "summary": "Escorpio con Capricornio: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio capricornio",
+      "escorpio con capricornio amor",
+      "escorpio capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_acuario",
+    "sign_a": "escorpio",
+    "sign_b": "acuario",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "aquarius",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 67,
+    "chemistry": 63,
+    "emotional": 71,
+    "communication": 71,
+    "values": 67,
+    "stability": 63,
+    "summary": "Escorpio con Acuario: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio acuario",
+      "escorpio con acuario amor",
+      "escorpio acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "escorpio_piscis",
+    "sign_a": "escorpio",
+    "sign_b": "piscis",
+    "sign_a_en": "scorpio",
+    "sign_b_en": "pisces",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 94,
+    "chemistry": 98,
+    "emotional": 99,
+    "communication": 94,
+    "values": 99,
+    "stability": 96,
+    "summary": "Escorpio con Piscis: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad escorpio piscis",
+      "escorpio con piscis amor",
+      "escorpio piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_aries",
+    "sign_a": "sagitario",
+    "sign_b": "aries",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "aries",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 91,
+    "chemistry": 95,
+    "emotional": 91,
+    "communication": 97,
+    "values": 93,
+    "stability": 93,
+    "summary": "Sagitario con Aries: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario aries",
+      "sagitario con aries amor",
+      "sagitario aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_tauro",
+    "sign_a": "sagitario",
+    "sign_b": "tauro",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "taurus",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 60,
+    "chemistry": 60,
+    "emotional": 64,
+    "communication": 64,
+    "values": 63,
+    "stability": 64,
+    "summary": "Sagitario con Tauro: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario tauro",
+      "sagitario con tauro amor",
+      "sagitario tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_geminis",
+    "sign_a": "sagitario",
+    "sign_b": "géminis",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "gemini",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "oposición"
+    ],
+    "overall": 83,
+    "chemistry": 91,
+    "emotional": 79,
+    "communication": 87,
+    "values": 83,
+    "stability": 81,
+    "summary": "Sagitario con Géminis: Complemento interesante que requiere acuerdos claros.; opuestos complementarios.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario géminis",
+      "sagitario con géminis amor",
+      "sagitario géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_cancer",
+    "sign_a": "sagitario",
+    "sign_b": "cáncer",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "cancer",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 60,
+    "chemistry": 60,
+    "emotional": 64,
+    "communication": 64,
+    "values": 63,
+    "stability": 60,
+    "summary": "Sagitario con Cáncer: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario cáncer",
+      "sagitario con cáncer amor",
+      "sagitario cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_leo",
+    "sign_a": "sagitario",
+    "sign_b": "leo",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "leo",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 93,
+    "chemistry": 97,
+    "emotional": 93,
+    "communication": 99,
+    "values": 95,
+    "stability": 95,
+    "summary": "Sagitario con Leo: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario leo",
+      "sagitario con leo amor",
+      "sagitario leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_virgo",
+    "sign_a": "sagitario",
+    "sign_b": "virgo",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "virgo",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 64,
+    "chemistry": 60,
+    "emotional": 68,
+    "communication": 68,
+    "values": 64,
+    "stability": 64,
+    "summary": "Sagitario con Virgo: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario virgo",
+      "sagitario con virgo amor",
+      "sagitario virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_libra",
+    "sign_a": "sagitario",
+    "sign_b": "libra",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "libra",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 93,
+    "chemistry": 95,
+    "emotional": 92,
+    "communication": 98,
+    "values": 93,
+    "stability": 93,
+    "summary": "Sagitario con Libra: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario libra",
+      "sagitario con libra amor",
+      "sagitario libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_escorpio",
+    "sign_a": "sagitario",
+    "sign_b": "escorpio",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "scorpio",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 56,
+    "summary": "Sagitario con Escorpio: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario escorpio",
+      "sagitario con escorpio amor",
+      "sagitario escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_sagitario",
+    "sign_a": "sagitario",
+    "sign_b": "sagitario",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "sagittarius",
+    "element_a": "fuego",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 73,
+    "chemistry": 73,
+    "emotional": 71,
+    "communication": 77,
+    "values": 73,
+    "stability": 73,
+    "summary": "Sagitario con Sagitario: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "senderismo/adrenalina"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario sagitario",
+      "sagitario con sagitario amor",
+      "sagitario sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_capricornio",
+    "sign_a": "sagitario",
+    "sign_b": "capricornio",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "capricorn",
+    "element_a": "fuego",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 59,
+    "chemistry": 59,
+    "emotional": 63,
+    "communication": 63,
+    "values": 62,
+    "stability": 63,
+    "summary": "Sagitario con Capricornio: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario capricornio",
+      "sagitario con capricornio amor",
+      "sagitario capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_acuario",
+    "sign_a": "sagitario",
+    "sign_b": "acuario",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "aquarius",
+    "element_a": "fuego",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 93,
+    "chemistry": 95,
+    "emotional": 92,
+    "communication": 98,
+    "values": 93,
+    "stability": 93,
+    "summary": "Sagitario con Acuario: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario acuario",
+      "sagitario con acuario amor",
+      "sagitario acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "sagitario_piscis",
+    "sign_a": "sagitario",
+    "sign_b": "piscis",
+    "sign_a_en": "sagittarius",
+    "sign_b_en": "pisces",
+    "element_a": "fuego",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 66,
+    "chemistry": 62,
+    "emotional": 70,
+    "communication": 70,
+    "values": 66,
+    "stability": 62,
+    "summary": "Sagitario con Piscis: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad sagitario piscis",
+      "sagitario con piscis amor",
+      "sagitario piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_aries",
+    "sign_a": "capricornio",
+    "sign_b": "aries",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "aries",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 65,
+    "chemistry": 61,
+    "emotional": 69,
+    "communication": 69,
+    "values": 65,
+    "stability": 65,
+    "summary": "Capricornio con Aries: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio aries",
+      "capricornio con aries amor",
+      "capricornio aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_tauro",
+    "sign_a": "capricornio",
+    "sign_b": "tauro",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "taurus",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 87,
+    "chemistry": 91,
+    "emotional": 93,
+    "communication": 87,
+    "values": 92,
+    "stability": 93,
+    "summary": "Capricornio con Tauro: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio tauro",
+      "capricornio con tauro amor",
+      "capricornio tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_geminis",
+    "sign_a": "capricornio",
+    "sign_b": "géminis",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "gemini",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 55,
+    "chemistry": 55,
+    "emotional": 59,
+    "communication": 59,
+    "values": 58,
+    "stability": 59,
+    "summary": "Capricornio con Géminis: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio géminis",
+      "capricornio con géminis amor",
+      "capricornio géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_cancer",
+    "sign_a": "capricornio",
+    "sign_b": "cáncer",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "cancer",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 83,
+    "chemistry": 97,
+    "emotional": 85,
+    "communication": 81,
+    "values": 86,
+    "stability": 85,
+    "summary": "Capricornio con Cáncer: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio cáncer",
+      "capricornio con cáncer amor",
+      "capricornio cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_leo",
+    "sign_a": "capricornio",
+    "sign_b": "leo",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "leo",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 66,
+    "chemistry": 66,
+    "emotional": 70,
+    "communication": 70,
+    "values": 69,
+    "stability": 70,
+    "summary": "Capricornio con Leo: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio leo",
+      "capricornio con leo amor",
+      "capricornio leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_virgo",
+    "sign_a": "capricornio",
+    "sign_b": "virgo",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "virgo",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 90,
+    "chemistry": 94,
+    "emotional": 96,
+    "communication": 90,
+    "values": 95,
+    "stability": 96,
+    "summary": "Capricornio con Virgo: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio virgo",
+      "capricornio con virgo amor",
+      "capricornio virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_libra",
+    "sign_a": "capricornio",
+    "sign_b": "libra",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "libra",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 65,
+    "chemistry": 61,
+    "emotional": 69,
+    "communication": 69,
+    "values": 65,
+    "stability": 65,
+    "summary": "Capricornio con Libra: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio libra",
+      "capricornio con libra amor",
+      "capricornio libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_escorpio",
+    "sign_a": "capricornio",
+    "sign_b": "escorpio",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "scorpio",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 93,
+    "chemistry": 95,
+    "emotional": 98,
+    "communication": 92,
+    "values": 96,
+    "stability": 97,
+    "summary": "Capricornio con Escorpio: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio escorpio",
+      "capricornio con escorpio amor",
+      "capricornio escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_sagitario",
+    "sign_a": "capricornio",
+    "sign_b": "sagitario",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "sagittarius",
+    "element_a": "tierra",
+    "element_b": "fuego",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 59,
+    "chemistry": 59,
+    "emotional": 63,
+    "communication": 63,
+    "values": 62,
+    "stability": 63,
+    "summary": "Capricornio con Sagitario: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio sagitario",
+      "capricornio con sagitario amor",
+      "capricornio sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_capricornio",
+    "sign_a": "capricornio",
+    "sign_b": "capricornio",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "capricorn",
+    "element_a": "tierra",
+    "element_b": "tierra",
+    "modality_a": "cardinal",
+    "modality_b": "cardinal",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 83,
+    "chemistry": 83,
+    "emotional": 87,
+    "communication": 81,
+    "values": 86,
+    "stability": 87,
+    "summary": "Capricornio con Capricornio: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario"
+    ],
+    "date_ideas": [
+      "restaurante con ambiente + plan financiero"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio capricornio",
+      "capricornio con capricornio amor",
+      "capricornio capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_acuario",
+    "sign_a": "capricornio",
+    "sign_b": "acuario",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "aquarius",
+    "element_a": "tierra",
+    "element_b": "aire",
+    "modality_a": "cardinal",
+    "modality_b": "fijo",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 61,
+    "chemistry": 61,
+    "emotional": 65,
+    "communication": 65,
+    "values": 64,
+    "stability": 65,
+    "summary": "Capricornio con Acuario: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio acuario",
+      "capricornio con acuario amor",
+      "capricornio acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "capricornio_piscis",
+    "sign_a": "capricornio",
+    "sign_b": "piscis",
+    "sign_a_en": "capricorn",
+    "sign_b_en": "pisces",
+    "element_a": "tierra",
+    "element_b": "agua",
+    "modality_a": "cardinal",
+    "modality_b": "mutable",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 91,
+    "chemistry": 93,
+    "emotional": 96,
+    "communication": 90,
+    "values": 94,
+    "stability": 95,
+    "summary": "Capricornio con Piscis: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad capricornio piscis",
+      "capricornio con piscis amor",
+      "capricornio piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_aries",
+    "sign_a": "acuario",
+    "sign_b": "aries",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "aries",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 86,
+    "chemistry": 88,
+    "emotional": 85,
+    "communication": 91,
+    "values": 86,
+    "stability": 86,
+    "summary": "Acuario con Aries: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario aries",
+      "acuario con aries amor",
+      "acuario aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_tauro",
+    "sign_a": "acuario",
+    "sign_b": "tauro",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "taurus",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 62,
+    "chemistry": 58,
+    "emotional": 66,
+    "communication": 66,
+    "values": 62,
+    "stability": 62,
+    "summary": "Acuario con Tauro: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario tauro",
+      "acuario con tauro amor",
+      "acuario tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_geminis",
+    "sign_a": "acuario",
+    "sign_b": "géminis",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "gemini",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 91,
+    "chemistry": 95,
+    "emotional": 91,
+    "communication": 97,
+    "values": 93,
+    "stability": 93,
+    "summary": "Acuario con Géminis: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario géminis",
+      "acuario con géminis amor",
+      "acuario géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_cancer",
+    "sign_a": "acuario",
+    "sign_b": "cáncer",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "cancer",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 57,
+    "chemistry": 57,
+    "emotional": 61,
+    "communication": 61,
+    "values": 60,
+    "stability": 57,
+    "summary": "Acuario con Cáncer: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario cáncer",
+      "acuario con cáncer amor",
+      "acuario cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_leo",
+    "sign_a": "acuario",
+    "sign_b": "leo",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "leo",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 81,
+    "chemistry": 95,
+    "emotional": 77,
+    "communication": 85,
+    "values": 81,
+    "stability": 79,
+    "summary": "Acuario con Leo: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario leo",
+      "acuario con leo amor",
+      "acuario leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_virgo",
+    "sign_a": "acuario",
+    "sign_b": "virgo",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "virgo",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 60,
+    "summary": "Acuario con Virgo: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario virgo",
+      "acuario con virgo amor",
+      "acuario virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_libra",
+    "sign_a": "acuario",
+    "sign_b": "libra",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "libra",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 93,
+    "chemistry": 97,
+    "emotional": 93,
+    "communication": 99,
+    "values": 95,
+    "stability": 95,
+    "summary": "Acuario con Libra: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario libra",
+      "acuario con libra amor",
+      "acuario libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_escorpio",
+    "sign_a": "acuario",
+    "sign_b": "escorpio",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "scorpio",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 55,
+    "chemistry": 51,
+    "emotional": 59,
+    "communication": 59,
+    "values": 55,
+    "stability": 51,
+    "summary": "Acuario con Escorpio: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario escorpio",
+      "acuario con escorpio amor",
+      "acuario escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_sagitario",
+    "sign_a": "acuario",
+    "sign_b": "sagitario",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "sagittarius",
+    "element_a": "aire",
+    "element_b": "fuego",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 89,
+    "chemistry": 91,
+    "emotional": 88,
+    "communication": 94,
+    "values": 89,
+    "stability": 89,
+    "summary": "Acuario con Sagitario: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "iniciativa y visión",
+      "diversión y movimiento",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "clase activa (baile/box)",
+      "evento urbano + after"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario sagitario",
+      "acuario con sagitario amor",
+      "acuario sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_capricornio",
+    "sign_a": "acuario",
+    "sign_b": "capricornio",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "capricorn",
+    "element_a": "aire",
+    "element_b": "tierra",
+    "modality_a": "fijo",
+    "modality_b": "cardinal",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 67,
+    "chemistry": 67,
+    "emotional": 71,
+    "communication": 71,
+    "values": 70,
+    "stability": 71,
+    "summary": "Acuario con Capricornio: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario capricornio",
+      "acuario con capricornio amor",
+      "acuario capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_acuario",
+    "sign_a": "acuario",
+    "sign_b": "acuario",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "aquarius",
+    "element_a": "aire",
+    "element_b": "aire",
+    "modality_a": "fijo",
+    "modality_b": "fijo",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 76,
+    "chemistry": 76,
+    "emotional": 74,
+    "communication": 80,
+    "values": 76,
+    "stability": 76,
+    "summary": "Acuario con Acuario: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "trivia/noches de juegos"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario acuario",
+      "acuario con acuario amor",
+      "acuario acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "acuario_piscis",
+    "sign_a": "acuario",
+    "sign_b": "piscis",
+    "sign_a_en": "aquarius",
+    "sign_b_en": "pisces",
+    "element_a": "aire",
+    "element_b": "agua",
+    "modality_a": "fijo",
+    "modality_b": "mutable",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 57,
+    "chemistry": 57,
+    "emotional": 61,
+    "communication": 61,
+    "values": 60,
+    "stability": 57,
+    "summary": "Acuario con Piscis: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad acuario piscis",
+      "acuario con piscis amor",
+      "acuario piscis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_aries",
+    "sign_a": "piscis",
+    "sign_b": "aries",
+    "sign_a_en": "pisces",
+    "sign_b_en": "aries",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 66,
+    "chemistry": 66,
+    "emotional": 70,
+    "communication": 70,
+    "values": 69,
+    "stability": 66,
+    "summary": "Piscis con Aries: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis aries",
+      "piscis con aries amor",
+      "piscis aries pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_tauro",
+    "sign_a": "piscis",
+    "sign_b": "tauro",
+    "sign_a_en": "pisces",
+    "sign_b_en": "taurus",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 89,
+    "chemistry": 91,
+    "emotional": 94,
+    "communication": 88,
+    "values": 92,
+    "stability": 93,
+    "summary": "Piscis con Tauro: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis tauro",
+      "piscis con tauro amor",
+      "piscis tauro pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_geminis",
+    "sign_a": "piscis",
+    "sign_b": "géminis",
+    "sign_a_en": "pisces",
+    "sign_b_en": "gemini",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 61,
+    "chemistry": 57,
+    "emotional": 65,
+    "communication": 65,
+    "values": 61,
+    "stability": 57,
+    "summary": "Piscis con Géminis: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis géminis",
+      "piscis con géminis amor",
+      "piscis géminis pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_cancer",
+    "sign_a": "piscis",
+    "sign_b": "cáncer",
+    "sign_a_en": "pisces",
+    "sign_b_en": "cancer",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 92,
+    "chemistry": 96,
+    "emotional": 98,
+    "communication": 92,
+    "values": 97,
+    "stability": 94,
+    "summary": "Piscis con Cáncer: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis cáncer",
+      "piscis con cáncer amor",
+      "piscis cáncer pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_leo",
+    "sign_a": "piscis",
+    "sign_b": "leo",
+    "sign_a_en": "pisces",
+    "sign_b_en": "leo",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 69,
+    "chemistry": 69,
+    "emotional": 73,
+    "communication": 73,
+    "values": 72,
+    "stability": 69,
+    "summary": "Piscis con Leo: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis leo",
+      "piscis con leo amor",
+      "piscis leo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_virgo",
+    "sign_a": "piscis",
+    "sign_b": "virgo",
+    "sign_a_en": "pisces",
+    "sign_b_en": "virgo",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "oposición",
+    "level": "M",
+    "flags": [
+      "flash",
+      "oposición"
+    ],
+    "overall": 79,
+    "chemistry": 93,
+    "emotional": 81,
+    "communication": 77,
+    "values": 82,
+    "stability": 81,
+    "summary": "Piscis con Virgo: Complemento interesante que requiere acuerdos claros.; opuestos complementarios, química elevada.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "mirada 360°"
+    ],
+    "challenges": [
+      "tira y afloje"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales",
+      "definir reglas de discusión y de reconciliación"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza",
+      "actividad de cooperación (escape room)"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "complementos que suman"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis virgo",
+      "piscis con virgo amor",
+      "piscis virgo pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_libra",
+    "sign_a": "piscis",
+    "sign_b": "libra",
+    "sign_a_en": "pisces",
+    "sign_b_en": "libra",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "inconjunción",
+    "level": "R",
+    "flags": [
+      "inconjunción"
+    ],
+    "overall": 56,
+    "chemistry": 56,
+    "emotional": 60,
+    "communication": 60,
+    "values": 59,
+    "stability": 56,
+    "summary": "Piscis con Libra: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis libra",
+      "piscis con libra amor",
+      "piscis libra pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_escorpio",
+    "sign_a": "piscis",
+    "sign_b": "escorpio",
+    "sign_a_en": "pisces",
+    "sign_b_en": "scorpio",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "trígono",
+    "level": "A",
+    "flags": [
+      "trígono"
+    ],
+    "overall": 88,
+    "chemistry": 92,
+    "emotional": 94,
+    "communication": 88,
+    "values": 93,
+    "stability": 90,
+    "summary": "Piscis con Escorpio: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "idioma común",
+      "valores afines",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "química que se siente",
+      "magnetismo instantáneo",
+      "flow sin esfuerzo"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis escorpio",
+      "piscis con escorpio amor",
+      "piscis escorpio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_sagitario",
+    "sign_a": "piscis",
+    "sign_b": "sagitario",
+    "sign_a_en": "pisces",
+    "sign_b_en": "sagittarius",
+    "element_a": "agua",
+    "element_b": "fuego",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "cuadratura",
+    "level": "R",
+    "flags": [
+      "cuadratura"
+    ],
+    "overall": 62,
+    "chemistry": 58,
+    "emotional": 66,
+    "communication": 66,
+    "values": 62,
+    "stability": 58,
+    "summary": "Piscis con Sagitario: Estilo desafiante: funciona con trabajo consciente y paciencia.; fricción creativa.",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "ritmos que chocan",
+      "diferencias de prioridad",
+      "expectativas distintas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "canalizar energía en metas compartidas",
+      "establecer roles y tiempos claros"
+    ],
+    "date_ideas": [
+      "proyecto DIY con roles definidos"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa",
+      "chispa y choque"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis sagitario",
+      "piscis con sagitario amor",
+      "piscis sagitario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_capricornio",
+    "sign_a": "piscis",
+    "sign_b": "capricornio",
+    "sign_a_en": "pisces",
+    "sign_b_en": "capricorn",
+    "element_a": "agua",
+    "element_b": "tierra",
+    "modality_a": "mutable",
+    "modality_b": "cardinal",
+    "aspect": "sextil",
+    "level": "A",
+    "flags": [
+      "sextil"
+    ],
+    "overall": 92,
+    "chemistry": 94,
+    "emotional": 97,
+    "communication": 91,
+    "values": 95,
+    "stability": 96,
+    "summary": "Piscis con Capricornio: Alta afinidad natural con sensación de fluidez.; resonancia elemental.",
+    "strengths": [
+      "apoyo emocional",
+      "proyecto y cuidado",
+      "flujo natural"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "acuerdos prácticos y calendario",
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "cocinar juntos + peli",
+      "día de spa/naturaleza"
+    ],
+    "copy_hooks": [
+      "flow sin esfuerzo",
+      "compás compartido"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis capricornio",
+      "piscis con capricornio amor",
+      "piscis capricornio pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_acuario",
+    "sign_a": "piscis",
+    "sign_b": "acuario",
+    "sign_a_en": "pisces",
+    "sign_b_en": "aquarius",
+    "element_a": "agua",
+    "element_b": "aire",
+    "modality_a": "mutable",
+    "modality_b": "fijo",
+    "aspect": "semisextil",
+    "level": "R",
+    "flags": [],
+    "overall": 63,
+    "chemistry": 63,
+    "emotional": 67,
+    "communication": 67,
+    "values": 66,
+    "stability": 63,
+    "summary": "Piscis con Acuario: Estilo desafiante: funciona con trabajo consciente y paciencia..",
+    "strengths": [
+      "potencial complementario"
+    ],
+    "challenges": [
+      "expectativas distintas",
+      "gestión de conflicto"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales",
+      "hacer explícitas las decisiones"
+    ],
+    "date_ideas": [
+      "cita clásica con giro personal"
+    ],
+    "copy_hooks": [
+      "reto que transforma",
+      "fricción creativa"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis acuario",
+      "piscis con acuario amor",
+      "piscis acuario pareja"
+    ],
+    "version": 1
+  },
+  {
+    "pair_id": "piscis_piscis",
+    "sign_a": "piscis",
+    "sign_b": "piscis",
+    "sign_a_en": "pisces",
+    "sign_b_en": "pisces",
+    "element_a": "agua",
+    "element_b": "agua",
+    "modality_a": "mutable",
+    "modality_b": "mutable",
+    "aspect": "conjunción",
+    "level": "M",
+    "flags": [
+      "conjunción"
+    ],
+    "overall": 76,
+    "chemistry": 76,
+    "emotional": 80,
+    "communication": 74,
+    "values": 79,
+    "stability": 76,
+    "summary": "Piscis con Piscis: Complemento interesante que requiere acuerdos claros.; energía duplicada.",
+    "strengths": [
+      "idioma común",
+      "valores afines"
+    ],
+    "challenges": [
+      "ajustar expectativas"
+    ],
+    "tips": [
+      "check‑ins emocionales semanales"
+    ],
+    "date_ideas": [
+      "museo/arte + charla íntima"
+    ],
+    "copy_hooks": [
+      "complementos que suman",
+      "negociar para crecer"
+    ],
+    "seo_tags": [
+      "compatibilidad piscis piscis",
+      "piscis con piscis amor",
+      "piscis piscis pareja"
+    ],
+    "version": 1
+  }
+]
