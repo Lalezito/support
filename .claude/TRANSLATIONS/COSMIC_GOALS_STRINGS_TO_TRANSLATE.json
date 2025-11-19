@@ -1,0 +1,233 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "date": "2025-10-10",
+    "purpose": "Complete list of Cosmic Goals strings for translation",
+    "source_file": "Extracted from cosmic_coach_screen.dart, smart_goal_recommender.dart, goal_completion_celebration.dart",
+    "target_languages": ["fr", "de", "pt", "it"],
+    "total_strings": 89
+  },
+
+  "1_tips_database": {
+    "description": "From smart_goal_recommender.dart _getTipsDatabase()",
+    "total": 38,
+    "strings": {
+      "fitness_Aries": "🏃 Aries: Your natural energy peaks in the morning. Use that Martian fire!",
+      "mindfulness_Aries": "🧘 Aries: Challenge yourself to stay still. Your power grows in calm.",
+      "wellness_Taurus": "🌿 Taurus: Your connection to nature is healing. Ground yourself.",
+      "finance_Taurus": "💰 Taurus: Your patience with money is your greatest wealth.",
+      "learning_Gemini": "📚 Gemini: Your curious mind absorbs everything. Channel that!",
+      "social_Gemini": "👥 Gemini: Your communication gift connects people.",
+      "relationships_Cancer": "❤️ Cancer: Your emotional depth creates lasting bonds.",
+      "wellness_Cancer": "💧 Cancer: Water activities restore your lunar energy.",
+      "creativity_Leo": "🎨 Leo: Your creative expression inspires others. Shine!",
+      "leadership_Leo": "👑 Leo: Your generous heart makes you a natural leader.",
+      "wellness_Virgo": "🌱 Virgo: Your attention to health details serves you well.",
+      "service_Virgo": "🤝 Virgo: Your desire to help improves everything you touch.",
+      "relationships_Libra": "⚖️ Libra: Your diplomatic nature creates harmony.",
+      "wellness_Libra": "🌸 Libra: Balance is your path to inner peace.",
+      "growth_Scorpio": "🦂 Scorpio: Your transformative power is profound.",
+      "healing_Scorpio": "💜 Scorpio: Embrace deep healing. You are ready.",
+      "adventure_Sagittarius": "🗺️ Sagittarius: Your explorer spirit knows no bounds!",
+      "learning_Sagittarius": "📖 Sagittarius: Philosophy feeds your expansive mind.",
+      "career_Capricorn": "🏔️ Capricorn: Your disciplined climb reaches the summit.",
+      "finance_Capricorn": "💼 Capricorn: Long-term thinking is your superpower.",
+      "growth_Aquarius": "⚡ Aquarius: Your innovative mind changes the world.",
+      "service_Aquarius": "🌍 Aquarius: Your humanitarian vision inspires.",
+      "creativity_Pisces": "🎨 Pisces: Your artistic soul channels divine inspiration.",
+      "mindfulness_Pisces": "🌊 Pisces: Your spiritual connection is your guide.",
+      "fitness": "💪 Movement is medicine. Your body thanks you!",
+      "mindfulness": "🧘 Peace starts within. Breathe and center.",
+      "wellness": "🌟 Self-care is not selfish. It is essential.",
+      "learning": "📚 Every day is a chance to grow wiser.",
+      "creativity": "🎨 Your unique expression matters. Create!",
+      "relationships": "❤️ Deep connections enrich life.",
+      "career": "🚀 Your professional growth shapes your future.",
+      "finance": "💰 Financial wellness = peace of mind.",
+      "nature": "🌿 Nature heals. Connect with Earth.",
+      "service": "🤝 Helping others elevates everyone.",
+      "growth": "🌱 Personal evolution never stops.",
+      "adventure": "🗺️ New experiences expand your world.",
+      "healing": "💜 Healing takes courage. You have it.",
+      "leadership": "👑 Lead with heart. Inspire with action."
+    }
+  },
+
+  "2_celebration_messages": {
+    "description": "From goal_completion_celebration.dart _getMessageForCategory()",
+    "total": 39,
+    "categories": {
+      "fitness": [
+        "💪 Amazing! Your dedication shines!",
+        "🔥 You're unstoppable!",
+        "⚡ Energy champion!"
+      ],
+      "mindfulness": [
+        "🧘 Inner peace achieved!",
+        "✨ Your mind is powerful!",
+        "🌸 Tranquility mastered!"
+      ],
+      "wellness": [
+        "🌟 Glowing! You're thriving!",
+        "💚 Self-care queen/king!",
+        "🌈 Wellness warrior!"
+      ],
+      "learning": [
+        "📚 Knowledge gained!",
+        "🧠 Mind expanded!",
+        "🎓 Wisdom achieved!"
+      ],
+      "creativity": [
+        "🎨 Creative genius!",
+        "✨ Inspiration flows!",
+        "🌟 Artistic brilliance!"
+      ],
+      "relationships": [
+        "❤️ Connection deepened!",
+        "💕 Love multiplied!",
+        "🤝 Bond strengthened!"
+      ],
+      "career": [
+        "🚀 Professional victory!",
+        "💼 Career milestone!",
+        "🏆 Success unlocked!"
+      ],
+      "finance": [
+        "💰 Wealth building!",
+        "📈 Financial win!",
+        "💎 Money mastered!"
+      ],
+      "nature": [
+        "🌿 Earth connected!",
+        "🌍 Nature embraced!",
+        "🏞️ Grounded achieved!"
+      ],
+      "service": [
+        "🤝 Impact made!",
+        "🌟 Kindness spreads!",
+        "💖 Service delivered!"
+      ],
+      "growth": [
+        "🌱 Evolution complete!",
+        "🦋 Transformation!",
+        "✨ Leveled up!"
+      ],
+      "adventure": [
+        "🗺️ Explorer mode!",
+        "🌟 Adventure won!",
+        "🏔️ Summit reached!"
+      ],
+      "healing": [
+        "💜 Healing progressed!",
+        "🌸 Recovery milestone!",
+        "✨ Wholeness restored!"
+      ]
+    }
+  },
+
+  "3_ui_strings": {
+    "description": "UI labels from cosmic_coach_screen.dart",
+    "total": 12,
+    "strings": {
+      "goals_empty_state": "No goals yet. Generate some below!",
+      "smart_goals_generated": "🧠 Smart goals generated for {userSign}",
+      "new_goals_generated": "✨ New goals generated for {userSign}",
+      "goal_completed_success": "Goal completed successfully!",
+      "statistics_title": "Your Progress",
+      "current_streak_label": "Current Streak",
+      "success_rate_label": "Success Rate",
+      "this_week_label": "This Week",
+      "total_completed_label": "Total Completed",
+      "top_categories_label": "Top Categories",
+      "generate_button": "Generate New Goals",
+      "coming_soon": "Coming soon"
+    }
+  },
+
+  "translation_notes": {
+    "placeholders": {
+      "userSign": "NEVER translate. Keep as {userSign}. Example: 'Goals for {userSign}' → 'Objectifs pour {userSign}'"
+    },
+    "emojis": {
+      "rule": "ALWAYS preserve emojis exactly as they appear",
+      "example": "💪 Amazing! → 💪 Incroyable!"
+    },
+    "tone": {
+      "style": "Motivational, empowering, encouraging",
+      "length": "Keep similar length (±20%)",
+      "formality": "Informal/conversational (tu/du/você/tu)"
+    },
+    "zodiac_signs": {
+      "rule": "Use proper zodiac name in target language",
+      "examples": {
+        "Aries": {
+          "fr": "Bélier",
+          "de": "Widder",
+          "pt": "Áries",
+          "it": "Ariete"
+        },
+        "Leo": {
+          "fr": "Lion",
+          "de": "Löwe",
+          "pt": "Leão",
+          "it": "Leone"
+        }
+      }
+    },
+    "categories": {
+      "fitness": {
+        "fr": "Forme physique",
+        "de": "Fitness",
+        "pt": "Fitness",
+        "it": "Fitness"
+      },
+      "mindfulness": {
+        "fr": "Pleine conscience",
+        "de": "Achtsamkeit",
+        "pt": "Atenção plena",
+        "it": "Consapevolezza"
+      },
+      "wellness": {
+        "fr": "Bien-être",
+        "de": "Wohlbefinden",
+        "pt": "Bem-estar",
+        "it": "Benessere"
+      },
+      "career": {
+        "fr": "Carrière",
+        "de": "Karriere",
+        "pt": "Carreira",
+        "it": "Carriera"
+      },
+      "relationships": {
+        "fr": "Relations",
+        "de": "Beziehungen",
+        "pt": "Relacionamentos",
+        "it": "Relazioni"
+      },
+      "creativity": {
+        "fr": "Créativité",
+        "de": "Kreativität",
+        "pt": "Criatividade",
+        "it": "Creatività"
+      }
+    }
+  },
+
+  "deliverables_per_language": {
+    "required_files": [
+      "tips_{lang}.json - All 38 tips translated",
+      "celebration_{lang}.json - All 39 celebration messages translated",
+      "ui_{lang}.json - All 12 UI strings translated"
+    ],
+    "validation_checklist": [
+      "✅ All emojis preserved",
+      "✅ Placeholders not translated",
+      "✅ Zodiac signs in target language",
+      "✅ Similar length to source",
+      "✅ Motivational tone maintained",
+      "✅ Culturally appropriate expressions",
+      "✅ Valid JSON syntax"
+    ]
+  }
+}

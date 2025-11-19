@@ -1,0 +1,325 @@
+{
+  "@advancedCosmicAnalysis": {
+    "description": "Advanced cosmic analysis feature label"
+  },
+  "@advancedCosmicAnalysisDescription": {
+    "description": "Description of advanced cosmic analysis features"
+  },
+  "@ai_coach_onboarding": {
+    "description": "AI coach onboarding screen label"
+  },
+  "@analyticsCoachSessionsLabel": {
+    "description": "Analytics label for coach sessions count"
+  },
+  "@analyticsCosmicCoachFeature": {
+    "description": "Analytics label for cosmic coach feature"
+  },
+  "@analyticsGoalsCompleted": {
+    "description": "Analytics label for completed goals count"
+  },
+  "@analyticsGoalsProgressTitle": {
+    "description": "Analytics title for goals progress section"
+  },
+  "@celebration_adventure_1": {
+    "description": "Celebration message 1 for adventure goal completion"
+  },
+  "@celebration_adventure_2": {
+    "description": "Celebration message 2 for adventure goal completion"
+  },
+  "@celebration_adventure_3": {
+    "description": "Celebration message 3 for adventure goal completion"
+  },
+  "@celebration_career_1": {
+    "description": "Celebration message 1 for career goal completion"
+  },
+  "@celebration_career_2": {
+    "description": "Celebration message 2 for career goal completion"
+  },
+  "@celebration_career_3": {
+    "description": "Celebration message 3 for career goal completion"
+  },
+  "@celebration_creativity_1": {
+    "description": "Celebration message 1 for creativity goal completion"
+  },
+  "@celebration_creativity_2": {
+    "description": "Celebration message 2 for creativity goal completion"
+  },
+  "@celebration_creativity_3": {
+    "description": "Celebration message 3 for creativity goal completion"
+  },
+  "@celebration_finance_1": {
+    "description": "Celebration message 1 for finance goal completion"
+  },
+  "@celebration_finance_2": {
+    "description": "Celebration message 2 for finance goal completion"
+  },
+  "@celebration_finance_3": {
+    "description": "Celebration message 3 for finance goal completion"
+  },
+  "@celebration_fitness_1": {
+    "description": "Celebration message 1 for fitness goal completion"
+  },
+  "@celebration_fitness_2": {
+    "description": "Celebration message 2 for fitness goal completion"
+  },
+  "@celebration_fitness_3": {
+    "description": "Celebration message 3 for fitness goal completion"
+  },
+  "@celebration_growth_1": {
+    "description": "Celebration message 1 for growth goal completion"
+  },
+  "@celebration_growth_2": {
+    "description": "Celebration message 2 for growth goal completion"
+  },
+  "@celebration_growth_3": {
+    "description": "Celebration message 3 for growth goal completion"
+  },
+  "@celebration_healing_1": {
+    "description": "Celebration message 1 for healing goal completion"
+  },
+  "@celebration_healing_2": {
+    "description": "Celebration message 2 for healing goal completion"
+  },
+  "@celebration_healing_3": {
+    "description": "Celebration message 3 for healing goal completion"
+  },
+  "@celebration_leadership_1": {
+    "description": "Celebration message 1 for leadership goal completion"
+  },
+  "@celebration_leadership_2": {
+    "description": "Celebration message 2 for leadership goal completion"
+  },
+  "@celebration_leadership_3": {
+    "description": "Celebration message 3 for leadership goal completion"
+  },
+  "@celebration_learning_1": {
+    "description": "Celebration message 1 for learning goal completion"
+  },
+  "@celebration_learning_2": {
+    "description": "Celebration message 2 for learning goal completion"
+  },
+  "@celebration_learning_3": {
+    "description": "Celebration message 3 for learning goal completion"
+  },
+  "@celebration_mindfulness_1": {
+    "description": "Celebration message 1 for mindfulness goal completion"
+  },
+  "@celebration_mindfulness_2": {
+    "description": "Celebration message 2 for mindfulness goal completion"
+  },
+  "@celebration_mindfulness_3": {
+    "description": "Celebration message 3 for mindfulness goal completion"
+  },
+  "@celebration_nature_1": {
+    "description": "Celebration message 1 for nature goal completion"
+  },
+  "@celebration_nature_2": {
+    "description": "Celebration message 2 for nature goal completion"
+  },
+  "@celebration_nature_3": {
+    "description": "Celebration message 3 for nature goal completion"
+  },
+  "@celebration_relationships_1": {
+    "description": "Celebration message 1 for relationships goal completion"
+  },
+  "@celebration_relationships_2": {
+    "description": "Celebration message 2 for relationships goal completion"
+  },
+  "@celebration_relationships_3": {
+    "description": "Celebration message 3 for relationships goal completion"
+  },
+  "@celebration_service_1": {
+    "description": "Celebration message 1 for service goal completion"
+  },
+  "@celebration_service_2": {
+    "description": "Celebration message 2 for service goal completion"
+  },
+  "@celebration_service_3": {
+    "description": "Celebration message 3 for service goal completion"
+  },
+  "@celebration_wellness_1": {
+    "description": "Celebration message 1 for wellness goal completion"
+  },
+  "@celebration_wellness_2": {
+    "description": "Celebration message 2 for wellness goal completion"
+  },
+  "@celebration_wellness_3": {
+    "description": "Celebration message 3 for wellness goal completion"
+  },
+  "@cosmicBalance": {
+    "description": "Cosmic balance message",
+    "placeholders": {
+      "element": {
+        "type": "String",
+        "example": "Fire"
+      }
+    }
+  },
+  "@cosmicGrowthPeriod": {
+    "description": "Cosmic growth period label"
+  },
+  "@cosmicIntrospectionPeriod": {
+    "description": "Cosmic introspection period label"
+  },
+  "@goal_completed_success": {
+    "description": "Success message when goal is completed"
+  },
+  "@goalDetails": {
+    "description": "Goal details screen title"
+  },
+  "@goals_empty_state": {
+    "description": "Empty state message when no goals exist"
+  },
+  "@new_goals_generated": {
+    "description": "Message shown when new goals are generated",
+    "placeholders": {
+      "userSign": {
+        "type": "String",
+        "example": "Aries"
+      }
+    }
+  },
+  "@premiumCosmicAnalysis": {
+    "description": "Premium cosmic analysis feature label"
+  },
+  "@premiumCosmicAnalysisDescription": {
+    "description": "Description of premium cosmic analysis features"
+  },
+  "@smart_goals_generated": {
+    "description": "Message shown when smart goals are generated",
+    "placeholders": {
+      "userSign": {
+        "type": "String",
+        "example": "Aries"
+      }
+    }
+  },
+  "addGoal": "Agregar Meta",
+  "advancedCosmicAnalysis": "💎 Análisis Cósmico Avanzado",
+  "advancedCosmicAnalysisDescription": "Descubre patrones únicos en tu carta astral, compatibilidad avanzada y predicciones personalizadas basadas en IA.",
+  "advancedCosmicGuidance": "💫 Guía cósmica avanzada",
+  "advancedGoalTracking": "Seguimiento avanzado de metas",
+  "analyticsCoachSessionsLabel": "Sesiones de Coach",
+  "analyticsCosmicCoachFeature": "Coach Cósmico",
+  "analyticsFeatureCosmicCoach": "Coach Cósmico",
+  "analyticsGoalsCompleted": "de {total} completadas",
+  "analyticsGoalsProgressTitle": "Progreso de Metas",
+  "analyzingCosmicCompatibility": "Analizando compatibilidad cósmica...",
+  "celebration_adventure_1": "🗺️ ¡Modo explorador!",
+  "celebration_adventure_2": "🌟 ¡Aventura conquistada!",
+  "celebration_adventure_3": "🏔️ ¡Cumbre alcanzada!",
+  "celebration_career_1": "🚀 ¡Victoria profesional!",
+  "celebration_career_2": "💼 ¡Hito profesional!",
+  "celebration_career_3": "🏆 ¡Éxito desbloqueado!",
+  "celebration_creativity_1": "🎨 ¡Genio creativo!",
+  "celebration_creativity_2": "✨ ¡Inspiración fluyendo!",
+  "celebration_creativity_3": "🌟 ¡Brillantez artística!",
+  "celebration_finance_1": "💰 ¡Construyendo riqueza!",
+  "celebration_finance_2": "📈 ¡Victoria financiera!",
+  "celebration_finance_3": "💎 ¡Maestría del dinero!",
+  "celebration_fitness_1": "💪 ¡Arrasando!",
+  "celebration_fitness_2": "🔥 ¡Modo bestia activado!",
+  "celebration_fitness_3": "⚡ ¡Campeón de energía!",
+  "celebration_growth_1": "🌱 ¡Evolución completa!",
+  "celebration_growth_2": "🦋 ¡Transformación!",
+  "celebration_growth_3": "✨ ¡Nivel superado!",
+  "celebration_healing_1": "💜 ¡Progreso sanador!",
+  "celebration_healing_2": "🌸 ¡Hito de recuperación!",
+  "celebration_healing_3": "✨ ¡Plenitud restaurada!",
+  "celebration_leadership_1": "👑 ¡Líder emergiendo!",
+  "celebration_leadership_2": "⭐ ¡Influencia creciendo!",
+  "celebration_leadership_3": "💫 ¡Inspirando a otros!",
+  "celebration_learning_1": "📚 ¡Conocimiento adquirido!",
+  "celebration_learning_2": "🧠 ¡Mente expandida!",
+  "celebration_learning_3": "🎓 ¡Sabiduría desbloqueada!",
+  "celebration_mindfulness_1": "🧘 Paz interior alcanzada",
+  "celebration_mindfulness_2": "✨ Nivel maestro zen",
+  "celebration_mindfulness_3": "🌸 ¡Tranquilidad dominada!",
+  "celebration_nature_1": "🌿 ¡Conexión con la Tierra!",
+  "celebration_nature_2": "🌍 ¡Naturaleza abrazada!",
+  "celebration_nature_3": "🏞️ ¡Enraizamiento logrado!",
+  "celebration_relationships_1": "❤️ ¡Conexión profundizada!",
+  "celebration_relationships_2": "💕 ¡Amor multiplicado!",
+  "celebration_relationships_3": "🤝 ¡Vínculo fortalecido!",
+  "celebration_service_1": "🤝 ¡Impacto generado!",
+  "celebration_service_2": "🌟 ¡Bondad expandiéndose!",
+  "celebration_service_3": "💖 ¡Servicio entregado!",
+  "celebration_wellness_1": "🌟 ¡Radiante! ¡Estás floreciendo!",
+  "celebration_wellness_2": "💚 ¡Rey/Reina del autocuidado!",
+  "celebration_wellness_3": "🌈 ¡Guerrero del bienestar!",
+  "compatibility_strength_ambitious_goals": "Metas ambiciosas y determinación compartida",
+  "compatibility_tip_channel_energy_shared_goals": "Canalizar energía en metas compartidas",
+  "completeGoalQuestion": "¿Completar Meta?",
+  "confirmCompleteGoal": "¿Estás seguro que deseas marcar esta meta como completada? Esta acción no se puede deshacer.",
+  "confirmDeleteGoal": "Esta acción no se puede deshacer. La meta y todo su progreso serán eliminados permanentemente.",
+  "considerReviewingSleepHabits": "Considera revisar tus hábitos de descanso",
+  "cosmicAdvice": "Consejo Cósmico",
+  "cosmicAIState": "Estado de la IA Cósmica",
+  "cosmicAiStatus": "🧠 Estado de la IA cósmica",
+  "cosmicBalance": "Mantienes un equilibrio admirable. Tu naturaleza de {element} está en armonía.",
+  "cosmicChime": "Campanada Cósmica",
+  "cosmicCoachPremiumDesc": "Tu IA astrológica personal para crecimiento y bienestar ilimitados",
+  "cosmicCoachTitle": "Coach Cósmico",
+  "cosmicConsistency": "Consistencia Cósmica",
+  "cosmicEnergy": "Energía Cósmica",
+  "cosmicEnergyContent": "Tu energía está alineada con las fuerzas cósmicas hoy.",
+  "cosmicGrowthPeriod": "Estás en un período de crecimiento cósmico. Tu energía de {element} se está expandiendo positivamente.",
+  "cosmicInsightFor": "Insight Cósmico para",
+  "cosmicIntrospectionPeriod": "Estás detectando un período de introspección. Tu signo de {element} necesita renovar energías.",
+  "cosmicLifeCoach": "Coach de Vida Cósmico",
+  "cosmicMastery": "Maestría cósmica",
+  "cosmicReminders": "Recordatorios cósmicos",
+  "cosmicTier": "Premium Cósmico",
+  "dailyCosmicAdvice": "💡 Tu consejo cósmico del día",
+  "dailyCosmicCheckIn": "Check-in Cósmico Diario",
+  "dailyCosmicMessage": "💫 Tu mensaje cósmico del día",
+  "defaultCosmicAdvice": "Las estrellas te sonríen hoy. Confía en tu intuición y en tu camino cósmico único.",
+  "deleteGoal": "Eliminar Meta",
+  "discoverCosmicMask": "Descubre tu máscara cósmica",
+  "featureAllCosmicIncluded": "Todas las funciones Cosmic incluidas",
+  "featureUnlimitedCoaching": "Conversaciones de coaching IA ilimitadas",
+  "goal_completed_success": "¡Meta completada exitosamente!",
+  "goalAddedSuccessfully": "Meta agregada exitosamente",
+  "goalDetails": "Detalles de Meta",
+  "goals_empty_state": "No hay metas aún. ¡Genera algunas abajo!",
+  "goalTitle": "Título de la Meta",
+  "goalTitlePlaceholder": "Ej: Meditar 10 minutos diarios",
+  "hashtagCosmic": "cosmico",
+  "loadingCosmicGuidance": "Cargando tu guía cósmica...",
+  "lockedPremiumCosmicCoach": "🔒 Coach Cósmico Premium",
+  "new_goals_generated": "✨ Nuevas metas generadas para {userSign}",
+  "newGoal": "Nueva Meta",
+  "newGoalsGenerated": "Nuevas metas generadas para",
+  "onboardingAiCoachDescription": "Familiarízate con tu asesor cósmico personal",
+  "onboardingAiCoachName": "Coach de Vida Cósmico IA",
+  "onboardingCoachCompleteDescription": "Comienza tu viaje con orientación cósmica personalizada e coaching inteligente de vida",
+  "onboardingCoachCompleteTitle": "¡Tu Coach está Listo!",
+  "onboardingCoachGoalsDescription": "Tu coach seguirá tu progreso y proporcionará orientación optimizada según el tiempo",
+  "onboardingCoachGoalsTitle": "Establece tus Metas",
+  "onboardingCoachInteractionDescription": "Observa cómo tu coach responde a preguntas reales con sabiduría cósmica",
+  "onboardingCoachInteractionTitle": "Conversaciones Inteligentes",
+  "onboardingCoachIntroDescription": "Orientación personalizada que evoluciona con tu viaje cósmico",
+  "onboardingCoachIntroTitle": "Qué hace especial a tu Coach",
+  "onboardingCoachWelcomeDescription": "Tu guía personal para decisiones de vida, potenciado por astrología avanzada y sabiduría de IA",
+  "onboardingCoachWelcomeTitle": "Conoce a tu Coach Cósmico IA",
+  "pauseGoal": "Pausar Meta",
+  "personalCosmicGuide": "Tu Guía Cósmica Personal",
+  "personalizedGoals": "Metas Personalizadas",
+  "premiumCosmicAnalysis": "🔒 Análisis Cósmico Premium",
+  "premiumCosmicAnalysisDescription": "Desbloquea análisis profundos de tu personalidad, compatibilidad avanzada y predicciones personalizadas.",
+  "premiumCosmicCoach": "💎 Coach Cósmico Premium",
+  "premiumCosmicCoachDescription": "Acceso ilimitado a insights avanzados, predicciones personalizadas y guía cósmica completa.",
+  "shareCompatibilityCosmicOnly": "💜 Share de compatibilidad es exclusivo de Cosmic tier o superior",
+  "smart_goals_generated": "🧠 Metas inteligentes generadas para {userSign}",
+  "smartGoalsGenerated": "Metas inteligentes generadas para",
+  "tierCosmicDesc": "Conocimientos cósmicos profundos con experiencia sin anuncios y astrología predictiva",
+  "timeForCosmicCheckIn": "¡Es hora de tu check-in cósmico diario!",
+  "trackCosmicPredictions": "Rastrea tus predicciones cósmicas y ve qué tan precisas son",
+  "unlimitedCosmicCoachAccess": "Acceso ilimitado al Cosmic Coach",
+  "unlockCosmicCoachDescription": "Desbloquea el poder completo de tu coach cósmico personal con insights ilimitados y predicciones avanzadas.",
+  "unlockCosmicPotential": "¡Desbloquea tu Potencial Cósmico!",
+  "yourCosmicAdviceOfTheDay": "Tu Consejo Cósmico del Día",
+  "yourCosmicGoals": "Tus Metas Cósmicas",
+  "yourCosmicProgress": "Tu Progreso Cósmico",
+  "yourGoals": "Tus Metas"
+}

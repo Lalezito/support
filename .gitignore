@@ -1,3 +1,40 @@
 
 # YoYo AI version control directory
 .yoyo/
+
+# ========================================
+# SECURITY: API Keys and Secrets
+# ========================================
+# Never commit sensitive keys to version control
+# Added: 2025-10-29 - Security Agent
+
+# External secrets directory
+zodiac_secrets/
+**/zodiac_secrets/
+
+# Secure environment files
+.env.production.secure
+**/.env.production.secure
+.env.local
+**/.env.local
+.env.*.local
+
+# Build artifacts containing secrets
+build/**/.env
+build/**/.env.*
+**/build/**/.env
+**/build/**/.env.*
+
+# RevenueCat API keys (if accidentally created)
+revenuecat_*.key
+**/revenuecat_*.key
+
+# Firebase configuration (if downloaded)
+google-services.json.backup
+GoogleService-Info.plist.backup
+firebase-*.json
+
+# Temporary security files
+*.secret
+*.key.bak
+*_secret_*

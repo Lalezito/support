@@ -1,0 +1,22 @@
+# Files requiring urgent attention (Phase 1)
+
+## Unsafe parsing (can crash app):
+lib/services/preferences_service.dart
+lib/services/zodiac_service.dart
+
+## Hardcoded backend URLs:
+lib/services/api_service.dart
+lib/services/backend_service.dart
+lib/services/certificate_pinning_service.dart
+lib/services/consultation_session_service.dart
+lib/services/goal_planner_service.dart
+lib/services/network_security_service.dart
+lib/services/payment_service.dart
+lib/services/receipt_validation_service.dart
+lib/services/unified_notification_service.dart
+lib/services/weekly_horoscope_service.dart
+
+## Duplicated validations:
+lib/services/input_validation_service.dart
+lib/services/isolate_service.dart
+lib/services/user_authentication_service.dart

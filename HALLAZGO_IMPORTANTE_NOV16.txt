@@ -1,0 +1,134 @@
+╔══════════════════════════════════════════════════════════════════════════╗
+║                                                                          ║
+║            🎯 HALLAZGO IMPORTANTE - TEXTOS EN INGLÉS                    ║
+║                                                                          ║
+║                   16 Noviembre 2025 - 22:30                              ║
+║                                                                          ║
+╚══════════════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════════════
+  🔍 QUÉ ENCONTRÉ
+═══════════════════════════════════════════════════════════════════════════
+
+Después de investigar por qué sigues viendo textos en inglés mezclados con
+español/alemán, encontré la CAUSA RAÍZ:
+
+📄 Archivo: context_aware_goal_generator.dart
+
+✅ Tiene ~100 microHabits hardcodeados en INGLÉS
+✅ NO tiene sistema de traducciones
+✅ Este es el contenido que ves en inglés ("ciclo, acciones, peso", etc.)
+
+
+═══════════════════════════════════════════════════════════════════════════
+  ❌ EJEMPLOS DE TEXTOS EN INGLÉS (encontrados en el código)
+═══════════════════════════════════════════════════════════════════════════
+
+'habit': 'Take a 10-20 minute power nap before 3 PM'
+'when': 'When you feel the afternoon energy dip'
+'why': 'NASA study: 26-minute naps boost performance by 34%'
+
+'habit': 'Set a "screen sunset" alarm for 9 PM'
+'when': 'Right now, before you forget'
+'why': 'Blue light disrupts melatonin production 2 hours before sleep'
+
+'habit': '4-7-8 Breathing: Inhale 4s, hold 7s, exhale 8s (4 cycles)'
+'when': 'Right now, wherever you are'
+'why': 'Navy SEALs use this - activates parasympathetic nervous system'
+
+Y así... ~100 más
+
+
+═══════════════════════════════════════════════════════════════════════════
+  🆚 COMPARACIÓN DE ARCHIVOS
+═══════════════════════════════════════════════════════════════════════════
+
+✅ biorhythm_micro_habits_translations.dart
+   → SÍ tiene traducciones (6 idiomas completos)
+   → Este contenido SÍ se ve en español/alemán
+
+❌ context_aware_goal_generator.dart
+   → NO tiene traducciones (todo en inglés)
+   → Este contenido se ve en INGLÉS
+
+RESULTADO: Contenido mezclado (algunos en español, otros en inglés)
+
+
+═══════════════════════════════════════════════════════════════════════════
+  💡 OPCIONES DE SOLUCIÓN
+═══════════════════════════════════════════════════════════════════════════
+
+OPCIÓN A (Rápida - 15 minutos):
+  ► Deshabilitar temporalmente context-aware goals
+  ► Usar solo biorhythm goals (ya traducidos)
+  ► Resultado: TODO en tu idioma seleccionado
+  ► Pierdes algunos tipos de metas (pero al menos todo está traducido)
+
+OPCIÓN B (Completa - 2-3 horas):
+  ► Crear archivo context_aware_goal_translations.dart
+  ► Traducir ~100 microHabits × 6 idiomas = ~600 traducciones
+  ► Modificar el generador para usar traducciones
+  ► Resultado: TODO en tu idioma + funcionalidad completa
+
+
+═══════════════════════════════════════════════════════════════════════════
+  🎯 MI RECOMENDACIÓN
+═══════════════════════════════════════════════════════════════════════════
+
+1. Primero aplicar OPCIÓN A (15 min)
+   → Tendrás experiencia 100% en español/alemán YA
+   → Podrás testear que TODO funciona
+
+2. Después aplicar OPCIÓN B (cuando tengas tiempo)
+   → Completar todas las traducciones
+   → Recuperar funcionalidad completa
+
+
+═══════════════════════════════════════════════════════════════════════════
+  📊 ESTADO DE LOS FIXES
+═══════════════════════════════════════════════════════════════════════════
+
+✅ FIX 1: Traducciones de secciones (LISTO)
+✅ FIX 2: Auto-sync signo zodiacal (LISTO)
+✅ FIX 3: Idioma seleccionado (LISTO)
+✅ FIX 4: Generación de nuevas metas (LISTO)
+⚠️ FIX 5: Context-aware goals traducciones (PENDIENTE)
+
+
+═══════════════════════════════════════════════════════════════════════════
+  🚀 QUÉ HACER AHORA
+═══════════════════════════════════════════════════════════════════════════
+
+Dime qué prefieres:
+
+A) "Hazme el fix rápido (Opción A)" → 15 minutos, TODO en español
+
+B) "Hazme el fix completo (Opción B)" → 2-3 horas, TODO traducido + completo
+
+C) "Primero rápido, después completo" → Lo mejor de ambos mundos
+
+
+═══════════════════════════════════════════════════════════════════════════
+  📄 DOCUMENTACIÓN CREADA
+═══════════════════════════════════════════════════════════════════════════
+
+1. FIX_5_CONTEXT_AWARE_GOAL_TRANSLATIONS_NOV16.md
+   → Análisis completo del problema
+   → Ejemplos de código
+   → Opciones de solución detalladas
+
+2. HALLAZGO_IMPORTANTE_NOV16.txt (este archivo)
+   → Resumen ejecutivo rápido
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+Generado: 16 Noviembre 2025 - 22:30
+Estado: Esperando tu decisión (Opción A, B, o C)
+
+Como dijiste: "Si eso no anda, no tiene sentido la aplicación"
+
+Ahora sabemos EXACTAMENTE qué falta traducir para que TODO tenga sentido.
+
+═══════════════════════════════════════════════════════════════════════════

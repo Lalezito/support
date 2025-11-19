@@ -1,0 +1,250 @@
+{
+  "cloud_optimized_config": {
+    "model_orchestration": {
+      "intelligent_fallback": true,
+      "primary_model": "claude-3-5-opus-20241022",
+      "fallback_hierarchy": [
+        "claude-3-5-opus-20241022",
+        "claude-3-5-sonnet-20241022", 
+        "claude-3-5-haiku-20241022"
+      ],
+      "auto_model_selection": {
+        "complexity_threshold_opus": 8,
+        "token_count_threshold_opus": 1000,
+        "critical_tasks_force_opus": true,
+        "cost_optimization": true,
+        "performance_priority": true
+      },
+      "model_routing_rules": {
+        "architecture_decisions": "opus",
+        "complex_implementations": "opus", 
+        "error_diagnosis": "opus",
+        "quality_validation": "opus",
+        "simple_tasks": "sonnet",
+        "documentation": "sonnet",
+        "testing": "sonnet", 
+        "formatting": "haiku"
+      }
+    },
+
+    "agent_hierarchy_optimized": {
+      "tier_1_master": {
+        "orchestrator_master": {
+          "role": "Sistema central de coordinación neuronal",
+          "model": "opus",
+          "priority": 1,
+          "active": true,
+          "responsibilities": [
+            "Coordinación general del proyecto",
+            "Toma de decisiones arquitecturales",
+            "Asignación inteligente de tareas",
+            "Monitoreo de calidad global"
+          ]
+        }
+      },
+
+      "tier_2_core_specialists": {
+        "zodiac_flutter_expert": {
+          "role": "Especialista principal Flutter/Dart",
+          "model": "opus",
+          "priority": 2,
+          "active": true,
+          "specialization": "Flutter, Dart, UI/UX, Mobile Architecture"
+        },
+        "zodiac_backend_expert": {
+          "role": "Especialista principal Backend/API",
+          "model": "opus", 
+          "priority": 2,
+          "active": true,
+          "specialization": "Node.js, PostgreSQL, APIs REST, Firebase"
+        },
+        "zodiac_business_expert": {
+          "role": "Especialista estrategia de negocio",
+          "model": "sonnet",
+          "priority": 2,
+          "active": true,
+          "specialization": "Monetización, UX, Product Strategy"
+        }
+      },
+
+      "tier_3_domain_experts": {
+        "performance_optimizer": {
+          "role": "Optimización de rendimiento",
+          "model": "sonnet",
+          "priority": 3,
+          "active": true,
+          "focus": ["Performance", "Memory", "Battery", "Startup time"]
+        },
+        "security_specialist": {
+          "role": "Seguridad y compliance", 
+          "model": "sonnet",
+          "priority": 3,
+          "active": true,
+          "focus": ["Security audit", "OWASP", "Data protection"]
+        },
+        "quality_assurance": {
+          "role": "Testing y validación",
+          "model": "sonnet",
+          "priority": 3,
+          "active": true,
+          "focus": ["Unit tests", "Integration tests", "E2E testing"]
+        }
+      },
+
+      "tier_4_support_agents": {
+        "documentation_assistant": {
+          "role": "Documentación y localización",
+          "model": "haiku",
+          "priority": 4,
+          "active": true,
+          "focus": ["Documentation", "Localization", "Comments"]
+        },
+        "code_formatter": {
+          "role": "Formato y estilo de código",
+          "model": "haiku", 
+          "priority": 4,
+          "active": true,
+          "focus": ["Code style", "Formatting", "Linting"]
+        }
+      }
+    },
+
+    "deprecated_agents": {
+      "reason": "Consolidados en agentes tier superiores para evitar redundancia",
+      "list": [
+        "flutter_mobile_expert.md",
+        "backend_api_expert.md", 
+        "ui_design_system_expert.md",
+        "ux_research_expert.md",
+        "visual_identity_expert.md",
+        "flutter_animation_expert.md",
+        "architecture_analysis_expert.md",
+        "code_quality_metrics_expert.md",
+        "accessibility_ux_analysis_expert.md",
+        "backend_database_analysis_expert.md",
+        "performance_analysis_expert.md",
+        "security_analysis_expert.md",
+        "integration_dependencies_analysis_expert.md",
+        "unit_testing_expert.md",
+        "widget_testing_expert.md",
+        "integration_testing_expert.md",
+        "e2e_testing_expert.md",
+        "backend_api_testing_expert.md",
+        "business_monetization_expert.md",
+        "product_strategy_expert.md",
+        "devops_expert.md",
+        "ai_content_expert.md",
+        "localization_expert.md"
+      ]
+    },
+
+    "workflow_orchestration": {
+      "task_delegation_strategy": "anthropic_best_practices",
+      "parallel_execution": true,
+      "token_optimization": true,
+      "cost_efficiency": true,
+      
+      "execution_order": {
+        "1_planning": {
+          "agent": "orchestrator_master",
+          "model": "opus",
+          "tasks": ["Análisis de requerimientos", "Estrategia de implementación"]
+        },
+        "2_core_development": {
+          "agents": ["zodiac_flutter_expert", "zodiac_backend_expert"],
+          "model": "opus", 
+          "parallel": true,
+          "tasks": ["Implementaciones críticas", "Arquitectura"]
+        },
+        "3_quality_assurance": {
+          "agents": ["performance_optimizer", "security_specialist", "quality_assurance"],
+          "model": "sonnet",
+          "parallel": true,
+          "tasks": ["Testing", "Optimización", "Seguridad"]
+        },
+        "4_finalization": {
+          "agents": ["documentation_assistant", "code_formatter"],
+          "model": "haiku",
+          "parallel": true, 
+          "tasks": ["Documentación", "Formato", "Cleanup"]
+        }
+      }
+    },
+
+    "cloud_optimization": {
+      "performance_settings": {
+        "max_tokens_per_request": 8192,
+        "temperature": 0.1,
+        "top_p": 0.95,
+        "presence_penalty": 0,
+        "frequency_penalty": 0,
+        "stream": true,
+        "timeout_seconds": 300
+      },
+      
+      "caching_strategy": {
+        "context_caching": true,
+        "prompt_caching": true,
+        "response_caching": false,
+        "cache_ttl_minutes": 60
+      },
+
+      "cost_optimization": {
+        "model_switching_enabled": true,
+        "batch_processing": true,
+        "token_limit_per_session": 100000,
+        "cost_tracking": true,
+        "budget_alerts": true
+      },
+
+      "reliability": {
+        "retry_attempts": 3,
+        "exponential_backoff": true,
+        "circuit_breaker": true,
+        "health_checks": true,
+        "fallback_models": true
+      }
+    },
+
+    "zodiac_specific_optimization": {
+      "domain_knowledge": {
+        "zodiac_signs": 12,
+        "supported_languages": 6,
+        "compatibility_matrix": "12x12",
+        "ai_insight_categories": 8
+      },
+      
+      "performance_targets": {
+        "app_startup_max_ms": 2000,
+        "compatibility_calc_max_ms": 500,
+        "ui_response_max_ms": 100,
+        "memory_usage_max_mb": 150,
+        "crash_rate_max_percent": 0.1
+      },
+      
+      "quality_gates": {
+        "test_coverage_min": 85,
+        "code_quality_score_min": 8.5,
+        "performance_score_min": 90,
+        "security_score_min": 95,
+        "accessibility_score_min": 85
+      }
+    }
+  },
+
+  "activation_protocol": {
+    "auto_start": true,
+    "model_fallback_automatic": true,
+    "agent_coordination_automatic": true,
+    "quality_validation_automatic": true,
+    "cost_monitoring_automatic": true,
+    
+    "trigger_conditions": {
+      "complex_task_detection": true,
+      "multi_file_changes": true,
+      "architecture_modifications": true,
+      "performance_issues": true,
+      "security_concerns": true
+    }
+  }
+}

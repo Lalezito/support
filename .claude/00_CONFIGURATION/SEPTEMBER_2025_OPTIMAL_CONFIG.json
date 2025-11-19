@@ -1,0 +1,247 @@
+{
+  "september_2025_optimal_config": {
+    "last_updated": "2025-09-17",
+    "config_version": "3.0_september_2025_cutting_edge",
+    "anthropic_latest_models": true,
+
+    "model_configuration_sept_2025": {
+      "primary_model": "claude-opus-4-1-20250805",
+      "secondary_model": "claude-sonnet-4-20250514", 
+      "tertiary_model": "claude-3-5-haiku-20241022",
+      
+      "intelligent_model_routing": {
+        "opus_4_1_for": [
+          "complex_multi_file_refactoring",
+          "architecture_decisions_critical",
+          "advanced_debugging_large_codebases", 
+          "agentic_research_tasks",
+          "detailed_data_analysis",
+          "swe_bench_level_coding",
+          "precision_corrections_large_codebases"
+        ],
+        "sonnet_4_for": [
+          "standard_development_tasks",
+          "testing_implementation", 
+          "documentation_generation",
+          "performance_optimization",
+          "security_analysis"
+        ],
+        "haiku_for": [
+          "simple_formatting",
+          "basic_file_operations",
+          "quick_syntax_checks"
+        ]
+      },
+
+      "advanced_features_enabled": {
+        "extended_thinking": true,
+        "extended_thinking_max_tokens": 64000,
+        "context_window_1m": true,
+        "context_1m_beta_header": "context-1m-2025-08-07",
+        "output_128k": true,
+        "output_128k_header": "output-128k-2025-02-19",
+        "streaming_messages_api": true,
+        "priority_tier_access": true
+      }
+    },
+
+    "performance_optimization_sept_2025": {
+      "api_settings": {
+        "max_tokens": 200000,
+        "temperature": 0.05,
+        "top_p": 0.95,
+        "presence_penalty": 0,
+        "frequency_penalty": 0,
+        "stream": true,
+        "timeout_seconds": 600,
+        "enable_long_context_pricing": true
+      },
+      
+      "context_management": {
+        "use_1m_context_for_complex_tasks": true,
+        "context_compression": true,
+        "smart_context_windowing": true,
+        "context_caching_aggressive": true,
+        "context_ttl_minutes": 120
+      },
+
+      "thinking_optimization": {
+        "enable_extended_thinking": true,
+        "thinking_token_budget": 64000,
+        "thinking_summaries": true,
+        "interleaved_thinking": true,
+        "thinking_for_complex_reasoning": true
+      }
+    },
+
+    "coding_performance_enhancement": {
+      "swe_bench_optimizations": true,
+      "multi_file_refactoring_mode": true,
+      "precision_debugging": true,
+      "large_codebase_analysis": true,
+      "terminal_bench_optimization": true,
+      "tool_use_optimization": {
+        "bash_tool_enhanced": true,
+        "file_editing_string_replacement": true,
+        "no_planning_tool_needed": true
+      }
+    },
+
+    "zodiac_app_specific_sept_2025": {
+      "flutter_dart_optimization": {
+        "model": "claude-opus-4-1-20250805",
+        "extended_thinking_for_architecture": true,
+        "1m_context_for_large_refactors": true,
+        "precision_debugging_flutter": true
+      },
+      
+      "nodejs_backend_optimization": {
+        "model": "claude-opus-4-1-20250805", 
+        "postgresql_query_optimization": true,
+        "api_performance_analysis": true,
+        "cron_job_optimization": true
+      },
+
+      "quality_assurance_enhanced": {
+        "model": "claude-sonnet-4-20250514",
+        "comprehensive_test_generation": true,
+        "performance_benchmark_validation": true,
+        "security_audit_automated": true
+      },
+
+      "performance_targets_2025": {
+        "app_startup_max_ms": 1500,
+        "compatibility_calc_max_ms": 300,
+        "ui_response_max_ms": 50,
+        "memory_usage_max_mb": 120,
+        "crash_rate_max_percent": 0.05,
+        "swe_bench_score_target": 70
+      }
+    },
+
+    "agent_orchestration_sept_2025": {
+      "tier_1_master_orchestrator": {
+        "model": "claude-opus-4-1-20250805",
+        "extended_thinking": true,
+        "1m_context": true,
+        "role": "Advanced coordination with 74.5% SWE-bench performance"
+      },
+      
+      "tier_2_core_specialists": {
+        "zodiac_flutter_expert": {
+          "model": "claude-opus-4-1-20250805",
+          "specialization": "Multi-file Flutter refactoring with precision"
+        },
+        "zodiac_backend_expert": {
+          "model": "claude-opus-4-1-20250805", 
+          "specialization": "Large codebase Node.js optimization"
+        },
+        "zodiac_ai_research_expert": {
+          "model": "claude-opus-4-1-20250805",
+          "specialization": "Agentic research and data analysis"
+        }
+      },
+
+      "tier_3_quality_specialists": {
+        "performance_optimizer": {
+          "model": "claude-sonnet-4-20250514",
+          "context_window": "1M for large analysis"
+        },
+        "security_specialist": {
+          "model": "claude-sonnet-4-20250514",
+          "extended_thinking": true
+        },
+        "quality_assurance": {
+          "model": "claude-sonnet-4-20250514",
+          "comprehensive_testing": true
+        }
+      }
+    },
+
+    "cost_optimization_sept_2025": {
+      "intelligent_model_switching": true,
+      "use_cheaper_models_when_appropriate": true,
+      "batch_processing_enabled": true,
+      "context_sharing_optimization": true,
+      "thinking_token_budgeting": true,
+      "priority_tier_for_critical_tasks": true
+    },
+
+    "reliability_sept_2025": {
+      "retry_mechanism": {
+        "max_attempts": 5,
+        "exponential_backoff": true,
+        "model_fallback_chain": [
+          "claude-opus-4-1-20250805",
+          "claude-sonnet-4-20250514", 
+          "claude-3-5-haiku-20241022"
+        ]
+      },
+      
+      "health_monitoring": {
+        "api_status_tracking": true,
+        "model_availability_monitoring": true,
+        "performance_metrics_tracking": true,
+        "automatic_degradation_handling": true
+      },
+
+      "circuit_breaker": {
+        "enabled": true,
+        "failure_threshold": 3,
+        "recovery_timeout_minutes": 5,
+        "fallback_model_automatic": true
+      }
+    },
+
+    "security_privacy_sept_2025": {
+      "data_retention_minimized": true,
+      "context_encryption": true,
+      "api_key_rotation": true,
+      "audit_logging": true,
+      "privacy_by_design": true,
+      "gdpr_compliance": true
+    },
+
+    "automation_rules_sept_2025": {
+      "auto_activate_opus_4_1_when": {
+        "files_modified": 8,
+        "lines_changed": 200,
+        "complexity_score": 9,
+        "architecture_changes": true,
+        "large_refactoring": true,
+        "debugging_complex_issues": true
+      },
+      
+      "auto_activate_extended_thinking_when": {
+        "problem_complexity_high": true,
+        "multi_step_reasoning_required": true,
+        "architectural_decisions": true,
+        "research_tasks": true,
+        "detailed_analysis_required": true
+      },
+
+      "auto_activate_1m_context_when": {
+        "large_codebase_analysis": true,
+        "multi_file_refactoring": true,
+        "comprehensive_documentation": true,
+        "context_exceeds_200k": true
+      }
+    }
+  },
+
+  "activation_protocol_sept_2025": {
+    "immediate_activation": true,
+    "automatic_model_selection": true,
+    "intelligent_feature_activation": true,
+    "performance_monitoring": true,
+    "cost_optimization": true,
+    
+    "success_metrics": {
+      "coding_performance_target": "74.5% SWE-bench",
+      "debugging_precision": "99.5%",
+      "multi_file_refactoring_success": "95%", 
+      "response_quality_score": "9.5/10",
+      "cost_efficiency_ratio": "optimize for value"
+    }
+  }
+}

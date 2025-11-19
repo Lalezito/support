@@ -1,0 +1,685 @@
+{
+  "summary": {
+    "total_en_keys": 1427,
+    "total_es_keys": 1427,
+    "coverage_percent": 100.0,
+    "quality_percent": 83.18149964961458,
+    "missing_keys": 0,
+    "untranslated_keys": 118,
+    "english_remnants": 51,
+    "issues_found": 71
+  },
+  "missing_keys": [],
+  "untranslated_keys": [
+    "adventure",
+    "adventure_Sagittarius",
+    "appTitle",
+    "areYouSureYouWantToSignOut",
+    "aries",
+    "businessCompatibility",
+    "cardinal",
+    "career_Capricorn",
+    "celebration_adventure_1",
+    "celebration_adventure_2",
+    "celebration_adventure_3",
+    "celebration_career_1",
+    "celebration_career_2",
+    "celebration_career_3",
+    "celebration_creativity_1",
+    "celebration_creativity_2",
+    "celebration_creativity_3",
+    "celebration_finance_1",
+    "celebration_finance_2",
+    "celebration_finance_3",
+    "celebration_fitness_1",
+    "celebration_fitness_2",
+    "celebration_fitness_3",
+    "celebration_growth_1",
+    "celebration_growth_2",
+    "celebration_growth_3",
+    "celebration_healing_1",
+    "celebration_healing_2",
+    "celebration_healing_3",
+    "celebration_leadership_1",
+    "celebration_leadership_2",
+    "celebration_leadership_3",
+    "celebration_learning_1",
+    "celebration_learning_2",
+    "celebration_learning_3",
+    "celebration_mindfulness_1",
+    "celebration_mindfulness_2",
+    "celebration_mindfulness_3",
+    "celebration_nature_1",
+    "celebration_nature_2",
+    "celebration_nature_3",
+    "celebration_relationships_1",
+    "celebration_relationships_2",
+    "celebration_relationships_3",
+    "celebration_service_1",
+    "celebration_service_2",
+    "celebration_service_3",
+    "celebration_wellness_1",
+    "celebration_wellness_2",
+    "celebration_wellness_3",
+    "coming_soon",
+    "compatibilityRegular",
+    "compatibility_modality_cardinal",
+    "compatibility_modality_mutable",
+    "compatibility_sign_aries",
+    "compatibility_sign_leo",
+    "compatibility_sign_libra",
+    "compatibility_sign_virgo",
+    "creativity",
+    "creativity_Leo",
+    "creativity_Pisces",
+    "current_streak_label",
+    "dataExportWillBeImplementedHere",
+    "error",
+    "finance",
+    "finance_Capricorn",
+    "finance_Taurus",
+    "fitness",
+    "fitness_Aries",
+    "generate_button",
+    "goal_completed_success",
+    "goals_empty_state",
+    "growth_Aquarius",
+    "growth_Scorpio",
+    "healing",
+    "healing_Scorpio",
+    "leadership",
+    "leadership_Leo",
+    "learning",
+    "learning_Gemini",
+    "learning_Sagittarius",
+    "leo",
+    "libra",
+    "manual",
+    "mindfulness",
+    "mindfulness_Aries",
+    "mindfulness_Pisces",
+    "mutable",
+    "nature",
+    "no",
+    "ok",
+    "plan",
+    "premium",
+    "relationships",
+    "relationships_Cancer",
+    "relationships_Libra",
+    "service",
+    "service_Aquarius",
+    "service_Virgo",
+    "signOut",
+    "signedOutSuccessfully",
+    "social_Gemini",
+    "statistics_title",
+    "success_rate_label",
+    "tap_anywhere_continue",
+    "this_week_label",
+    "top_categories_label",
+    "total_completed_label",
+    "tutorial",
+    "universalInfluence",
+    "venus",
+    "virgo",
+    "wellness",
+    "wellness_Cancer",
+    "wellness_Libra",
+    "wellness_Taurus",
+    "wellness_Virgo",
+    "zodiacPremium"
+  ],
+  "english_remnants": [
+    "activatePremium",
+    "alreadyPremium",
+    "benefitPremiumTitle",
+    "compatibilityPremiumBonus",
+    "compatibility_analysis_premium",
+    "cosmicTier",
+    "errorActivatingPremium",
+    "featurePremiumTiming",
+    "monthlyDescription",
+    "noVerifiedPredictionsSubtitle",
+    "onboardingPremiumBenefitsDescription",
+    "onboardingPremiumBenefitsTitle",
+    "onboardingPremiumCompleteDescription",
+    "onboardingPremiumCompleteTitle",
+    "onboardingPremiumDescription",
+    "onboardingPremiumExperience",
+    "onboardingPremiumFeaturesDescription",
+    "onboardingPremiumFeaturesTitle",
+    "onboardingPremiumName",
+    "onboardingPremiumShowcaseDescription",
+    "onboardingPremiumTitle",
+    "onboardingPremiumWelcomeDescription",
+    "onboardingPremiumWelcomeTitle",
+    "premiumActivated",
+    "premiumActivatedTest",
+    "premiumActive",
+    "premiumAnalysis",
+    "premiumAscendantAnalysis",
+    "premiumBenefits",
+    "premiumContent",
+    "premiumDeactivatedTest",
+    "premiumDebeComprarseEnLaPantallaPremium",
+    "premiumExclusiveFeatures",
+    "premiumFeature",
+    "premiumFeatures",
+    "premiumFunctionality",
+    "premiumFunctions",
+    "premiumImprovementTips",
+    "premiumUser",
+    "testingPremium",
+    "testingPremiumDesc",
+    "tierStellarDesc",
+    "unlockDetailedAnalysis",
+    "unlockPremium",
+    "unlockPremiumPower",
+    "unlockPremiumSharing",
+    "upgradeToPremium",
+    "upgradeToPremiumBtn",
+    "upgradeToPremiumTooltip",
+    "version",
+    "youArePremiumUser"
+  ],
+  "issues": {
+    "activatePremium": {
+      "value": "Activar Premium",
+      "line": 1940,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "alreadyPremium": {
+      "value": "¡Ya tienes acceso Premium!",
+      "line": 134,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "appTitle": {
+      "value": "Zodiac App",
+      "line": 12,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "benefitPremiumTitle": {
+      "value": "Transferencia Premium",
+      "line": 4446,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "career_Capricorn": {
+      "value": "🏔️ Capricorn: Your disciplined climb reaches the summit.",
+      "line": 4559,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "celebration_wellness_1": {
+      "value": "🌟 Glowing! You are flourishing!",
+      "line": 4637,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "compatibilityPremiumBonus": {
+      "value": "Análisis premium: Esta combinación tiene potencial para crear una conexión profunda y transformadora.",
+      "line": 3164,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "compatibility_analysis_premium": {
+      "value": "Análisis de compatibilidad premium",
+      "line": 2177,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "cosmicTier": {
+      "value": "Premium Cósmico",
+      "line": 838,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "creativity": {
+      "value": "🎨 Your unique expression matters. Create!",
+      "line": 4595,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "errorActivatingPremium": {
+      "value": "Error al activar premium",
+      "line": 1908,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "featurePremiumTiming": {
+      "value": "Insights de timing premium",
+      "line": 4404,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "finance_Capricorn": {
+      "value": "💼 Capricorn: Long-term thinking is your superpower.",
+      "line": 4563,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "finance_Taurus": {
+      "value": "💰 Taurus: Your patience with money is your greatest wealth.",
+      "line": 4500,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "fitness": {
+      "value": "💪 Movement is medicine. Your body thanks you!",
+      "line": 4583,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "fitness_Aries": {
+      "value": "🏃 Aries: Your natural energy peaks in the morning. Use that Martian fire!",
+      "line": 4488,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "growth_Aquarius": {
+      "value": "⚡ Aquarius: Your innovative mind changes the world.",
+      "line": 4567,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "growth_Scorpio": {
+      "value": "🦂 Scorpio: Your transformative power is profound.",
+      "line": 4543,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "healing": {
+      "value": "💜 Healing takes courage. You have it.",
+      "line": 4613,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "healing_Scorpio": {
+      "value": "💜 Scorpio: Embrace deep healing. You are ready.",
+      "line": 4547,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "learning": {
+      "value": "📚 Every day is a chance to grow wiser.",
+      "line": 4592,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "mindfulness": {
+      "value": "🧘 Peace starts within. Breathe and center.",
+      "line": 4586,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "mindfulness_Pisces": {
+      "value": "🌊 Pisces: Your spiritual connection is your guide.",
+      "line": 4579,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "monthlyDescription": {
+      "value": "Perfecto para probar todas las funciones premium",
+      "line": 2942,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "noVerifiedPredictionsSubtitle": {
+      "value": "Aún no has verificado ninguna predicción. Comienza creando y verificando predicciones para seguir tu precisión cósmica.",
+      "line": 186,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumBenefitsDescription": {
+      "value": "Todo incluido en tu membresía premium",
+      "line": 567,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumBenefitsTitle": {
+      "value": "Beneficios de Suscripción Premium",
+      "line": 563,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumCompleteDescription": {
+      "value": "Disfruta acceso ilimitado a todas las funciones premium y perspectivas cósmicas",
+      "line": 574,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumCompleteTitle": {
+      "value": "¡Premium Activado!",
+      "line": 571,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumDescription": {
+      "value": "Desbloquea acceso ilimitado a funciones avanzadas, análisis detallados y perspectivas cósmicas exclusivas con suscripción premium.",
+      "line": 623,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumExperience": {
+      "value": "Experiencia Premium",
+      "line": 3216,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumFeaturesDescription": {
+      "value": "Descubre todas las herramientas exclusivas disponibles para miembros premium",
+      "line": 552,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumFeaturesTitle": {
+      "value": "Resumen de Funciones Premium",
+      "line": 549,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumName": {
+      "value": "Funciones Premium",
+      "line": 620,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumShowcaseDescription": {
+      "value": "Explora cada función premium y sus beneficios únicos",
+      "line": 559,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumTitle": {
+      "value": "Características Premium",
+      "line": 2967,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumWelcomeDescription": {
+      "value": "Desbloquea el poder completo de la orientación cósmica con funciones premium",
+      "line": 545,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "onboardingPremiumWelcomeTitle": {
+      "value": "¡Bienvenido a Premium!",
+      "line": 542,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premium": {
+      "value": "Premium",
+      "line": 36,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumActivated": {
+      "value": "¡Premium activado exitosamente!",
+      "line": 137,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumActivatedTest": {
+      "value": "✅ Premium activado - Modo de prueba",
+      "line": 147,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumActive": {
+      "value": "Premium Activo",
+      "line": 271,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumAnalysis": {
+      "value": "Análisis Premium",
+      "line": 3011,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumAscendantAnalysis": {
+      "value": "Análisis de Ascendente Premium",
+      "line": 778,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumBenefits": {
+      "value": "Beneficios premium",
+      "line": 2210,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumContent": {
+      "value": "Contenido Premium",
+      "line": 54,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumDeactivatedTest": {
+      "value": "🧪 Premium desactivado - Listo para probar compras",
+      "line": 143,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumDebeComprarseEnLaPantallaPremium": {
+      "value": "Premium debe comprarse en la pantalla Premium",
+      "line": 3447,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumExclusiveFeatures": {
+      "value": "Funciones Exclusivas Premium",
+      "line": 1032,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumFeature": {
+      "value": "Función Premium",
+      "line": 292,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumFeatures": {
+      "value": "Funciones Premium",
+      "line": 93,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumFunctionality": {
+      "value": "Funcionalidad Premium",
+      "line": 1329,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumFunctions": {
+      "value": "Funciones Premium",
+      "line": 1038,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumImprovementTips": {
+      "value": "Consejos de Mejora Premium",
+      "line": 891,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "premiumUser": {
+      "value": "Usuario Premium",
+      "line": 253,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "testingPremium": {
+      "value": "Probando Premium",
+      "line": 1933,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "testingPremiumDesc": {
+      "value": "Activación temporal de premium para pruebas de desarrollo",
+      "line": 1936,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "tierStellarDesc": {
+      "value": "Coach de vida IA 24/7 con apoyo en crisis e insights de timing premium",
+      "line": 4359,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "unlockDetailedAnalysis": {
+      "value": "Desbloquea análisis detallado de compatibilidad con Premium",
+      "line": 3014,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "unlockPremium": {
+      "value": "Desbloquear Premium",
+      "line": 57,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "unlockPremiumPower": {
+      "value": "Desbloquea el Poder Premium",
+      "line": 114,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "unlockPremiumSharing": {
+      "value": "Desbloquear Compartir Premium",
+      "line": 3255,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "upgradeToPremium": {
+      "value": "Actualizar a Premium",
+      "line": 265,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "upgradeToPremiumBtn": {
+      "value": "Actualizar a Premium",
+      "line": 274,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "upgradeToPremiumTooltip": {
+      "value": "Actualizar a Premium",
+      "line": 1764,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "version": {
+      "value": "Versión 1.0.0 • Zodiac Premium",
+      "line": 325,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "wellness": {
+      "value": "🌟 Self-care is not selfish. It is essential.",
+      "line": 4589,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "wellness_Libra": {
+      "value": "🌸 Libra: Balance is your path to inner peace.",
+      "line": 4540,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "wellness_Taurus": {
+      "value": "🌿 Taurus: Your connection to nature is healing. Ground yourself.",
+      "line": 4496,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "youArePremiumUser": {
+      "value": "¡Eres un Usuario Premium!",
+      "line": 111,
+      "issues": [
+        "Contains English words"
+      ]
+    },
+    "zodiacPremium": {
+      "value": "Zodiac Premium",
+      "line": 725,
+      "issues": [
+        "Contains English words"
+      ]
+    }
+  }
+}

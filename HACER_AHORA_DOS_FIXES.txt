@@ -1,0 +1,205 @@
+╔════════════════════════════════════════════════════════════════════════════╗
+║                                                                            ║
+║            🔧 2 FIXES APLICADOS - QUÉ HACER AHORA                         ║
+║                                                                            ║
+║                   16 Noviembre 2025                                        ║
+║                                                                            ║
+╚════════════════════════════════════════════════════════════════════════════╝
+
+
+═══════════════════════════════════════════════════════════════════════════
+  ✅ LO QUE YA ESTÁ ARREGLADO
+═══════════════════════════════════════════════════════════════════════════
+
+  FIX 1: Traducciones en Tarjetas de Cosmic Coach
+    ✅ enhanced_coach_adapter.dart modificado
+    ✅ 30 traducciones agregadas (6 idiomas)
+    ✅ "Recommended actions" → 6 idiomas
+    ✅ "When", "Why" → 6 idiomas
+
+  FIX 2: Sincronización Automática del Signo Zodiacal
+    ✅ preferences_service.dart modificado
+    ✅ Auto-sync agregado en 2 funciones
+    ✅ Fecha ↔ Signo sincronizados
+
+
+═══════════════════════════════════════════════════════════════════════════
+  🚀 PASO 1: APLICAR LOS CAMBIOS (IMPORTANTE)
+═══════════════════════════════════════════════════════════════════════════
+
+  Hot Restart (más rápido):
+    ⌨️  Presiona 'R' (mayúscula) en la terminal de Flutter
+
+  O Reiniciar Completamente:
+    1. Cierra la app en el iPhone
+    2. cd zodiac_app
+    3. flutter run -d 00008150-0015244A2288401C
+
+
+═══════════════════════════════════════════════════════════════════════════
+  🧪 PASO 2: TESTEAR FIX 1 - TRADUCCIONES
+═══════════════════════════════════════════════════════════════════════════
+
+  1. Abre la app en tu iPhone
+
+  2. Ve a Settings → Language → Deutsch (alemán)
+
+  3. Ve a Cosmic Coach (Coach Cósmico)
+
+  4. Abre una tarjeta de meta
+
+  5. VERIFICAR QUE TODO ESTÉ EN ALEMÁN:
+
+     ANTES (lo que veías):
+       ⚙️ Recommended actions    ← INGLÉS ✗
+         · When: Heute            ← INGLÉS ✗
+         · Why: Die Erholungs...  ← Alemán ✓
+
+     DESPUÉS (lo que deberías ver ahora):
+       ⚙️ Empfohlene Maßnahmen   ← ALEMÁN ✓
+         · Wann: Heute            ← ALEMÁN ✓
+         · Warum: Die Erholungs... ← ALEMÁN ✓
+
+  6. Verifica también:
+     ✅ Fortschritt messen       ← (antes: "How to measure progress")
+     🔬 Wissenschaftlich fundiert ← (antes: "Science-backed")
+
+
+═══════════════════════════════════════════════════════════════════════════
+  🧪 PASO 3: TESTEAR FIX 2 - SIGNO ZODIACAL
+═══════════════════════════════════════════════════════════════════════════
+
+  OPCIÓN A: Si tu signo YA está correcto
+    → Skip este test, ya funciona ✓
+
+  OPCIÓN B: Si tu signo está INCORRECTO (ej: muestra Capricornio en vez de Tauro)
+
+    1. Ve a Settings → Birth Date
+
+    2. Anota tu fecha actual: _______________
+
+    3. Cámbiala a OTRA fecha temporalmente
+       (ej: si está 5 Mayo, cámbiala a 4 Mayo)
+
+    4. Guarda
+
+    5. Cámbiala DE VUELTA a tu fecha real
+
+    6. Guarda
+
+    7. Vuelve a Home
+
+    8. VERIFICA que ahora muestre el signo CORRECTO
+
+  OPCIÓN C: Testear con diferentes fechas
+
+    Prueba estas fechas y verifica el signo:
+
+    | Fecha          | Signo Esperado |
+    |----------------|----------------|
+    | 5 Mayo         | Tauro ♉        |
+    | 1 Enero        | Capricornio ♑  |
+    | 15 Marzo       | Piscis ♓       |
+    | 25 Diciembre   | Capricornio ♑  |
+    | 10 Agosto      | Leo ♌          |
+
+
+═══════════════════════════════════════════════════════════════════════════
+  ✅ QUÉ DEBERÍAS VER AHORA
+═══════════════════════════════════════════════════════════════════════════
+
+  FIX 1 - Traducciones en Tarjetas:
+    ✅ TODO en alemán cuando el idioma es alemán
+    ✅ "Empfohlene Maßnahmen" en vez de "Recommended actions"
+    ✅ "Wann" en vez de "When"
+    ✅ "Warum" en vez de "Why"
+    ✅ CERO textos en inglés
+
+  FIX 2 - Signo Zodiacal:
+    ✅ Fecha 5 Mayo → Muestra Tauro (no Capricornio)
+    ✅ Cambias fecha → Signo se actualiza automáticamente
+    ✅ Fecha y signo SIEMPRE sincronizados
+
+
+═══════════════════════════════════════════════════════════════════════════
+  📚 DOCUMENTACIÓN
+═══════════════════════════════════════════════════════════════════════════
+
+  Resumen rápido (este archivo):
+    HACER_AHORA_DOS_FIXES.txt ⭐
+
+  Resumen de ambos fixes:
+    RESUMEN_DOS_FIXES_NOV16.md
+
+  Fix 1 - Detalles completos:
+    FIX_COSMIC_COACH_TARJETAS_COMPLETO_NOV16.md
+    LEEME_FIX_TARJETAS_NOV16.md
+
+  Fix 2 - Detalles completos:
+    FIX_SIGNO_ZODIACAL_AUTO_SYNC_NOV16.md
+
+
+═══════════════════════════════════════════════════════════════════════════
+  ❓ SI ALGO NO FUNCIONA
+═══════════════════════════════════════════════════════════════════════════
+
+  FIX 1 - Si sigues viendo "Recommended actions":
+    1. Verifica que hiciste hot restart
+    2. Cierra completamente la app y vuélvela a abrir
+    3. Reinicia el iPhone si es necesario
+    4. Verifica el archivo: enhanced_coach_adapter.dart líneas 290-340
+
+  FIX 2 - Si el signo no se sincroniza:
+    1. Ve a Settings → Birth Date
+    2. Cambia la fecha a algo diferente
+    3. Guarda
+    4. Cámbiala de vuelta a tu fecha real
+    5. Guarda
+    6. El signo debería actualizarse ahora
+
+  Si NADA funciona:
+    1. Borra los datos de la app
+    2. Reinstala
+    3. Configura todo de nuevo
+
+
+═══════════════════════════════════════════════════════════════════════════
+  📊 RESUMEN DE ARCHIVOS MODIFICADOS
+═══════════════════════════════════════════════════════════════════════════
+
+  2 archivos modificados:
+    1. lib/services/cosmic_coach/enhanced_coach_adapter.dart
+       → +30 traducciones (5 secciones × 6 idiomas)
+
+    2. lib/services/preferences_service.dart
+       → +8 líneas (auto-sync fecha ↔ signo)
+
+  Total líneas agregadas: ~58
+
+
+═══════════════════════════════════════════════════════════════════════════
+  🎯 CHECKLIST FINAL
+═══════════════════════════════════════════════════════════════════════════
+
+  [ ] Hot restart de la app (o reiniciar completamente)
+
+  [ ] Testear Fix 1:
+      [ ] Cambiar a alemán
+      [ ] Abrir tarjeta en Cosmic Coach
+      [ ] Verificar "Empfohlene Maßnahmen", "Wann", "Warum"
+
+  [ ] Testear Fix 2:
+      [ ] Cambiar fecha de nacimiento
+      [ ] Verificar que el signo se actualiza automáticamente
+
+  [ ] Verificar que todo funciona en 2-3 idiomas más
+
+  [ ] ¡Listo! ✅
+
+
+═══════════════════════════════════════════════════════════════════════════
+
+Generado: 16 Noviembre 2025
+Fixes aplicados: 2
+Archivos modificados: 2
+Estado: ✅ Listo para testear

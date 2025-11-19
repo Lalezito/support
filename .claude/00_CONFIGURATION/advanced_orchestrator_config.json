@@ -1,0 +1,243 @@
+{
+  "orchestrator_advanced_config": {
+    "model_preferences": {
+      "primary_model": "opus",
+      "fallback_chain": ["opus", "sonnet", "haiku"],
+      "model_selection_strategy": "always_prefer_opus",
+      "opus_priority_tasks": [
+        "complex_implementations",
+        "large_refactoring",
+        "architecture_decisions", 
+        "error_diagnosis",
+        "quality_validation",
+        "post_implementation_analysis"
+      ],
+      "force_opus_for": {
+        "file_count_threshold": 5,
+        "lines_changed_threshold": 100,
+        "complexity_score_threshold": 7,
+        "critical_system_changes": true
+      }
+    },
+
+    "post_implementation_verification": {
+      "enabled": true,
+      "auto_trigger_conditions": {
+        "files_modified_count": 3,
+        "lines_changed_total": 50,
+        "implementation_duration_minutes": 10,
+        "critical_files_touched": true,
+        "new_dependencies_added": true
+      },
+      
+      "verification_protocols": {
+        "immediate_checks": {
+          "syntax_validation": true,
+          "import_verification": true,
+          "basic_compilation_test": true,
+          "dependency_integrity": true,
+          "file_structure_validation": true
+        },
+        
+        "quality_checks": {
+          "code_style_validation": true,
+          "performance_impact_analysis": true,
+          "security_vulnerability_scan": true,
+          "test_coverage_maintenance": true,
+          "documentation_completeness": true
+        },
+        
+        "integration_checks": {
+          "cross_service_compatibility": true,
+          "api_contract_validation": true,
+          "database_schema_integrity": true,
+          "configuration_consistency": true,
+          "environment_compatibility": true
+        }
+      }
+    },
+
+    "auto_fix_system": {
+      "enabled": true,
+      "fix_confidence_threshold": 85,
+      "auto_fix_categories": {
+        "syntax_errors": {
+          "enabled": true,
+          "confidence_required": 95,
+          "max_attempts": 3
+        },
+        "import_issues": {
+          "enabled": true,
+          "confidence_required": 90,
+          "auto_organize": true
+        },
+        "formatting_issues": {
+          "enabled": true,
+          "confidence_required": 99,
+          "apply_project_standards": true
+        },
+        "simple_refactoring": {
+          "enabled": true,
+          "confidence_required": 85,
+          "preserve_functionality": true
+        },
+        "documentation_gaps": {
+          "enabled": true,
+          "confidence_required": 80,
+          "generate_missing_docs": true
+        }
+      },
+      
+      "complex_issue_handling": {
+        "escalation_threshold": 70,
+        "human_approval_required": true,
+        "detailed_analysis_report": true,
+        "multiple_solution_options": true
+      }
+    },
+
+    "long_implementation_protocols": {
+      "definition": {
+        "duration_threshold_minutes": 15,
+        "file_count_threshold": 8,
+        "complexity_indicators": [
+          "new_services_created",
+          "architecture_changes",
+          "database_modifications",
+          "api_changes",
+          "dependency_updates"
+        ]
+      },
+      
+      "checkpoint_system": {
+        "enabled": true,
+        "checkpoint_interval_minutes": 5,
+        "auto_save_progress": true,
+        "rollback_points": true,
+        "progress_documentation": true
+      },
+      
+      "post_completion_protocol": {
+        "comprehensive_testing": {
+          "unit_tests_validation": true,
+          "integration_tests_run": true,
+          "performance_benchmarking": true,
+          "memory_leak_detection": true,
+          "error_handling_validation": true
+        },
+        
+        "code_quality_assessment": {
+          "complexity_analysis": true,
+          "maintainability_scoring": true,
+          "technical_debt_assessment": true,
+          "best_practices_compliance": true,
+          "architecture_consistency": true
+        },
+        
+        "deployment_readiness": {
+          "build_verification": true,
+          "configuration_validation": true,
+          "dependency_audit": true,
+          "security_scan": true,
+          "performance_impact_analysis": true
+        }
+      }
+    },
+
+    "intelligent_monitoring": {
+      "real_time_analysis": {
+        "code_quality_tracking": true,
+        "performance_impact_monitoring": true,
+        "error_pattern_detection": true,
+        "regression_risk_assessment": true,
+        "technical_debt_accumulation": true
+      },
+      
+      "predictive_alerts": {
+        "potential_issues_prediction": true,
+        "performance_degradation_warning": true,
+        "maintenance_burden_alerts": true,
+        "scalability_concerns": true,
+        "security_vulnerability_risks": true
+      }
+    },
+
+    "quality_gates": {
+      "implementation_approval": {
+        "minimum_test_coverage": 85,
+        "maximum_cyclomatic_complexity": 10,
+        "code_duplication_threshold": 5,
+        "performance_degradation_limit": 10,
+        "security_vulnerability_tolerance": 0
+      },
+      
+      "automated_rollback_triggers": {
+        "critical_error_detection": true,
+        "performance_degradation_severe": true,
+        "test_failure_cascade": true,
+        "build_failure_critical": true,
+        "security_vulnerability_critical": true
+      }
+    },
+
+    "reporting_system": {
+      "implementation_reports": {
+        "automatic_generation": true,
+        "include_metrics": true,
+        "quality_assessment": true,
+        "risk_analysis": true,
+        "recommendations": true
+      },
+      
+      "stakeholder_communication": {
+        "progress_updates": true,
+        "issue_alerts": true,
+        "completion_notifications": true,
+        "quality_reports": true,
+        "performance_summaries": true
+      }
+    },
+
+    "learning_system": {
+      "pattern_recognition": {
+        "successful_implementation_patterns": true,
+        "common_failure_modes": true,
+        "optimization_opportunities": true,
+        "best_practice_identification": true
+      },
+      
+      "continuous_improvement": {
+        "process_optimization": true,
+        "tool_effectiveness_analysis": true,
+        "quality_trend_analysis": true,
+        "performance_improvement_tracking": true
+      }
+    }
+  },
+
+  "zodiac_specific_configurations": {
+    "critical_systems": [
+      "compatibility_calculation",
+      "horoscope_generation",
+      "user_authentication",
+      "payment_processing",
+      "notification_system"
+    ],
+    
+    "performance_benchmarks": {
+      "app_startup_time_max": 2000,
+      "compatibility_calculation_max": 500,
+      "ui_response_time_max": 100,
+      "memory_usage_max_mb": 150,
+      "battery_drain_threshold": 5
+    },
+    
+    "quality_standards": {
+      "12_zodiac_signs_coverage": 100,
+      "6_language_support_complete": 100,
+      "ui_responsiveness_score_min": 90,
+      "accessibility_compliance_min": 85,
+      "crash_rate_max": 0.1
+    }
+  }
+}

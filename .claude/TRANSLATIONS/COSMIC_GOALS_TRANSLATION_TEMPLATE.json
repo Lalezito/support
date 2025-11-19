@@ -1,0 +1,387 @@
+{
+  "metadata": {
+    "version": "1.0.0",
+    "created": "2025-10-10",
+    "purpose": "Template for Cosmic Coach Goals multilingual translation",
+    "source_languages": ["es", "en"],
+    "target_languages": ["fr", "de", "pt", "it"],
+    "total_keys": 1364
+  },
+  "goals_specific_strings": {
+    "ui_labels": {
+      "cosmic_coach_title": {
+        "en": "Cosmic Coach",
+        "es": "Coach Cósmico",
+        "context": "Main title for Cosmic Coach feature",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "goals_section_title": {
+        "en": "Your Goals",
+        "es": "Tus Metas",
+        "context": "Section heading for goals list",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "generate_new_goals": {
+        "en": "✨ Generate New Goals",
+        "es": "✨ Generar Nuevas Metas",
+        "context": "Button to generate new goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "smart_recommendations_generated": {
+        "en": "🧠 Smart goals generated for {userSign}",
+        "es": "🧠 Metas inteligentes generadas para {userSign}",
+        "context": "Success message after generating smart goals",
+        "placeholders": ["{userSign}"],
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "goal_completed_message": {
+        "en": "Goal completed! 🎉",
+        "es": "¡Meta completada! 🎉",
+        "context": "Celebration message when goal is completed",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "statistics_card_title": {
+        "en": "Your Progress",
+        "es": "Tu Progreso",
+        "context": "Title for statistics card",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "current_streak": {
+        "en": "Current Streak",
+        "es": "Racha Actual",
+        "context": "Label for current streak counter",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "success_rate": {
+        "en": "Success Rate",
+        "es": "Tasa de Éxito",
+        "context": "Label for success rate percentage",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "this_week": {
+        "en": "This Week",
+        "es": "Esta Semana",
+        "context": "Label for weekly completed goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "total_completed": {
+        "en": "Total Completed",
+        "es": "Total Completado",
+        "context": "Label for total completed goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      }
+    },
+    "goal_categories": {
+      "fitness": {
+        "en": "Fitness",
+        "es": "Fitness",
+        "context": "Category for physical exercise goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "mindfulness": {
+        "en": "Mindfulness",
+        "es": "Atención Plena",
+        "context": "Category for meditation and mindfulness goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "wellness": {
+        "en": "Wellness",
+        "es": "Bienestar",
+        "context": "Category for general wellness goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "career": {
+        "en": "Career",
+        "es": "Carrera",
+        "context": "Category for professional goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "relationships": {
+        "en": "Relationships",
+        "es": "Relaciones",
+        "context": "Category for relationship goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "creativity": {
+        "en": "Creativity",
+        "es": "Creatividad",
+        "context": "Category for creative goals",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      }
+    },
+    "difficulty_levels": {
+      "easy": {
+        "en": "Easy",
+        "es": "Fácil",
+        "context": "Easy difficulty level",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "medium": {
+        "en": "Medium",
+        "es": "Medio",
+        "context": "Medium difficulty level",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      "hard": {
+        "en": "Hard",
+        "es": "Difícil",
+        "context": "Hard difficulty level",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      }
+    },
+    "zodiac_signs": {
+      "aries": {
+        "en": "Aries",
+        "es": "Aries",
+        "fr": "Bélier",
+        "de": "Widder",
+        "pt": "Áries",
+        "it": "Ariete"
+      },
+      "taurus": {
+        "en": "Taurus",
+        "es": "Tauro",
+        "fr": "Taureau",
+        "de": "Stier",
+        "pt": "Touro",
+        "it": "Toro"
+      },
+      "gemini": {
+        "en": "Gemini",
+        "es": "Géminis",
+        "fr": "Gémeaux",
+        "de": "Zwillinge",
+        "pt": "Gêmeos",
+        "it": "Gemelli"
+      },
+      "cancer": {
+        "en": "Cancer",
+        "es": "Cáncer",
+        "fr": "Cancer",
+        "de": "Krebs",
+        "pt": "Câncer",
+        "it": "Cancro"
+      },
+      "leo": {
+        "en": "Leo",
+        "es": "Leo",
+        "fr": "Lion",
+        "de": "Löwe",
+        "pt": "Leão",
+        "it": "Leone"
+      },
+      "virgo": {
+        "en": "Virgo",
+        "es": "Virgo",
+        "fr": "Vierge",
+        "de": "Jungfrau",
+        "pt": "Virgem",
+        "it": "Vergine"
+      },
+      "libra": {
+        "en": "Libra",
+        "es": "Libra",
+        "fr": "Balance",
+        "de": "Waage",
+        "pt": "Libra",
+        "it": "Bilancia"
+      },
+      "scorpio": {
+        "en": "Scorpio",
+        "es": "Escorpio",
+        "fr": "Scorpion",
+        "de": "Skorpion",
+        "pt": "Escorpião",
+        "it": "Scorpione"
+      },
+      "sagittarius": {
+        "en": "Sagittarius",
+        "es": "Sagitario",
+        "fr": "Sagittaire",
+        "de": "Schütze",
+        "pt": "Sagitário",
+        "it": "Sagittario"
+      },
+      "capricorn": {
+        "en": "Capricorn",
+        "es": "Capricornio",
+        "fr": "Capricorne",
+        "de": "Steinbock",
+        "pt": "Capricórnio",
+        "it": "Capricorno"
+      },
+      "aquarius": {
+        "en": "Aquarius",
+        "es": "Acuario",
+        "fr": "Verseau",
+        "de": "Wassermann",
+        "pt": "Aquário",
+        "it": "Acquario"
+      },
+      "pisces": {
+        "en": "Pisces",
+        "es": "Piscis",
+        "fr": "Poissons",
+        "de": "Fische",
+        "pt": "Peixes",
+        "it": "Pesci"
+      }
+    }
+  },
+  "tips_to_translate": {
+    "description": "These tips are from smart_goal_recommender.dart lines 226-292",
+    "total_tips": 50,
+    "structure": "category_Sign format",
+    "examples": [
+      {
+        "key": "fitness_Aries",
+        "en": "🏃 Aries: Your natural energy peaks in the morning. Use that Martian fire!",
+        "es": "🏃 Aries: Tu energía natural alcanza su punto máximo por la mañana. ¡Usa ese fuego marciano!",
+        "context": "Motivational tip for Aries about fitness",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      {
+        "key": "mindfulness_Aries",
+        "en": "🧘 Aries: Challenge yourself to stay still. Your power grows in calm.",
+        "es": "🧘 Aries: Desafíate a permanecer quieto. Tu poder crece en la calma.",
+        "context": "Motivational tip for Aries about mindfulness",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      },
+      {
+        "key": "fitness",
+        "en": "💪 Movement is medicine. Your body thanks you!",
+        "es": "💪 El movimiento es medicina. ¡Tu cuerpo te lo agradece!",
+        "context": "Generic fitness tip (no sign specified)",
+        "fr": "",
+        "de": "",
+        "pt": "",
+        "it": ""
+      }
+    ],
+    "note": "Full list of 50+ tips needs translation. See smart_goal_recommender.dart for complete list."
+  },
+  "celebration_messages": {
+    "description": "Messages from goal_completion_celebration.dart lines 260-284",
+    "total_categories": 13,
+    "messages_per_category": 3,
+    "examples": [
+      {
+        "category": "fitness",
+        "messages": {
+          "en": [
+            "💪 Amazing! Your dedication shines!",
+            "🔥 You're unstoppable!",
+            "⚡ Energy champion!"
+          ],
+          "es": [
+            "💪 ¡Increíble! ¡Tu dedicación brilla!",
+            "🔥 ¡Eres imparable!",
+            "⚡ ¡Campeón de energía!"
+          ],
+          "fr": [],
+          "de": [],
+          "pt": [],
+          "it": []
+        }
+      },
+      {
+        "category": "mindfulness",
+        "messages": {
+          "en": [
+            "🧘 Inner peace achieved!",
+            "✨ Your mind is powerful!",
+            "🌸 Tranquility mastered!"
+          ],
+          "es": [
+            "🧘 ¡Paz interior lograda!",
+            "✨ ¡Tu mente es poderosa!",
+            "🌸 ¡Tranquilidad dominada!"
+          ],
+          "fr": [],
+          "de": [],
+          "pt": [],
+          "it": []
+        }
+      }
+    ],
+    "note": "Full list of celebration messages for all 13 categories needs translation."
+  },
+  "translation_guidelines": {
+    "tone": "Motivational, encouraging, empowering",
+    "style": "Conversational but professional",
+    "length": "Keep similar length to source (±20% acceptable)",
+    "emojis": "Preserve all emojis from source",
+    "placeholders": "Never translate placeholders like {userSign}, {element}",
+    "cultural_adaptation": "Adapt expressions to be culturally appropriate",
+    "gender": "Use gender-neutral language when possible",
+    "formality": {
+      "fr": "Use 'tu' (informal) for motivational tone",
+      "de": "Use 'du' (informal) for motivational tone",
+      "pt": "Use 'você' (neutral)",
+      "it": "Use 'tu' (informal) for motivational tone"
+    }
+  }
+}

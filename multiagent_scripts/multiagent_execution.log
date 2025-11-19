@@ -1,0 +1,13 @@
+
+════════════════════════════════════════════════════════════════════════════════
+                  🤖 SISTEMA MULTIAGENTE DE SEGMENTACIÓN 🤖
+════════════════════════════════════════════════════════════════════════════════
+
+Feature: Cosmic Coach Translations
+Inicio: 2025-11-16 15:56:14
+Directorio: /Users/alejandrocaceres/Desktop/appstore.zodia/multiagent_scripts
+
+════════════════════════════════════════════════════════════════════════════════
+
+./run_all_agents.sh: line 46: declare: -A: invalid option
+declare: usage: declare [-afFirtx] [-p] [name[=value] ...]

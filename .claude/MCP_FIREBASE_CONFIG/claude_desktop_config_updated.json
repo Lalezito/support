@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "firebase-zodiac": {
+      "command": "node",
+      "args": ["/path/to/firebase-mcp-server/index.js"],
+      "env": {
+        "FIREBASE_PROJECT_ID": "zodi-a1658",
+        "FIREBASE_STORAGE_BUCKET": "zodi-a1658.firebasestorage.app",
+        "FIREBASE_AUTH_DOMAIN": "zodi-a1658.firebaseapp.com",
+        "FIREBASE_MESSAGING_SENDER_ID": "764873916666",
+        "GOOGLE_APPLICATION_CREDENTIALS": "~/.config/firebase/zodi-a1658-service-account.json"
+      }
+    }
+  }
+}

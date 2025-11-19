@@ -1,0 +1,270 @@
+🔴 AGENT 6: EXTRACTOR_FR - Iniciando extracción...
+
+📁 Directorio: /Users/alejandrocaceres/Desktop/appstore.zodia/zodiac_app/assets/l10n
+🌍 Idioma: Français (fr)
+
+1️⃣ Extrayendo 187 keys de app_fr.arb...
+
+   ⚠️  Key no encontrada: @advancedCosmicAnalysis (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @advancedCosmicAnalysisDescription (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @ai_coach_onboarding (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @analyticsCoachSessionsLabel (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @analyticsCosmicCoachFeature (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @analyticsGoalsCompleted (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @analyticsGoalsProgressTitle (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_adventure_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_adventure_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_adventure_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_career_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_career_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_career_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_creativity_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_creativity_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_creativity_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_finance_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_finance_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_finance_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_fitness_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_fitness_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_fitness_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_growth_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_growth_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_growth_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_healing_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_healing_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_healing_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_leadership_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_leadership_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_leadership_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_learning_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_learning_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_learning_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_mindfulness_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_mindfulness_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_mindfulness_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_nature_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_nature_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_nature_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_relationships_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_relationships_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_relationships_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_service_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_service_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_service_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_wellness_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_wellness_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @celebration_wellness_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @cosmicBalance (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @cosmicGrowthPeriod (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @cosmicIntrospectionPeriod (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @goal_completed_success (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @goalDetails (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @goals_empty_state (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @new_goals_generated (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @premiumCosmicAnalysis (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @premiumCosmicAnalysisDescription (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: @smart_goals_generated (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_adventure_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_adventure_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_adventure_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_career_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_career_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_career_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_creativity_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_creativity_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_creativity_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_finance_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_finance_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_finance_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_fitness_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_fitness_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_fitness_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_growth_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_growth_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_growth_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_healing_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_healing_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_healing_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_leadership_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_leadership_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_leadership_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_learning_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_learning_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_learning_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_mindfulness_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_mindfulness_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_mindfulness_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_nature_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_nature_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_nature_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_relationships_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_relationships_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_relationships_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_service_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_service_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_service_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_wellness_1 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_wellness_2 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: celebration_wellness_3 (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: completeGoalQuestion (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: confirmCompleteGoal (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: confirmDeleteGoal (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: deleteGoal (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: goal_completed_success (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: goals_empty_state (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: new_goals_generated (marcada como MISSING_TRANSLATION)
+   ⏳ Procesadas: 50/187...
+   ⚠️  Key no encontrada: pauseGoal (marcada como MISSING_TRANSLATION)
+   ⚠️  Key no encontrada: smart_goals_generated (marcada como MISSING_TRANSLATION)
+
+2️⃣ Validando archivo generado...
+   ✅ JSON válido
+   ✅ Keys en archivo: 187
+   ✅ Tamaño del archivo:  12K
+
+=============================================================================
+AGENT 6: EXTRACTOR_FR - Reporte de Extracción
+=============================================================================
+Fecha: Sun Nov 16 15:58:40 NZDT 2025
+Idioma: Français (fr)
+
+RESULTADOS:
+-----------
+✅ Keys solicitadas:        187
+✅ Keys extraídas:          77
+⚠️  Keys faltantes:         110
+✅ Porcentaje de éxito:     41.17%
+
+ARCHIVO GENERADO:
+-----------------
+📄 Ruta: /Users/alejandrocaceres/Desktop/appstore.zodia/multiagent_output/features/cosmic_coach/cosmic_coach_fr.arb
+📊 Tamaño:  12K
+📝 Keys totales: 187
+⚠️  Keys marcadas MISSING: 110
+
+KEYS FALTANTES:
+---------------
+⚠️  @advancedCosmicAnalysis
+⚠️  @advancedCosmicAnalysisDescription
+⚠️  @ai_coach_onboarding
+⚠️  @analyticsCoachSessionsLabel
+⚠️  @analyticsCosmicCoachFeature
+⚠️  @analyticsGoalsCompleted
+⚠️  @analyticsGoalsProgressTitle
+⚠️  @celebration_adventure_1
+⚠️  @celebration_adventure_2
+⚠️  @celebration_adventure_3
+⚠️  @celebration_career_1
+⚠️  @celebration_career_2
+⚠️  @celebration_career_3
+⚠️  @celebration_creativity_1
+⚠️  @celebration_creativity_2
+⚠️  @celebration_creativity_3
+⚠️  @celebration_finance_1
+⚠️  @celebration_finance_2
+⚠️  @celebration_finance_3
+⚠️  @celebration_fitness_1
+⚠️  @celebration_fitness_2
+⚠️  @celebration_fitness_3
+⚠️  @celebration_growth_1
+⚠️  @celebration_growth_2
+⚠️  @celebration_growth_3
+⚠️  @celebration_healing_1
+⚠️  @celebration_healing_2
+⚠️  @celebration_healing_3
+⚠️  @celebration_leadership_1
+⚠️  @celebration_leadership_2
+⚠️  @celebration_leadership_3
+⚠️  @celebration_learning_1
+⚠️  @celebration_learning_2
+⚠️  @celebration_learning_3
+⚠️  @celebration_mindfulness_1
+⚠️  @celebration_mindfulness_2
+⚠️  @celebration_mindfulness_3
+⚠️  @celebration_nature_1
+⚠️  @celebration_nature_2
+⚠️  @celebration_nature_3
+⚠️  @celebration_relationships_1
+⚠️  @celebration_relationships_2
+⚠️  @celebration_relationships_3
+⚠️  @celebration_service_1
+⚠️  @celebration_service_2
+⚠️  @celebration_service_3
+⚠️  @celebration_wellness_1
+⚠️  @celebration_wellness_2
+⚠️  @celebration_wellness_3
+⚠️  @cosmicBalance
+⚠️  @cosmicGrowthPeriod
+⚠️  @cosmicIntrospectionPeriod
+⚠️  @goal_completed_success
+⚠️  @goalDetails
+⚠️  @goals_empty_state
+⚠️  @new_goals_generated
+⚠️  @premiumCosmicAnalysis
+⚠️  @premiumCosmicAnalysisDescription
+⚠️  @smart_goals_generated
+⚠️  celebration_adventure_1
+⚠️  celebration_adventure_2
+⚠️  celebration_adventure_3
+⚠️  celebration_career_1
+⚠️  celebration_career_2
+⚠️  celebration_career_3
+⚠️  celebration_creativity_1
+⚠️  celebration_creativity_2
+⚠️  celebration_creativity_3
+⚠️  celebration_finance_1
+⚠️  celebration_finance_2
+⚠️  celebration_finance_3
+⚠️  celebration_fitness_1
+⚠️  celebration_fitness_2
+⚠️  celebration_fitness_3
+⚠️  celebration_growth_1
+⚠️  celebration_growth_2
+⚠️  celebration_growth_3
+⚠️  celebration_healing_1
+⚠️  celebration_healing_2
+⚠️  celebration_healing_3
+⚠️  celebration_leadership_1
+⚠️  celebration_leadership_2
+⚠️  celebration_leadership_3
+⚠️  celebration_learning_1
+⚠️  celebration_learning_2
+⚠️  celebration_learning_3
+⚠️  celebration_mindfulness_1
+⚠️  celebration_mindfulness_2
+⚠️  celebration_mindfulness_3
+⚠️  celebration_nature_1
+⚠️  celebration_nature_2
+⚠️  celebration_nature_3
+⚠️  celebration_relationships_1
+⚠️  celebration_relationships_2
+⚠️  celebration_relationships_3
+⚠️  celebration_service_1
+⚠️  celebration_service_2
+⚠️  celebration_service_3
+⚠️  celebration_wellness_1
+⚠️  celebration_wellness_2
+⚠️  celebration_wellness_3
+⚠️  completeGoalQuestion
+⚠️  confirmCompleteGoal
+⚠️  confirmDeleteGoal
+⚠️  deleteGoal
+⚠️  goal_completed_success
+⚠️  goals_empty_state
+⚠️  new_goals_generated
+⚠️  pauseGoal
+⚠️  smart_goals_generated
+
+SIGUIENTE PASO:
+---------------
+⚠️  Revisar y completar las traducciones marcadas como MISSING_TRANSLATION
+
+
+✅ AGENT 6: EXTRACTOR_FR - Completado exitosamente
+
+📊 Resumen:
+   - Keys extraídas: 77/187
+   ⚠️  Keys faltantes: 110 (marcadas como MISSING_TRANSLATION)
+   - Archivo generado: cosmic_coach_fr.arb
+   - Ubicación: /Users/alejandrocaceres/Desktop/appstore.zodia/multiagent_output/features/cosmic_coach
+

@@ -1,0 +1,445 @@
+{
+  "system_version": "1.0",
+  "created": "2025-10-05",
+  "master_plan": "TODO_EXECUTION_MASTER_PLAN_2025.md",
+
+  "execution_status": {
+    "current_phase": 1,
+    "total_phases": 4,
+    "overall_progress": 0,
+    "total_tasks": 17,
+    "completed_tasks": 0
+  },
+
+  "phases": {
+    "phase_1": {
+      "name": "Infraestructura Crítica",
+      "status": "pending",
+      "progress": 0,
+      "tasks": [
+        {
+          "id": "1.1",
+          "code": "compatibility_user_id",
+          "title": "Sistema de Identidad de Usuario",
+          "agent": "ZODIAC_BACKEND_EXPERT_2025",
+          "priority": "CRITICAL",
+          "status": "pending",
+          "estimated_hours": 2,
+          "files": [
+            "lib/services/consolidated_compatibility/core_compatibility_service.dart",
+            "lib/services/user_identity_service.dart"
+          ],
+          "dependencies": [],
+          "verification": [
+            "Eventos tienen userId real",
+            "Analytics funciona correctamente",
+            "Fallback a anonymous funciona",
+            "Tests pasan"
+          ]
+        },
+        {
+          "id": "1.2",
+          "code": "pricing_provider",
+          "title": "Sistema de Precios Premium",
+          "agent": "ZODIAC_BUSINESS_EXPERT_2025",
+          "priority": "CRITICAL",
+          "status": "pending",
+          "estimated_hours": 3,
+          "files": [
+            "lib/providers/premium_provider.dart",
+            "lib/models/premium_tier_system.dart",
+            "lib/services/revenue_cat_integration.dart"
+          ],
+          "dependencies": [],
+          "verification": [
+            "Provider expone precios",
+            "RevenueCat integrado",
+            "UI muestra precios correctamente",
+            "Caché funciona"
+          ]
+        },
+        {
+          "id": "1.3",
+          "code": "notifier_real_impl",
+          "title": "Sistema de Notificaciones Real",
+          "agent": "ZODIAC_FLUTTER_EXPERT_2025",
+          "priority": "CRITICAL",
+          "status": "pending",
+          "estimated_hours": 4,
+          "files": [
+            "lib/services/prediction_notification_service.dart",
+            "lib/services/unified_notification_service.dart",
+            "lib/services/preferences_service.dart"
+          ],
+          "dependencies": [],
+          "verification": [
+            "schedule() funciona",
+            "cancel() funciona",
+            "Persistencia funciona",
+            "Tests pasan"
+          ]
+        }
+      ]
+    },
+
+    "phase_2": {
+      "name": "Backend & Contenido",
+      "status": "pending",
+      "progress": 0,
+      "dependencies": ["phase_1"],
+      "tasks": [
+        {
+          "id": "2.1",
+          "code": "horoscope_backend_consolidation",
+          "title": "Unificación Horóscopo Backend",
+          "agent": "ZODIAC_BACKEND_EXPERT_2025",
+          "priority": "HIGH",
+          "status": "pending",
+          "estimated_hours": 5,
+          "files": [
+            "lib/services/backend_service.dart",
+            "lib/services/horoscope_service.dart",
+            "lib/services/weekly_horoscope_service.dart"
+          ],
+          "dependencies": ["1.1"],
+          "verification": [
+            "Punto único de acceso",
+            "Caché funciona",
+            "Modo offline funciona",
+            "Sin duplicación"
+          ]
+        },
+        {
+          "id": "2.2",
+          "code": "offline_cache_finish",
+          "title": "Sistema Offline Completo",
+          "agent": "ZODIAC_FLUTTER_EXPERT_2025",
+          "priority": "HIGH",
+          "status": "pending",
+          "estimated_hours": 4,
+          "files": [
+            "lib/services/offline_mode_service.dart",
+            "lib/services/cache_service.dart"
+          ],
+          "dependencies": ["1.3"],
+          "verification": [
+            "App funciona offline",
+            "Limpieza no rompe nada",
+            "Sincronización funciona",
+            "Feedback claro al usuario"
+          ]
+        },
+        {
+          "id": "2.3",
+          "code": "crisis_content_final",
+          "title": "Generador de Contenido Crisis",
+          "agent": "ZODIAC_BUSINESS_EXPERT_2025",
+          "priority": "HIGH",
+          "status": "pending",
+          "estimated_hours": 5,
+          "files": [
+            "lib/services/crisis_content_generator.dart",
+            "assets/l10n/app_*.arb"
+          ],
+          "dependencies": ["1.2"],
+          "verification": [
+            "Contenido apropiado por severidad",
+            "Sin placeholders",
+            "Cumple requisitos legales",
+            "Recursos verificados"
+          ]
+        },
+        {
+          "id": "2.4",
+          "code": "notification_persistence",
+          "title": "Persistencia Notificaciones",
+          "agent": "ZODIAC_FLUTTER_EXPERT_2025",
+          "priority": "HIGH",
+          "status": "pending",
+          "estimated_hours": 2,
+          "files": [
+            "lib/services/prediction_notification_service.dart"
+          ],
+          "dependencies": ["1.3"],
+          "verification": [
+            "Preferencias persisten",
+            "Notificaciones persisten",
+            "Sin duplicados",
+            "Recovery funciona"
+          ]
+        }
+      ]
+    },
+
+    "phase_3": {
+      "name": "Servicios Avanzados",
+      "status": "pending",
+      "progress": 0,
+      "dependencies": ["phase_1", "phase_2"],
+      "tasks": [
+        {
+          "id": "3.1",
+          "code": "predictive_transits",
+          "title": "Tránsitos Astrológicos Predictivos",
+          "agent": "ZODIAC_BACKEND_EXPERT_2025",
+          "priority": "MEDIUM",
+          "status": "pending",
+          "estimated_hours": 6,
+          "files": [
+            "lib/services/predictive_astrology_service.dart"
+          ],
+          "dependencies": ["2.1"],
+          "verification": [
+            "Tránsitos precisos",
+            "Aspectos identificados",
+            "Predicciones coherentes",
+            "Caché efectivo"
+          ]
+        },
+        {
+          "id": "3.2",
+          "code": "smart_journal_analysis",
+          "title": "Análisis Inteligente de Journal",
+          "agent": "ZODIAC_FLUTTER_EXPERT_2025",
+          "priority": "MEDIUM",
+          "status": "pending",
+          "estimated_hours": 5,
+          "files": [
+            "lib/services/smart_journaling_service.dart",
+            "lib/services/consolidated_ai/coaching_ai_service.dart"
+          ],
+          "dependencies": ["2.2"],
+          "verification": [
+            "Análisis preciso",
+            "Insights personalizados",
+            "Datos protegidos",
+            "Valor real al usuario"
+          ]
+        },
+        {
+          "id": "3.3",
+          "code": "dynamic_cache_clear",
+          "title": "Limpieza Completa de Caché",
+          "agent": "ZODIAC_FLUTTER_EXPERT_2025",
+          "priority": "MEDIUM",
+          "status": "pending",
+          "estimated_hours": 3,
+          "files": [
+            "lib/services/dynamic_content_service.dart",
+            "lib/services/cache_service.dart"
+          ],
+          "dependencies": ["2.2"],
+          "verification": [
+            "Limpia todos los cachés",
+            "Datos críticos preservados",
+            "App sigue funcional",
+            "Feedback claro"
+          ]
+        },
+        {
+          "id": "3.4",
+          "code": "preferences_legacy_cleanup",
+          "title": "Limpieza de Métodos Legacy",
+          "agent": "ZODIAC_FLUTTER_EXPERT_2025",
+          "priority": "MEDIUM",
+          "status": "pending",
+          "estimated_hours": 3,
+          "files": [
+            "lib/services/preferences_service.dart"
+          ],
+          "dependencies": ["1.3", "2.4"],
+          "verification": [
+            "Sin métodos legacy sin usar",
+            "Migraciones completadas",
+            "Código más limpio",
+            "Sin romper funcionalidad"
+          ]
+        },
+        {
+          "id": "3.5",
+          "code": "system_info_modernize",
+          "title": "Modernizar System Info Service",
+          "agent": "ZODIAC_FLUTTER_EXPERT_2025",
+          "priority": "MEDIUM",
+          "status": "pending",
+          "estimated_hours": 2,
+          "files": [
+            "lib/services/system_info_service.dart",
+            "pubspec.yaml"
+          ],
+          "dependencies": [],
+          "verification": [
+            "Usa packages modernos",
+            "Información precisa",
+            "Compatible iOS/Android",
+            "Sin warnings deprecación"
+          ]
+        }
+      ]
+    },
+
+    "phase_4": {
+      "name": "Refactoring & Optimización",
+      "status": "pending",
+      "progress": 0,
+      "dependencies": ["phase_1", "phase_2", "phase_3"],
+      "tasks": [
+        {
+          "id": "4.1",
+          "code": "string_interp_cleanup",
+          "title": "Optimizar Interpolación de Strings",
+          "agent": "ZODIAC_QA_EXPERT_2025",
+          "priority": "LOW",
+          "status": "pending",
+          "estimated_hours": 0.5,
+          "files": [
+            "lib/services/consolidated_ai/coaching_ai_service.dart"
+          ],
+          "dependencies": [],
+          "verification": [
+            "Líneas 804-839 optimizadas",
+            "Sin bugs",
+            "Pasa linting"
+          ]
+        },
+        {
+          "id": "4.2",
+          "code": "final_fields",
+          "title": "Marcar Campos como Final",
+          "agent": "ZODIAC_QA_EXPERT_2025",
+          "priority": "LOW",
+          "status": "pending",
+          "estimated_hours": 0.5,
+          "files": [
+            "lib/services/consolidated_payments/quantum_payment_engine.dart",
+            "lib/services/subscription_service.dart"
+          ],
+          "dependencies": [],
+          "verification": [
+            "Campos inmutables son final",
+            "Sin romper lógica",
+            "Mejor rendimiento"
+          ]
+        },
+        {
+          "id": "4.3",
+          "code": "deprecated_tests",
+          "title": "Actualizar Tests de Subscripción",
+          "agent": "ZODIAC_QA_EXPERT_2025",
+          "priority": "LOW",
+          "status": "pending",
+          "estimated_hours": 2,
+          "files": [
+            "test/premium/subscription_payment_test.dart"
+          ],
+          "dependencies": ["1.2"],
+          "verification": [
+            "Tests usan RevenueCat",
+            "100% cobertura",
+            "Tests pasan"
+          ]
+        },
+        {
+          "id": "4.4",
+          "code": "compatibility_params",
+          "title": "Limpiar Parámetros Sin Uso",
+          "agent": "ZODIAC_FLUTTER_EXPERT_2025",
+          "priority": "LOW",
+          "status": "pending",
+          "estimated_hours": 0.25,
+          "files": [
+            "lib/screens/compatibility_screen.dart"
+          ],
+          "dependencies": [],
+          "verification": [
+            "Sin parámetros sin usar",
+            "Código más limpio",
+            "Intent claro"
+          ]
+        },
+        {
+          "id": "4.5",
+          "code": "lint_imports",
+          "title": "Eliminar Imports No Usados",
+          "agent": "ZODIAC_QA_EXPERT_2025",
+          "priority": "LOW",
+          "status": "pending",
+          "estimated_hours": 0.25,
+          "files": [
+            "lib/screens/birth_data_collection_screen.dart",
+            "lib/screens/cosmic_coach_chat_screen.dart"
+          ],
+          "dependencies": [],
+          "verification": [
+            "Sin imports sin usar",
+            "flutter analyze limpio",
+            "Build exitoso"
+          ]
+        }
+      ]
+    }
+  },
+
+  "agent_workload": {
+    "ZODIAC_BACKEND_EXPERT_2025": {
+      "total_tasks": 3,
+      "total_hours": 13,
+      "tasks": ["1.1", "2.1", "3.1"]
+    },
+    "ZODIAC_BUSINESS_EXPERT_2025": {
+      "total_tasks": 2,
+      "total_hours": 8,
+      "tasks": ["1.2", "2.3"]
+    },
+    "ZODIAC_FLUTTER_EXPERT_2025": {
+      "total_tasks": 8,
+      "total_hours": 23.25,
+      "tasks": ["1.3", "2.2", "2.4", "3.2", "3.3", "3.4", "3.5", "4.4"]
+    },
+    "ZODIAC_QA_EXPERT_2025": {
+      "total_tasks": 4,
+      "total_hours": 3.5,
+      "tasks": ["4.1", "4.2", "4.3", "4.5"]
+    }
+  },
+
+  "execution_commands": {
+    "start_phase_1": "Ejecuta la FASE 1 del TODO_EXECUTION_MASTER_PLAN_2025",
+    "start_phase_2": "Ejecuta la FASE 2 del TODO_EXECUTION_MASTER_PLAN_2025",
+    "start_phase_3": "Ejecuta la FASE 3 del TODO_EXECUTION_MASTER_PLAN_2025",
+    "start_phase_4": "Ejecuta la FASE 4 del TODO_EXECUTION_MASTER_PLAN_2025",
+    "check_progress": "¿Cuál es el progreso del master plan de TODOs?",
+    "start_specific_task": "Ejecuta la tarea [TASK_CODE] del master plan"
+  },
+
+  "verification_checklist": {
+    "after_each_task": [
+      "Ejecutar flutter analyze",
+      "Ejecutar flutter test",
+      "Verificar funcionalidad no regresionó",
+      "Commit atómico con mensaje descriptivo"
+    ],
+    "after_each_phase": [
+      "Todos los tests pasan",
+      "Flutter analyze sin errores críticos",
+      "Features funcionan correctamente",
+      "Documentación actualizada",
+      "Actualizar tracking en coordination JSON"
+    ],
+    "final_verification": [
+      "ZERO TODOs en codebase",
+      "ZERO FIXMEs en codebase",
+      "ZERO HACKs en codebase",
+      "flutter analyze completamente limpio",
+      "Todos los tests pasan",
+      "App funciona perfectamente en iOS y Android"
+    ]
+  },
+
+  "rollback_strategy": {
+    "enabled": true,
+    "commit_strategy": "atomic_per_task",
+    "backup_before_phase": true,
+    "instructions": "Si una tarea falla, hacer rollback del commit específico y reportar el blocker"
+  }
+}
