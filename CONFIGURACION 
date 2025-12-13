@@ -1,0 +1,14 @@
+{
+  "type": "service_account",
+  "project_id": "zodi-a1658",
+  "private_key_id": "d98b671033128070c79cb7a3938f772e61f7dd8d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDU3/BSSjkBvGXZ\ny3vGi0DeDMltPuDlrUKSpXcJBpDsLXqJgwGmRIp3o5tOJIt2C1iw64dd4lH8hUub\nDnIBCqHUeT8YhAVNq64PjOzK3wz2s/ruRIoVrWA27QVnCfu0+mWJcd+d0njqvXwq\nIgkW1jmAwe8xlmztGR3rE/rHIL2dBBgu5DbzhwZSKgJcqlhC18kTmu1NoM58kZAQ\n7H3spXhaRhIjtm8k+0H5nGrxP87ohQI0xBuZ47bOFOzWffQ8IXRmR1A/3inv/UEz\nWuN1ooa5tFjlfR9HdoSKYaDHxi+Oc6dEhQai3ipKM47Np3dY9FUZfEn/0Z/g9ond\nbH+nPTrjAgMBAAECggEACoPMkJwBndrVoxZAf771eM0OjrAKQX4MlEbKZEPn7lU+\nwMJxAeqlIPdlXqJCe0Bgj031qpxZFWKWKKC5iTX3vBGIctMOmgFkFc44YhBLc8zR\nv77bR+p/nqbtheNB2h97hXhTpdg1cyQ3Q7ODrxZCJ+CByqQWBE4hzVtNdKmNhCRj\nrsqZ9AG0V4QocdO04SOB0VQNc4GqJW9fzOqgNKHeZ6ANZrxeZHabMxgopzn0Op9q\nru6UAE1HpeZsp+grNqwHgTcVa5tSN+lRiyNnRA57LMraCvtxMae5ouNu37Ge/9IL\nv45etFBmeJ2pIOnSmgKjBl0KrUFs3tjyxFHFEoFNTQKBgQD6IZa1UT8Ev4HCylCL\nXPr8fHd26dJVmGN23VvAVmS+37XQeGB4IlFXudovwN8Z+Cxpa7iNfR81ZxpN6cnC\nmfPjo2LQo30PkWrTJF3V2VsYVv/lEzA4G2qoL1DuRd32M+MidgUao3lTq15RlZMz\nLK59AVE8XKcKR+8UueIE+nbc1QKBgQDZ3pHJf002DWenrwTge5lfWjCsXxrulUSv\nFzGziU3PQMWArKipKv7Sj7wHs+veDh82UIEWtXOmCtSDJAxmVzqjtVYWnXekUmdY\n5Py7MpEraIPozzDoTECISHm/4Bf197+lWpHujaB7mKrYZcCprJBPS+v4K2prZj8s\ntJLRU5S01wKBgGVngprFcl/xZ6DZtmeZbWM47pG134C2A/Tnbs/99l/vf90hQDLT\n7tg6z3q2nXwAwbiHZE1wIVvcDazyj8ol8dsinOfqr8PE92LcBnKw6J5oftuWuOC2\nNLo0XIIMrxymEnohEJapGYHTIqy+j+uaPK8O/qkTAuFHImTrqvbLt651AoGBANk+\nkvZuJsqAIVzWKzHAbVXkM+adStieJQfGQ/v3LIw91PKSt/c/dSr2whKYONiKEltx\neNbxBimKYQ+HMYoW7tTw66/PQs6qkHzWkKAFMzYqmGXbu7PW3P5H7ocCaEIO0Z2L\nKzrJJD46JBl1lOBbvuYjGV+zwwDmypXEVSW/huevAoGATP/0zbtwGkVjNEMa7PF7\n6sHvlTGHsK1HIHFKM7mp89Sa7C/FbG2fw6mF03jrsw+loMIUs5a9SudcjLv1cC6U\nW/PJt/O+thhHUrhewA/kHgA5/AFeQ8Vd+ZY6pWB+tor4gTPWNeBnay3cbMPDoCFO\nLxugPnSFlDAmepycQUYik3o=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@zodi-a1658.iam.gserviceaccount.com",
+  "client_id": "113927983281510787697",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40zodi-a1658.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+OPEN IA KEY: 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

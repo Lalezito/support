@@ -1,0 +1,211 @@
+name: Production Deployment
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'zodiac_app/**'
+      - '.github/workflows/production-deployment.yml'
+  workflow_dispatch:
+    inputs:
+      environment:
+        description: 'Environment to deploy to'
+        required: true
+        default: 'staging'
+        type: choice
+        options:
+          - staging
+          - production
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  FLUTTER_VERSION: '3.24.0'
+
+jobs:
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: zodiac_app
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: 'stable'
+          cache: true
+
+      - name: Get dependencies
+        run: flutter pub get
+
+      - name: Run tests
+        run: flutter test --coverage
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v3
+        with:
+          file: zodiac_app/coverage/lcov.info
+          flags: flutter
+
+  build-android:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: 'stable'
+          cache: true
+
+      - name: Get dependencies
+        run: |
+          cd zodiac_app
+          flutter pub get
+
+      - name: Build APK
+        run: |
+          cd zodiac_app
+          flutter build apk --release --split-per-abi
+
+      - name: Upload APK artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: android-apk
+          path: zodiac_app/build/app/outputs/flutter-apk/app-release-*.apk
+
+  build-ios:
+    name: Build iOS
+    runs-on: macos-latest
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: 'stable'
+          cache: true
+
+      - name: Get dependencies
+        run: |
+          cd zodiac_app
+          flutter pub get
+
+      - name: Build iOS
+        run: |
+          cd zodiac_app
+          flutter build ios --release --no-codesign
+
+      - name: Upload iOS artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-build
+          path: zodiac_app/build/ios/iphoneos/Runner.app
+
+  deploy-backend:
+    name: Deploy Backend
+    runs-on: ubuntu-latest
+    needs: [test, build-android]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Checkout backend code
+        uses: actions/checkout@v4
+        with:
+          repository: your-org/zodiac-backend
+          path: backend
+          token: ${{ secrets.BACKEND_ACCESS_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: backend/package-lock.json
+
+      - name: Install backend dependencies
+        run: |
+          cd backend
+          npm ci
+
+      - name: Run backend tests
+        run: |
+          cd backend
+          npm test
+
+      - name: Deploy to Railway
+        run: |
+          # This would trigger Railway deployment
+          # You might use Railway CLI or webhook
+          echo "Triggering Railway deployment..."
+
+  release:
+    name: Create Release
+    runs-on: ubuntu-latest
+    needs: [build-android, build-ios, deploy-backend]
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+
+    steps:
+      - name: Download Android APK
+        uses: actions/download-artifact@v4
+        with:
+          name: android-apk
+          path: artifacts/android/
+
+      - name: Download iOS build
+        uses: actions/download-artifact@v4
+        with:
+          name: ios-build
+          path: artifacts/ios/
+
+      - name: Create GitHub Release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: v${{ github.run_number }}
+          release_name: Release v${{ github.run_number }}
+          body: |
+            ## Changes
+            - Automated release from main branch
+            - Backend deployed to Railway
+            - Android APK and iOS build available
+
+            ## Downloads
+            - [Android APK](artifacts/android/app-release.apk)
+          draft: false
+          prerelease: false
+
+  notify:
+    name: Notify on Completion
+    runs-on: ubuntu-latest
+    needs: release
+    if: always()
+
+    steps:
+      - name: Send notification
+        uses: 8398a7/action-slack@v3
+        with:
+          status: ${{ job.status }}
+          text: 'Production deployment ${{ job.status }}'
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK }}
