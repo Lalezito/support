@@ -55,7 +55,15 @@
       "Bash(done)",
       "Bash(ls:*)",
       "Bash(mdfind:*)",
-      "Bash(do grep -q \"\"\"$key\"\":\" /Users/alejandrocaceres/Desktop/appstore.zodia/zodiac_app/assets/l10n/features/compatibility_premium/compatibility_premium_de.arb)"
+      "Bash(do grep -q \"\"\"$key\"\":\" /Users/alejandrocaceres/Desktop/appstore.zodia/zodiac_app/assets/l10n/features/compatibility_premium/compatibility_premium_de.arb)",
+      "Bash(do echo \"=== $lang ===\" grep -c \"cpPdf\" /Users/alejandrocaceres/Desktop/appstore.zodia/zodiac_app/assets/l10n/features/compatibility_premium/compatibility_premium_$lang.arb)",
+      "Bash(chmod:*)",
+      "Bash(do sips -Z 128 \"$f\" --out \"$f\")",
+      "Bash(do sips -Z 64 \"$f\" --out \"$f\")",
+      "Bash(do sips -Z 48 \"$f\" --out \"$f\")",
+      "Bash(do sips -Z 24 \"$f\" --out \"$f\")",
+      "Bash(sips:*)",
+      "Bash(git -C zodiac_app ls-files:*)"
     ],
     "deny": [],
     "ask": [],
