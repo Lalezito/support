@@ -3,294 +3,269 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zodiac App - Soporte</title>
+    <title>Zodiac Life Coach - Soporte</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background: linear-gradient(135deg, #1a1a2e, #16213e);
-            color: #fff;
+        :root { --gold: #f59e0b; --dark-bg: #0f0f23; --dark-card: #1a1a2e; --text-light: #e2e8f0; --text-muted: #94a3b8; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Poppins', sans-serif; background: var(--dark-bg); color: var(--text-light); line-height: 1.7; }
+        body::before { content: ''; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: radial-gradient(2px 2px at 20px 30px, rgba(255,255,255,0.3), transparent), radial-gradient(2px 2px at 160px 120px, rgba(255,255,255,0.3), transparent), radial-gradient(1px 1px at 90px 40px, rgba(255,255,255,0.4), transparent); background-size: 500px 200px; animation: twinkle 8s ease-in-out infinite; pointer-events: none; z-index: 0; }
+        @keyframes twinkle { 0%, 100% { opacity: 0.5; } 50% { opacity: 1; } }
+        .container { max-width: 900px; margin: 0 auto; padding: 20px; position: relative; z-index: 1; }
+        .header { text-align: center; padding: 40px 0 20px; }
+        .logo { font-size: 2.2rem; font-weight: 700; background: linear-gradient(135deg, var(--gold), #fbbf24); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+        .tagline { color: var(--text-muted); font-size: 0.95rem; }
+        .lang-selector { display: flex; justify-content: center; gap: 8px; margin: 20px 0; flex-wrap: wrap; }
+        .lang-btn { background: var(--dark-card); border: 2px solid transparent; border-radius: 8px; padding: 8px 12px; cursor: pointer; transition: all 0.3s; display: flex; align-items: center; gap: 6px; font-size: 0.85rem; color: var(--text-muted); }
+        .lang-btn:hover, .lang-btn.active { border-color: var(--gold); color: var(--text-light); }
+        .lang-btn img { width: 24px; height: 18px; border-radius: 3px; }
+        .card { background: var(--dark-card); border-radius: 16px; padding: 24px; margin-bottom: 20px; border: 1px solid rgba(255,255,255,0.05); }
+        .card-title { font-size: 1.3rem; font-weight: 600; margin-bottom: 16px; display: flex; align-items: center; gap: 10px; }
+        .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+        .feature-item { background: rgba(255,255,255,0.03); border-radius: 10px; padding: 14px; text-align: center; }
+        .feature-icon { font-size: 1.8rem; margin-bottom: 6px; }
+        .feature-title { font-weight: 500; font-size: 0.85rem; }
+        .feature-desc { font-size: 0.75rem; color: var(--text-muted); }
+        .pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; }
+        .price-card { background: linear-gradient(135deg, rgba(99,102,241,0.1), rgba(245,158,11,0.1)); border: 2px solid rgba(245,158,11,0.3); border-radius: 14px; padding: 20px; text-align: center; position: relative; }
+        .price-card.popular { border-color: var(--gold); }
+        .popular-badge { position: absolute; top: -10px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, var(--gold), #fbbf24); color: #000; padding: 4px 14px; border-radius: 20px; font-size: 0.7rem; font-weight: 600; }
+        .price-name { font-size: 1.1rem; font-weight: 600; margin-bottom: 6px; }
+        .price-amount { font-size: 2rem; font-weight: 700; color: var(--gold); }
+        .price-period { color: var(--text-muted); font-size: 0.85rem; }
+        .price-features { margin-top: 14px; text-align: left; font-size: 0.85rem; list-style: none; }
+        .price-features li { padding: 5px 0; }
+        .price-features li::before { content: '✓ '; color: var(--gold); font-weight: bold; }
+        .faq-item { border-bottom: 1px solid rgba(255,255,255,0.1); padding: 14px 0; }
+        .faq-item:last-child { border-bottom: none; }
+        .faq-question { font-weight: 500; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+        .faq-question::after { content: '+'; font-size: 1.3rem; color: var(--gold); transition: transform 0.3s; }
+        .faq-item.open .faq-question::after { transform: rotate(45deg); }
+        .faq-answer { color: var(--text-muted); font-size: 0.85rem; max-height: 0; overflow: hidden; transition: max-height 0.3s, padding 0.3s; }
+        .faq-item.open .faq-answer { max-height: 150px; padding-top: 10px; }
+        .contact-card { background: linear-gradient(135deg, #6366f1, #4f46e5); text-align: center; }
+        .contact-email { display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.15); padding: 12px 24px; border-radius: 30px; font-size: 1rem; color: white; text-decoration: none; margin-top: 14px; transition: background 0.3s; }
+        .contact-email:hover { background: rgba(255,255,255,0.25); }
+        .store-btn { background: #000; border: 1px solid rgba(255,255,255,0.2); border-radius: 10px; padding: 10px 20px; display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: white; margin-top: 14px; }
+        .store-btn:hover { border-color: var(--gold); }
+        .store-btn svg { width: 24px; height: 24px; }
+        .store-text small { font-size: 0.65rem; opacity: 0.8; display: block; }
+        .store-text span { font-weight: 600; font-size: 0.9rem; }
+        .footer { text-align: center; padding: 30px 20px; color: var(--text-muted); font-size: 0.8rem; }
+        .footer a { color: var(--text-muted); margin: 0 10px; }
+        .footer a:hover { color: var(--gold); }
+        .lang-content { display: none; }
+        .lang-content.active { display: block; }
+        .app-icon { width: 80px; height: 80px; border-radius: 18px; margin-bottom: 12px; box-shadow: 0 8px 32px rgba(245,158,11,0.3); }
+        .feature-svg { width: 32px; height: 32px; margin-bottom: 8px; }
+        @media (max-width: 768px) { 
+            .features-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+            .pricing-grid { grid-template-columns: 1fr; }
+            .lang-selector { gap: 6px; }
+            .lang-btn { padding: 6px 10px; font-size: 0.8rem; }
         }
-        .container {
-            width: 90%;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .header {
-            text-align: center;
-            margin-bottom: 30px;
-            padding-top: 20px;
-        }
-        .language-selector {
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .flag-btn {
-            cursor: pointer;
-            width: 40px;
-            height: 30px;
-            margin: 0 5px;
-            border: none;
-            background-color: transparent;
-            transition: transform 0.2s;
-        }
-        .flag-btn:hover {
-            transform: scale(1.1);
-        }
-        .flag-btn.active {
-            transform: scale(1.15);
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-            transition: all 0.3s ease;
-        }
-        .content {
-            background-color: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            padding: 25px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-        }
-        .language-content {
-            display: none;
-        }
-        .show {
-            display: block;
-        }
-        h1 {
-            color: #ff9d00;
-            margin-bottom: 20px;
-            font-size: 28px;
-        }
-        h2 {
-            color: #ff9d00;
-            font-size: 22px;
-            margin-top: 20px;
-            margin-bottom: 15px;
-        }
-        p {
-            margin-bottom: 15px;
-        }
-        ul {
-            padding-left: 20px;
-        }
-        li {
-            margin-bottom: 10px;
-        }
-        .footer {
-            text-align: center;
-            margin-top: 30px;
-            padding: 20px;
-            color: #999;
-            font-size: 14px;
-        }
-        @media (max-width: 600px) {
-            .container {
-                width: 95%;
-            }
-            h1 {
-                font-size: 24px;
-            }
+        @media (max-width: 600px) { 
+            .logo { font-size: 1.8rem; } 
+            .lang-btn span { display: none; } 
+            .app-icon { width: 60px; height: 60px; }
+            .features-grid { grid-template-columns: 1fr; }
+            .card { padding: 18px; }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Zodiac App</h1>
-        </div>
-        
-        <div class="language-selector">
-            <button class="flag-btn active" onclick="changeLanguage('es')">
-                <img src="https://flagcdn.com/48x36/es.png" alt="Español" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA3NTAgNTAwIj48cGF0aCBmaWxsPSIjYzYwYjFlIiBkPSJNMCAwaDc1MHY1MDBIMHoiLz48cGF0aCBmaWxsPSIjZmZjNDAwIiBkPSJNMCAxMjVoNzUwdjI1MEgweiIvPjwvc3ZnPg=='">
-            </button>
-            <button class="flag-btn" onclick="changeLanguage('en')">
-                <img src="https://flagcdn.com/48x36/gb.png" alt="English" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAwIDYwMCI+PHBhdGggZmlsbD0iIzAxMjE2OSIgZD0iTTAgMGgxMjAwdjYwMEgweiIvPjxwYXRoIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxMjAiIGQ9Ik0wIDBoMTIwMHY2MDBIMHoiLz48cGF0aCBzdHJva2U9IiNjODEwMmUiIHN0cm9rZS13aWR0aD0iODAiIGQ9Ik0wIDBoMTIwMHY2MDBIMHoiLz48cGF0aCBzdHJva2U9IiNmZmYiIHN0cm9rZS13aWR0aD0iMjAwIiBkPSJNMCAzMDBoMTIwME02MDAgMHY2MDAiLz48cGF0aCBzdHJva2U9IiNjODEwMmUiIHN0cm9rZS13aWR0aD0iMTIwIiBkPSJNMCAzMDBoMTIwME02MDAgMHY2MDAiLz48L3N2Zz4='">
-            </button>
-            <button class="flag-btn" onclick="changeLanguage('de')">
-                <img src="https://flagcdn.com/48x36/de.png" alt="Deutsch" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1IDMiPjxwYXRoIGQ9Ik0wIDBoNXYzSDB6Ii8+PHBhdGggZmlsbD0iI0QwMCIgZD0iTTAgMWg1djJIMHoiLz48cGF0aCBmaWxsPSIjRkZDRTAwIiBkPSJNMCAyaDV2MUgweiIvPjwvc3ZnPg=='">
-            </button>
-            <button class="flag-btn" onclick="changeLanguage('it')">
-                <img src="https://flagcdn.com/48x36/it.png" alt="Italiano" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjxwYXRoIGZpbGw9IiMwMDkyNDYiIGQ9Ik0wIDBoMXYySDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEgMGgxdjJIMXoiLz48cGF0aCBmaWxsPSIjY2UyYjM3IiBkPSJNMiAwaDF2MkgyeiIvPjwvc3ZnPg=='">
-            </button>
-            <button class="flag-btn" onclick="changeLanguage('fr')">
-                <img src="https://flagcdn.com/48x36/fr.png" alt="Français" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzIDIiPjxwYXRoIGZpbGw9IiMwMDAwODkiIGQ9Ik0wIDBoMXYySDB6Ii8+PHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEgMGgxdjJIMXoiLz48cGF0aCBmaWxsPSIjZTAwMDE1IiBkPSJNMiAwaDF2MkgyeiIvPjwvc3ZnPg=='">
-            </button>
-            <button class="flag-btn" onclick="changeLanguage('pt')">
-                <img src="https://flagcdn.com/48x36/pt.png" alt="Português" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2MDAgNDAwIj48cmVjdCB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0iIzY3YmQ2YSIvPjxyZWN0IHdpZHRoPSIyNDAiIGhlaWdodD0iNDAwIiBmaWxsPSIjZWYyYjJkIi8+PGNpcmNsZSBjeD0iMjQwIiBjeT0iMjAwIiByPSI2OCIgZmlsbD0iI2ZmZiIgc3Ryb2tlPSIjMDAwIiBzdHJva2Utd2lkdGg9IjEuNSIvPjxwYXRoIGQ9Ik0xODAgMTc1aDEyMHY1MEgxODB6IiBmaWxsPSIjZmZmIi8+PHBhdGggZD0iTTI0MCAxNDB2MTIwTTE4MCAxNzVoMTIwIiBzdHJva2U9IiMwMDAiIHN0cm9rZS13aWR0aD0iMjAiLz48L3N2Zz4='">
-            </button>
-        </div>
-        
-        <div class="content">
-            <!-- Español -->
-            <div id="es" class="language-content show">
-                <h1>Zodiac App - Soporte</h1>
-                <p>Bienvenido al centro de soporte oficial de Zodiac App, tu aplicación de astrología y horóscopo preferida.</p>
-                
-                <h2>Sobre la App</h2>
-                <p>Zodiac App te ofrece predicciones diarias personalizadas, compatibilidad entre signos, características detalladas de cada signo zodiacal y mucho más, con un diseño místico e interfaz intuitiva.</p>
-                
-                <h2>Planes Premium</h2>
-                <ul>
-                    <li><strong>Suscripción Mensual:</strong> 4,99€/mes</li>
-                    <li><strong>Plan de por Vida:</strong> 49,99€ (pago único)</li>
-                </ul>
-                
-                <h2>Contacto</h2>
-                <p>Para cualquier consulta o asistencia: lalesito12@icloud.com</p>
-            </div>
-            
-            <!-- English -->
-            <div id="en" class="language-content">
-                <h1>Zodiac App - Support</h1>
-                <p>Welcome to the official support center for Zodiac App, your favorite astrology and horoscope application.</p>
-                
-                <h2>About the App</h2>
-                <p>Zodiac App offers you personalized daily predictions, compatibility between signs, detailed characteristics of each zodiac sign and much more, with a mystical design and intuitive interface.</p>
-                
-                <h2>Premium Plans</h2>
-                <ul>
-                    <li><strong>Monthly Subscription:</strong> $4.99/month</li>
-                    <li><strong>Lifetime Plan:</strong> $49.99 (one-time payment)</li>
-                </ul>
-                
-                <h2>Contact</h2>
-                <p>For any inquiries or assistance: lalesito12@icloud.com</p>
-            </div>
-            
-            <!-- Deutsch -->
-            <div id="de" class="language-content">
-                <h1>Zodiac App - Support</h1>
-                <p>Willkommen im offiziellen Support-Center für Zodiac App, Ihre bevorzugte Astrologie- und Horoskop-Anwendung.</p>
-                
-                <h2>Über die App</h2>
-                <p>Zodiac App bietet Ihnen personalisierte tägliche Vorhersagen, Kompatibilität zwischen Zeichen, detaillierte Eigenschaften jedes Tierkreiszeichens und vieles mehr, mit einem mystischen Design und einer intuitiven Oberfläche.</p>
-                
-                <h2>Premium-Pläne</h2>
-                <ul>
-                    <li><strong>Monatliches Abonnement:</strong> 4,99€/Monat</li>
-                    <li><strong>Lebenslanger Plan:</strong> 49,99€ (einmalige Zahlung)</li>
-                </ul>
-                
-                <h2>Kontakt</h2>
-                <p>Für Anfragen oder Hilfestellung: lalesito12@icloud.com</p>
-            </div>
-            
-            <!-- Italiano -->
-            <div id="it" class="language-content">
-                <h1>Zodiac App - Supporto</h1>
-                <p>Benvenuto al centro di supporto ufficiale di Zodiac App, la tua applicazione preferita di astrologia e oroscopo.</p>
-                
-                <h2>Sull'App</h2>
-                <p>Zodiac App ti offre previsioni giornaliere personalizzate, compatibilità tra segni, caratteristiche dettagliate di ogni segno zodiacale e molto altro, con un design mistico e un'interfaccia intuitiva.</p>
-                
-                <h2>Piani Premium</h2>
-                <ul>
-                    <li><strong>Abbonamento Mensile:</strong> 4,99€/mese</li>
-                    <li><strong>Piano a Vita:</strong> 49,99€ (pagamento unico)</li>
-                </ul>
-                
-                <h2>Contatto</h2>
-                <p>Per qualsiasi domanda o assistenza: lalesito12@icloud.com</p>
-            </div>
-            
-            <!-- Français -->
-            <div id="fr" class="language-content">
-                <h1>Zodiac App - Support</h1>
-                <p>Bienvenue au centre de support officiel de Zodiac App, votre application préférée d'astrologie et d'horoscope.</p>
-                
-                <h2>À propos de l'App</h2>
-                <p>Zodiac App vous offre des prédictions quotidiennes personnalisées, la compatibilité entre les signes, les caractéristiques détaillées de chaque signe du zodiaque et bien plus encore, avec un design mystique et une interface intuitive.</p>
-                
-                <h2>Plans Premium</h2>
-                <ul>
-                    <li><strong>Abonnement Mensuel:</strong> 4,99€/mois</li>
-                    <li><strong>Plan à Vie:</strong> 49,99€ (paiement unique)</li>
-                </ul>
-                
-                <h2>Contact</h2>
-                <p>Pour toute question ou assistance: lalesito12@icloud.com</p>
-            </div>
-            
-            <!-- Português -->
-            <div id="pt" class="language-content">
-                <h1>Zodiac App - Suporte</h1>
-                <p>Bem-vindo ao centro de suporte oficial do Zodiac App, seu aplicativo favorito de astrologia e horóscopo.</p>
-                
-                <h2>Sobre o App</h2>
-                <p>Zodiac App oferece previsões diárias personalizadas, compatibilidade entre signos, características detalhadas de cada signo do zodíaco e muito mais, com um design místico e interface intuitiva.</p>
-                
-                <h2>Planos Premium</h2>
-                <ul>
-                    <li><strong>Assinatura Mensal:</strong> 4,99€/mês</li>
-                    <li><strong>Plano Vitalício:</strong> 49,99€ (pagamento único)</li>
-                </ul>
-                
-                <h2>Contato</h2>
-                <p>Para quaisquer consultas ou assistência: lalesito12@icloud.com</p>
-            </div>
-        </div>
-        
-        <div class="footer">
-            &copy; 2025 Zodiac App. Todos los derechos reservados.
-        </div>
+<div class="container">
+    <header class="header">
+        <img src="app_icon.png" alt="Zodiac Life Coach" class="app-icon">
+        <h1 class="logo">Zodiac Life Coach</h1>
+        <p class="tagline">Tu guía cósmica personal</p>
+    </header>
+    <div class="lang-selector">
+        <button class="lang-btn active" onclick="setLang('es')"><img src="https://flagcdn.com/24x18/es.png" alt="ES"><span>Español</span></button>
+        <button class="lang-btn" onclick="setLang('en')"><img src="https://flagcdn.com/24x18/gb.png" alt="EN"><span>English</span></button>
+        <button class="lang-btn" onclick="setLang('de')"><img src="https://flagcdn.com/24x18/de.png" alt="DE"><span>Deutsch</span></button>
+        <button class="lang-btn" onclick="setLang('fr')"><img src="https://flagcdn.com/24x18/fr.png" alt="FR"><span>Français</span></button>
+        <button class="lang-btn" onclick="setLang('it')"><img src="https://flagcdn.com/24x18/it.png" alt="IT"><span>Italiano</span></button>
+        <button class="lang-btn" onclick="setLang('pt')"><img src="https://flagcdn.com/24x18/pt.png" alt="PT"><span>Português</span></button>
     </div>
-    
-    <script>
-        function changeLanguage(lang) {
-            // Ocultar todos los contenidos
-            var contents = document.getElementsByClassName('language-content');
-            for (var i = 0; i < contents.length; i++) {
-                contents[i].classList.remove('show');
-            }
-            
-            // Mostrar el contenido del idioma seleccionado
-            document.getElementById(lang).classList.add('show');
-            
-            // Actualizar botones activos
-            var buttons = document.getElementsByClassName('flag-btn');
-            for (var i = 0; i < buttons.length; i++) {
-                buttons[i].classList.remove('active');
-            }
-            
-            // Activar botón del idioma seleccionado
-            event.currentTarget.classList.add('active');
-            
-            // Actualizar el atributo lang del HTML
-            document.documentElement.lang = lang;
-        }
-        
-        // Detectar idioma del navegador y mostrar el contenido apropiado
-        function detectLanguage() {
-            var userLang = navigator.language || navigator.userLanguage;
-            userLang = userLang.split('-')[0]; // Obtener solo el código de idioma principal
-            
-            // Verificar si el idioma está soportado
-            var supportedLangs = ['es', 'en', 'de', 'it', 'fr', 'pt'];
-            if (!supportedLangs.includes(userLang)) {
-                userLang = 'en'; // Inglés por defecto si el idioma no está soportado
-            }
-            
-            changeLanguage(userLang);
-            
-            // También activar el botón correspondiente
-            var buttons = document.getElementsByClassName('flag-btn');
-            for (var i = 0; i < buttons.length; i++) {
-                if (buttons[i].getAttribute('onclick').includes(userLang)) {
-                    buttons[i].classList.add('active');
-                } else {
-                    buttons[i].classList.remove('active');
-                }
-            }
-        }
-        
-        // Ejecutar al cargar la página
-        window.onload = function() {
-            // Comentado para mantener español como idioma por defecto
-            // detectLanguage();
-        };
-    </script>
+
+    <!-- ESPAÑOL -->
+    <div id="es" class="lang-content active">
+        <div class="card"><h2 class="card-title"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Características</h2>
+            <div class="features-grid">
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 2a7.5 7.5 0 0 0 0 15 7.5 7.5 0 0 0 0-15"/><circle cx="12" cy="12" r="3"/></svg><div class="feature-title">Horóscopos</div><div class="feature-desc">Predicciones diarias</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><div class="feature-title">Compatibilidad</div><div class="feature-desc">Entre signos</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2"><path d="M12 8V4H8"/><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg><div class="feature-title">Chat IA</div><div class="feature-desc">Coach cósmico</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 9l-5 5-4-4-3 3"/></svg><div class="feature-title">Biorritmos</div><div class="feature-desc">Ciclos personales</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div class="feature-title">Ascendente</div><div class="feature-desc">Tu signo rising</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><div class="feature-title">Widgets</div><div class="feature-desc">En tu pantalla</div></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">💎 Planes Premium</h2>
+            <div class="pricing-grid">
+                <div class="price-card popular"><div class="popular-badge">Más Popular</div><div class="price-name">Premium Básico</div><div class="price-amount">$6.99</div><div class="price-period">/mes</div><ul class="price-features"><li>Sin anuncios</li><li>Horóscopos ilimitados</li><li>Compatibilidad avanzada</li><li>Temas premium</li></ul></div>
+                <div class="price-card"><div class="price-name">Premium + IA</div><div class="price-amount">$19.99</div><div class="price-period">/mes</div><ul class="price-features"><li>Todo lo anterior</li><li>IA Astrológica ilimitada</li><li>Coach Cósmico personal</li><li>Análisis GPT profundo</li></ul></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">❓ Preguntas Frecuentes</h2>
+            <div class="faq-item"><div class="faq-question">¿Cómo cambio mi signo zodiacal?</div><div class="faq-answer">Ve a Configuración → Perfil y selecciona tu nuevo signo.</div></div>
+            <div class="faq-item"><div class="faq-question">¿Cómo cancelo mi suscripción?</div><div class="faq-answer">Las suscripciones se gestionan en App Store. Ve a Configuración iPhone → Tu nombre → Suscripciones.</div></div>
+            <div class="faq-item"><div class="faq-question">¿Qué incluye la IA Astrológica?</div><div class="faq-answer">Acceso ilimitado al Coach Cósmico con GPT-4 y análisis personalizados profundos.</div></div>
+            <div class="faq-item"><div class="faq-question">¿Puedo restaurar mis compras?</div><div class="faq-answer">Sí, ve a Configuración → Premium → Restaurar Compras.</div></div>
+        </div>
+        <div class="card contact-card"><h2 class="card-title" style="justify-content:center">📧 ¿Necesitas ayuda?</h2><p>Nuestro equipo está aquí para asistirte</p><a href="mailto:support@zodiaclifecoach.app" class="contact-email">✉️ support@zodiaclifecoach.app</a></div>
+        <div class="card" style="text-align:center"><h2 class="card-title" style="justify-content:center">📲 Descarga la App</h2><a href="https://apps.apple.com/app/zodiac-life-coach" class="store-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><div class="store-text"><small>Descargar en</small><span>App Store</span></div></a></div>
+    </div>
+
+    <!-- ENGLISH -->
+    <div id="en" class="lang-content">
+        <div class="card"><h2 class="card-title"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Features</h2>
+            <div class="features-grid">
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg><div class="feature-title">Horoscopes</div><div class="feature-desc">Daily predictions</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><div class="feature-title">Compatibility</div><div class="feature-desc">Sign analysis</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg><div class="feature-title">AI Chat</div><div class="feature-desc">Cosmic coach</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 9l-5 5-4-4-3 3"/></svg><div class="feature-title">Biorhythms</div><div class="feature-desc">Personal cycles</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div class="feature-title">Ascendant</div><div class="feature-desc">Rising sign</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><div class="feature-title">Widgets</div><div class="feature-desc">Home screen</div></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">💎 Premium Plans</h2>
+            <div class="pricing-grid">
+                <div class="price-card popular"><div class="popular-badge">Most Popular</div><div class="price-name">Basic Premium</div><div class="price-amount">$6.99</div><div class="price-period">/month</div><ul class="price-features"><li>Ad-free</li><li>Unlimited horoscopes</li><li>Advanced compatibility</li><li>Premium themes</li></ul></div>
+                <div class="price-card"><div class="price-name">Premium + AI</div><div class="price-amount">$19.99</div><div class="price-period">/month</div><ul class="price-features"><li>Everything above</li><li>Unlimited AI Astrology</li><li>Personal Cosmic Coach</li><li>Deep GPT analysis</li></ul></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">❓ FAQ</h2>
+            <div class="faq-item"><div class="faq-question">How do I change my zodiac sign?</div><div class="faq-answer">Go to Settings → Profile and select your new sign.</div></div>
+            <div class="faq-item"><div class="faq-question">How do I cancel my subscription?</div><div class="faq-answer">Subscriptions are managed via App Store. Go to iPhone Settings → Your Name → Subscriptions.</div></div>
+            <div class="faq-item"><div class="faq-question">What does AI Astrology include?</div><div class="faq-answer">Unlimited access to Cosmic Coach with GPT-4 and deep personalized analysis.</div></div>
+            <div class="faq-item"><div class="faq-question">Can I restore my purchases?</div><div class="faq-answer">Yes, go to Settings → Premium → Restore Purchases.</div></div>
+        </div>
+        <div class="card contact-card"><h2 class="card-title" style="justify-content:center">📧 Need Help?</h2><p>Our team is here to assist you</p><a href="mailto:support@zodiaclifecoach.app" class="contact-email">✉️ support@zodiaclifecoach.app</a></div>
+        <div class="card" style="text-align:center"><h2 class="card-title" style="justify-content:center">📲 Download the App</h2><a href="https://apps.apple.com/app/zodiac-life-coach" class="store-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><div class="store-text"><small>Download on</small><span>App Store</span></div></a></div>
+    </div>
+
+    <!-- DEUTSCH -->
+    <div id="de" class="lang-content">
+        <div class="card"><h2 class="card-title"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Funktionen</h2>
+            <div class="features-grid">
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg><div class="feature-title">Horoskope</div><div class="feature-desc">Tägliche Vorhersagen</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><div class="feature-title">Kompatibilität</div><div class="feature-desc">Zeichen-Analyse</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg><div class="feature-title">KI-Chat</div><div class="feature-desc">Kosmischer Coach</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 9l-5 5-4-4-3 3"/></svg><div class="feature-title">Biorhythmen</div><div class="feature-desc">Persönliche Zyklen</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div class="feature-title">Aszendent</div><div class="feature-desc">Aufsteigendes Zeichen</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><div class="feature-title">Widgets</div><div class="feature-desc">Startbildschirm</div></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">💎 Premium-Pläne</h2>
+            <div class="pricing-grid">
+                <div class="price-card popular"><div class="popular-badge">Beliebteste</div><div class="price-name">Basis-Premium</div><div class="price-amount">$6.99</div><div class="price-period">/Monat</div><ul class="price-features"><li>Werbefrei</li><li>Unbegrenzte Horoskope</li><li>Erweiterte Kompatibilität</li><li>Premium-Themen</li></ul></div>
+                <div class="price-card"><div class="price-name">Premium + KI</div><div class="price-amount">$19.99</div><div class="price-period">/Monat</div><ul class="price-features"><li>Alles oben</li><li>Unbegrenzte KI-Astrologie</li><li>Persönlicher Coach</li><li>Tiefe GPT-Analyse</li></ul></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">❓ FAQ</h2>
+            <div class="faq-item"><div class="faq-question">Wie ändere ich mein Sternzeichen?</div><div class="faq-answer">Gehe zu Einstellungen → Profil und wähle dein neues Zeichen.</div></div>
+            <div class="faq-item"><div class="faq-question">Wie kündige ich mein Abo?</div><div class="faq-answer">Abos werden über den App Store verwaltet. Gehe zu iPhone-Einstellungen → Dein Name → Abonnements.</div></div>
+        </div>
+        <div class="card contact-card"><h2 class="card-title" style="justify-content:center">📧 Hilfe benötigt?</h2><p>Unser Team ist hier, um zu helfen</p><a href="mailto:support@zodiaclifecoach.app" class="contact-email">✉️ support@zodiaclifecoach.app</a></div>
+        <div class="card" style="text-align:center"><h2 class="card-title" style="justify-content:center">📲 App herunterladen</h2><a href="https://apps.apple.com/app/zodiac-life-coach" class="store-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><div class="store-text"><small>Laden im</small><span>App Store</span></div></a></div>
+    </div>
+
+    <!-- FRANÇAIS -->
+    <div id="fr" class="lang-content">
+        <div class="card"><h2 class="card-title"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Fonctionnalités</h2>
+            <div class="features-grid">
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg><div class="feature-title">Horoscopes</div><div class="feature-desc">Prédictions quotidiennes</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><div class="feature-title">Compatibilité</div><div class="feature-desc">Analyse des signes</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg><div class="feature-title">Chat IA</div><div class="feature-desc">Coach cosmique</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 9l-5 5-4-4-3 3"/></svg><div class="feature-title">Biorythmes</div><div class="feature-desc">Cycles personnels</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div class="feature-title">Ascendant</div><div class="feature-desc">Signe montant</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><div class="feature-title">Widgets</div><div class="feature-desc">Écran d'accueil</div></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">💎 Plans Premium</h2>
+            <div class="pricing-grid">
+                <div class="price-card popular"><div class="popular-badge">Plus Populaire</div><div class="price-name">Premium Basique</div><div class="price-amount">$6.99</div><div class="price-period">/mois</div><ul class="price-features"><li>Sans pub</li><li>Horoscopes illimités</li><li>Compatibilité avancée</li><li>Thèmes premium</li></ul></div>
+                <div class="price-card"><div class="price-name">Premium + IA</div><div class="price-amount">$19.99</div><div class="price-period">/mois</div><ul class="price-features"><li>Tout ci-dessus</li><li>IA Astrologie illimitée</li><li>Coach Cosmique</li><li>Analyse GPT profonde</li></ul></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">❓ FAQ</h2>
+            <div class="faq-item"><div class="faq-question">Comment changer mon signe?</div><div class="faq-answer">Allez dans Paramètres → Profil et sélectionnez votre nouveau signe.</div></div>
+            <div class="faq-item"><div class="faq-question">Comment annuler mon abonnement?</div><div class="faq-answer">Les abonnements sont gérés via l'App Store. Allez dans Paramètres iPhone → Votre nom → Abonnements.</div></div>
+        </div>
+        <div class="card contact-card"><h2 class="card-title" style="justify-content:center">📧 Besoin d'aide?</h2><p>Notre équipe est là pour vous aider</p><a href="mailto:support@zodiaclifecoach.app" class="contact-email">✉️ support@zodiaclifecoach.app</a></div>
+        <div class="card" style="text-align:center"><h2 class="card-title" style="justify-content:center">📲 Télécharger l'App</h2><a href="https://apps.apple.com/app/zodiac-life-coach" class="store-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><div class="store-text"><small>Télécharger sur</small><span>App Store</span></div></a></div>
+    </div>
+
+    <!-- ITALIANO -->
+    <div id="it" class="lang-content">
+        <div class="card"><h2 class="card-title"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Funzionalità</h2>
+            <div class="features-grid">
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg><div class="feature-title">Oroscopi</div><div class="feature-desc">Previsioni giornaliere</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><div class="feature-title">Compatibilità</div><div class="feature-desc">Analisi dei segni</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg><div class="feature-title">Chat IA</div><div class="feature-desc">Coach cosmico</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 9l-5 5-4-4-3 3"/></svg><div class="feature-title">Bioritmi</div><div class="feature-desc">Cicli personali</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div class="feature-title">Ascendente</div><div class="feature-desc">Segno nascente</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><div class="feature-title">Widget</div><div class="feature-desc">Schermata home</div></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">💎 Piani Premium</h2>
+            <div class="pricing-grid">
+                <div class="price-card popular"><div class="popular-badge">Più Popolare</div><div class="price-name">Premium Base</div><div class="price-amount">$6.99</div><div class="price-period">/mese</div><ul class="price-features"><li>Senza pubblicità</li><li>Oroscopi illimitati</li><li>Compatibilità avanzata</li><li>Temi premium</li></ul></div>
+                <div class="price-card"><div class="price-name">Premium + IA</div><div class="price-amount">$19.99</div><div class="price-period">/mese</div><ul class="price-features"><li>Tutto sopra</li><li>IA Astrologia illimitata</li><li>Coach Cosmico</li><li>Analisi GPT profonda</li></ul></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">❓ FAQ</h2>
+            <div class="faq-item"><div class="faq-question">Come cambio il mio segno?</div><div class="faq-answer">Vai su Impostazioni → Profilo e seleziona il tuo nuovo segno.</div></div>
+            <div class="faq-item"><div class="faq-question">Come annullo l'abbonamento?</div><div class="faq-answer">Gli abbonamenti sono gestiti tramite App Store. Vai su Impostazioni iPhone → Tuo nome → Abbonamenti.</div></div>
+        </div>
+        <div class="card contact-card"><h2 class="card-title" style="justify-content:center">📧 Hai bisogno di aiuto?</h2><p>Il nostro team è qui per aiutarti</p><a href="mailto:support@zodiaclifecoach.app" class="contact-email">✉️ support@zodiaclifecoach.app</a></div>
+        <div class="card" style="text-align:center"><h2 class="card-title" style="justify-content:center">📲 Scarica l'App</h2><a href="https://apps.apple.com/app/zodiac-life-coach" class="store-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><div class="store-text"><small>Scarica su</small><span>App Store</span></div></a></div>
+    </div>
+
+    <!-- PORTUGUÊS -->
+    <div id="pt" class="lang-content">
+        <div class="card"><h2 class="card-title"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg> Recursos</h2>
+            <div class="features-grid">
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/></svg><div class="feature-title">Horóscopos</div><div class="feature-desc">Previsões diárias</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f472b6" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><div class="feature-title">Compatibilidade</div><div class="feature-desc">Análise de signos</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#60a5fa" stroke-width="2"><rect x="4" y="8" width="16" height="12" rx="2"/><path d="M8 12h.01M12 12h.01M16 12h.01M8 16h.01M12 16h.01M16 16h.01"/></svg><div class="feature-title">Chat IA</div><div class="feature-desc">Coach cósmico</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2"><path d="M3 3v18h18"/><path d="M18 9l-5 5-4-4-3 3"/></svg><div class="feature-title">Biorritmos</div><div class="feature-desc">Ciclos pessoais</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#fbbf24" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg><div class="feature-title">Ascendente</div><div class="feature-desc">Signo nascente</div></div>
+                <div class="feature-item"><svg class="feature-svg" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg><div class="feature-title">Widgets</div><div class="feature-desc">Tela inicial</div></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">💎 Planos Premium</h2>
+            <div class="pricing-grid">
+                <div class="price-card popular"><div class="popular-badge">Mais Popular</div><div class="price-name">Premium Básico</div><div class="price-amount">$6.99</div><div class="price-period">/mês</div><ul class="price-features"><li>Sem anúncios</li><li>Horóscopos ilimitados</li><li>Compatibilidade avançada</li><li>Temas premium</li></ul></div>
+                <div class="price-card"><div class="price-name">Premium + IA</div><div class="price-amount">$19.99</div><div class="price-period">/mês</div><ul class="price-features"><li>Tudo acima</li><li>IA Astrologia ilimitada</li><li>Coach Cósmico</li><li>Análise GPT profunda</li></ul></div>
+            </div>
+        </div>
+        <div class="card"><h2 class="card-title">❓ FAQ</h2>
+            <div class="faq-item"><div class="faq-question">Como mudo meu signo?</div><div class="faq-answer">Vá para Configurações → Perfil e selecione seu novo signo.</div></div>
+            <div class="faq-item"><div class="faq-question">Como cancelo minha assinatura?</div><div class="faq-answer">As assinaturas são gerenciadas pela App Store. Vá para Configurações iPhone → Seu nome → Assinaturas.</div></div>
+        </div>
+        <div class="card contact-card"><h2 class="card-title" style="justify-content:center">📧 Precisa de ajuda?</h2><p>Nossa equipe está aqui para ajudá-lo</p><a href="mailto:support@zodiaclifecoach.app" class="contact-email">✉️ support@zodiaclifecoach.app</a></div>
+        <div class="card" style="text-align:center"><h2 class="card-title" style="justify-content:center">📲 Baixar o App</h2><a href="https://apps.apple.com/app/zodiac-life-coach" class="store-btn"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg><div class="store-text"><small>Baixar na</small><span>App Store</span></div></a></div>
+    </div>
+
+    <footer class="footer">
+        <p>© 2025 Zodiac Life Coach. All rights reserved.</p>
+        <p><a href="mailto:support@zodiaclifecoach.app">Soporte</a> | <a href="#">Privacidad</a> | <a href="#">Términos</a></p>
+    </footer>
+</div>
+
+<script>
+function setLang(lang) {
+    document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+    document.querySelectorAll('.lang-btn').forEach(btn => btn.classList.remove('active'));
+    document.getElementById(lang).classList.add('active');
+    event.currentTarget.classList.add('active');
+    document.documentElement.lang = lang;
+}
+document.querySelectorAll('.faq-question').forEach(q => {
+    q.addEventListener('click', () => q.parentElement.classList.toggle('open'));
+});
+</script>
 </body>
 </html>
