@@ -1,6 +1,6 @@
 # Legion of Superagents - Specialized AI Expert Commands
 
-A collection of **14 specialized expert agents** designed to be reusable across any software project.
+A collection of **16 specialized expert agents** designed to be reusable across any software project.
 
 ## Quick Reference
 
@@ -20,6 +20,8 @@ A collection of **14 specialized expert agents** designed to be reusable across 
 | `/documentation-writer` | Docs | README, API docs, comments |
 | `/git-master` | Version Control | Branching, merging, history |
 | `/ux-analyst` | User Experience | Usability, accessibility |
+| `/error-doctor` | Build Errors | Flutter/iOS/Android compilation |
+| `/image-generator` | AI Images | Icons, illustrations, assets |
 
 ---
 
@@ -45,6 +47,12 @@ A collection of **14 specialized expert agents** designed to be reusable across 
 ```
 /devops-engineer → Deployment, CI/CD, infrastructure
 /database-expert → Data modeling, query optimization
+```
+
+### Mobile Development (2)
+```
+/error-doctor    → Flutter/iOS/Android build errors
+/image-generator → AI-generated icons and assets
 ```
 
 ### Specialized (4)
@@ -77,6 +85,20 @@ A collection of **14 specialized expert agents** designed to be reusable across 
 4. /code-reviewer  → Verify fix quality
 ```
 
+### Build Errors
+```
+1. /error-doctor → Diagnose Flutter/iOS/Android errors
+2. Follow the fix steps
+3. Verify build works
+```
+
+### Creating App Assets
+```
+1. /image-generator → Generate icons, illustrations
+2. Follow prompt templates
+3. Integrate into app
+```
+
 ### Performance Issue
 ```
 1. /performance-optimizer → Identify bottlenecks
@@ -103,8 +125,9 @@ A collection of **14 specialized expert agents** designed to be reusable across 
 1. /test-engineer         → Verify test coverage
 2. /security-auditor      → Security check
 3. /performance-optimizer → Performance check
-4. /documentation-writer  → Update docs
-5. /devops-engineer       → Deploy
+4. /error-doctor          → Verify clean build
+5. /documentation-writer  → Update docs
+6. /devops-engineer       → Deploy
 ```
 
 ---
@@ -195,6 +218,59 @@ A collection of **14 specialized expert agents** designed to be reusable across 
 - User flow analysis
 - Conversion optimization
 
+### /error-doctor
+- Flutter compilation errors
+- iOS build issues (CocoaPods, signing)
+- Android build issues (Gradle, SDK)
+- Dependency conflicts
+- Quick recovery actions
+
+### /image-generator
+- AI image APIs (Gemini, DALL-E, Stable Diffusion)
+- App icons and logos
+- UI illustrations
+- Marketing assets
+- Batch generation scripts
+
+---
+
+## Installation in Other Projects
+
+Copy the entire `commands/` folder to your project:
+
+```bash
+# From this project to another
+cp -r .claude/commands/ /path/to/other-project/.claude/commands/
+
+# Or create the structure
+mkdir -p /path/to/other-project/.claude/commands
+cp .claude/commands/*.md /path/to/other-project/.claude/commands/
+```
+
+Required structure in target project:
+```
+your-project/
+└── .claude/
+    └── commands/
+        ├── README.md
+        ├── architect.md
+        ├── api-designer.md
+        ├── code-reviewer.md
+        ├── database-expert.md
+        ├── debugger.md
+        ├── devops-engineer.md
+        ├── documentation-writer.md
+        ├── error-doctor.md
+        ├── git-master.md
+        ├── i18n-translator.md
+        ├── image-generator.md
+        ├── performance-optimizer.md
+        ├── refactoring-guru.md
+        ├── security-auditor.md
+        ├── test-engineer.md
+        └── ux-analyst.md
+```
+
 ---
 
 ## Best Practices
@@ -204,6 +280,7 @@ A collection of **14 specialized expert agents** designed to be reusable across 
 Big feature? Use: architect → api-designer → database-expert → test-engineer
 Production bug? Use: debugger → code-reviewer → test-engineer
 Performance issue? Use: performance-optimizer → database-expert → refactoring-guru
+Build broken? Use: error-doctor → git-master (if git issue)
 ```
 
 ### Run Parallel for Audits
@@ -213,6 +290,7 @@ Pre-release audit:
 - /performance-optimizer (speed)
 - /test-engineer (coverage)
 - /ux-analyst (usability)
+- /error-doctor (build health)
 ```
 
 ### Regular Maintenance
@@ -224,27 +302,6 @@ Quarterly: /architect review technical debt
 
 ---
 
-## Customization
-
-Each agent can be customized for your project by:
-1. Adding project-specific patterns
-2. Including team conventions
-3. Setting custom thresholds
-4. Adding domain-specific checks
-
----
-
-## Project-Specific Agents
-
-Additionally, project-specific agents exist:
-
-| Command | Purpose |
-|---------|---------|
-| `/error-doctor` | Zodiac app error diagnosis |
-| `/nano-banana` | PDF icon generation with Gemini AI |
-
----
-
-**Total: 14 Reusable Superagents + 2 Project-Specific**
+**Total: 16 Reusable Superagents**
 
 Ready to use in any software project!
