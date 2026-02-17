@@ -1,4 +1,5 @@
 #!/usr/bin/env dart
+
 /// Dart Translation Validation Script
 /// ===================================
 /// Validates translation files for consistency, quality, and completeness.
@@ -12,6 +13,9 @@
 ///
 /// Author: Claude Code Agent
 /// Date: October 15, 2025
+library;
+
+// ignore_for_file: avoid_print
 
 import 'dart:io';
 import 'dart:convert';
@@ -60,21 +64,38 @@ class TranslationValidator {
     stdout.writeln('$prefix$color$message$colorReset');
   }
 
-  void addResult(String category, String level, String message, {String? file}) {
-    results.add(ValidationResult(
-      category: category,
-      level: level,
-      message: message,
-      file: file,
-    ));
+  void addResult(
+    String category,
+    String level,
+    String message, {
+    String? file,
+  }) {
+    results.add(
+      ValidationResult(
+        category: category,
+        level: level,
+        message: message,
+        file: file,
+      ),
+    );
 
     if (level == 'error') stats['errors'] = (stats['errors'] ?? 0) + 1;
     if (level == 'warning') stats['warnings'] = (stats['warnings'] ?? 0) + 1;
     if (level == 'info') stats['info'] = (stats['info'] ?? 0) + 1;
 
     if (verbose || level == 'error') {
-      final icon = level == 'error' ? '✗' : level == 'warning' ? '⚠' : 'ℹ';
-      final color = level == 'error' ? colorRed : level == 'warning' ? colorYellow : colorBlue;
+      final icon =
+          level == 'error'
+              ? '✗'
+              : level == 'warning'
+              ? '⚠'
+              : 'ℹ';
+      final color =
+          level == 'error'
+              ? colorRed
+              : level == 'warning'
+              ? colorYellow
+              : colorBlue;
       log('  $icon $message', color: color);
     }
   }
@@ -102,25 +123,36 @@ class TranslationValidator {
         stats['files_checked'] = (stats['files_checked'] ?? 0) + 1;
         log('  Loaded: app_$lang.arb (${data.length} keys)', color: colorGreen);
       } catch (e) {
-        addResult('Files', 'error', 'Failed to parse app_$lang.arb: $e', file: 'app_$lang.arb');
+        addResult(
+          'Files',
+          'error',
+          'Failed to parse app_$lang.arb: $e',
+          file: 'app_$lang.arb',
+        );
       }
     }
   }
 
   void validateKeyParity() {
-    log('\nValidating key parity across languages...', color: colorCyan, bold: true);
+    log(
+      '\nValidating key parity across languages...',
+      color: colorCyan,
+      bold: true,
+    );
 
     if (!translations.containsKey('en')) {
       addResult('Parity', 'error', 'English base file not loaded');
       return;
     }
 
-    final enKeys = translations['en']!.keys.where((k) => !k.startsWith('@')).toSet();
+    final enKeys =
+        translations['en']!.keys.where((k) => !k.startsWith('@')).toSet();
 
     for (final lang in languages) {
       if (lang == 'en' || !translations.containsKey(lang)) continue;
 
-      final langKeys = translations[lang]!.keys.where((k) => !k.startsWith('@')).toSet();
+      final langKeys =
+          translations[lang]!.keys.where((k) => !k.startsWith('@')).toSet();
 
       // Check for missing keys
       final missing = enKeys.difference(langKeys);
@@ -146,7 +178,12 @@ class TranslationValidator {
 
       // Success case
       if (missing.isEmpty && extra.isEmpty) {
-        addResult('Parity', 'info', '$lang has perfect key parity', file: 'app_$lang.arb');
+        addResult(
+          'Parity',
+          'info',
+          '$lang has perfect key parity',
+          file: 'app_$lang.arb',
+        );
       }
     }
   }
@@ -194,7 +231,8 @@ class TranslationValidator {
     // Report convention distribution
     log('\n  Naming Convention Distribution:', color: colorCyan);
     conventions.forEach((convention, count) {
-      final percentage = (count / translations['en']!.length * 100).toStringAsFixed(1);
+      final percentage = (count / translations['en']!.length * 100)
+          .toStringAsFixed(1);
       log('    $convention: $count ($percentage%)', color: colorBlue);
     });
 
@@ -202,16 +240,39 @@ class TranslationValidator {
     final total = translations['en']!.length;
     final camelCasePercentage = ((conventions['camelCase'] ?? 0) / total * 100);
     if (camelCasePercentage > 60) {
-      addResult('Naming', 'info', 'Recommend standardizing to camelCase (already $camelCasePercentage% coverage)');
+      addResult(
+        'Naming',
+        'info',
+        'Recommend standardizing to camelCase (already $camelCasePercentage% coverage)',
+      );
     }
   }
 
   void validateEnglishInTranslations() {
-    log('\nChecking for English text in non-English files...', color: colorCyan, bold: true);
+    log(
+      '\nChecking for English text in non-English files...',
+      color: colorCyan,
+      bold: true,
+    );
 
     final englishIndicators = [
-      'the', 'and', 'or', 'but', 'your', 'you', 'with', 'this', 'that',
-      'have', 'from', 'they', 'been', 'which', 'their', 'about', 'more'
+      'the',
+      'and',
+      'or',
+      'but',
+      'your',
+      'you',
+      'with',
+      'this',
+      'that',
+      'have',
+      'from',
+      'they',
+      'been',
+      'which',
+      'their',
+      'about',
+      'more',
     ];
 
     for (final lang in languages) {
@@ -224,14 +285,19 @@ class TranslationValidator {
         if (key.startsWith('@') || value is! String) return;
 
         final lowerValue = value.toString().toLowerCase();
-        final englishWords = englishIndicators.where(
-          (word) => RegExp(r'\b' + word + r'\b').hasMatch(lowerValue)
-        ).length;
+        final englishWords =
+            englishIndicators
+                .where(
+                  (word) => RegExp(r'\b' + word + r'\b').hasMatch(lowerValue),
+                )
+                .length;
 
         if (englishWords >= 3) {
           suspiciousCount++;
           if (suspiciousKeys.length < 5) {
-            suspiciousKeys.add('$key: "${value.toString().substring(0, value.toString().length > 50 ? 50 : value.toString().length)}..."');
+            suspiciousKeys.add(
+              '$key: "${value.toString().substring(0, value.toString().length > 50 ? 50 : value.toString().length)}..."',
+            );
           }
         }
       });
@@ -250,13 +316,22 @@ class TranslationValidator {
           }
         }
       } else {
-        addResult('Quality', 'info', '$lang appears to have proper translations', file: 'app_$lang.arb');
+        addResult(
+          'Quality',
+          'info',
+          '$lang appears to have proper translations',
+          file: 'app_$lang.arb',
+        );
       }
     }
   }
 
   void validateTranslationPlaceholders() {
-    log('\nChecking for [TRANSLATE] placeholders...', color: colorCyan, bold: true);
+    log(
+      '\nChecking for [TRANSLATE] placeholders...',
+      color: colorCyan,
+      bold: true,
+    );
 
     for (final lang in languages) {
       if (lang == 'en' || !translations.containsKey(lang)) continue;
@@ -279,23 +354,34 @@ class TranslationValidator {
           file: 'app_$lang.arb',
         );
       } else {
-        addResult('Completeness', 'info', '$lang has no translation placeholders', file: 'app_$lang.arb');
+        addResult(
+          'Completeness',
+          'info',
+          '$lang has no translation placeholders',
+          file: 'app_$lang.arb',
+        );
       }
     }
   }
 
   void calculateTranslationQuality() {
-    log('\nCalculating translation quality scores...', color: colorCyan, bold: true);
+    log(
+      '\nCalculating translation quality scores...',
+      color: colorCyan,
+      bold: true,
+    );
 
     if (!translations.containsKey('en')) return;
 
-    final enKeyCount = translations['en']!.keys.where((k) => !k.startsWith('@')).length;
+    final enKeyCount =
+        translations['en']!.keys.where((k) => !k.startsWith('@')).length;
 
     for (final lang in languages) {
       if (lang == 'en' || !translations.containsKey(lang)) continue;
 
       final langData = translations[lang]!;
-      final langKeyCount = langData.keys.where((k) => !k.startsWith('@')).length;
+      final langKeyCount =
+          langData.keys.where((k) => !k.startsWith('@')).length;
 
       // Calculate metrics
       final coverage = (langKeyCount / enKeyCount * 100);
@@ -313,10 +399,21 @@ class TranslationValidator {
         }
       });
 
-      final qualityScore = coverage - (placeholderCount / langKeyCount * 100) - (suspiciousCount / langKeyCount * 50);
+      final qualityScore =
+          coverage -
+          (placeholderCount / langKeyCount * 100) -
+          (suspiciousCount / langKeyCount * 50);
 
-      final scoreColor = qualityScore >= 95 ? colorGreen : qualityScore >= 85 ? colorYellow : colorRed;
-      log('  $lang: ${qualityScore.toStringAsFixed(1)}% quality score', color: scoreColor);
+      final scoreColor =
+          qualityScore >= 95
+              ? colorGreen
+              : qualityScore >= 85
+              ? colorYellow
+              : colorRed;
+      log(
+        '  $lang: ${qualityScore.toStringAsFixed(1)}% quality score',
+        color: scoreColor,
+      );
       log('    - Coverage: ${coverage.toStringAsFixed(1)}%', color: colorBlue);
       log('    - Placeholders: $placeholderCount', color: colorBlue);
       log('    - Suspicious: $suspiciousCount', color: colorBlue);
@@ -333,18 +430,26 @@ class TranslationValidator {
   }
 
   void printSummary() {
-    log('\n${"=" * 80}', color: colorCyan);
+    log('\n${'=' * 80}', color: colorCyan);
     log('Validation Summary', color: colorCyan, bold: true);
-    log('${"=" * 80}', color: colorCyan);
+    log('=' * 80, color: colorCyan);
 
     log('\nFiles checked:  ${stats["files_checked"]}', color: colorGreen);
-    log('Errors:         ${stats["errors"]}', color: stats["errors"]! > 0 ? colorRed : colorGreen);
-    log('Warnings:       ${stats["warnings"]}', color: stats["warnings"]! > 0 ? colorYellow : colorGreen);
+    log(
+      'Errors:         ${stats["errors"]}',
+      color: stats["errors"]! > 0 ? colorRed : colorGreen,
+    );
+    log(
+      'Warnings:       ${stats["warnings"]}',
+      color: stats["warnings"]! > 0 ? colorYellow : colorGreen,
+    );
     log('Info:           ${stats["info"]}', color: colorBlue);
 
     if (results.isNotEmpty && !verbose) {
       log('\nTop Issues:', color: colorYellow);
-      final topIssues = results.where((r) => r.level == 'error' || r.level == 'warning').take(10);
+      final topIssues = results
+          .where((r) => r.level == 'error' || r.level == 'warning')
+          .take(10);
       for (final issue in topIssues) {
         final icon = issue.level == 'error' ? '✗' : '⚠';
         final color = issue.level == 'error' ? colorRed : colorYellow;
@@ -352,14 +457,22 @@ class TranslationValidator {
       }
     }
 
-    log('\n${"=" * 80}\n', color: colorCyan);
+    log('\n${'=' * 80}\n', color: colorCyan);
 
     // Exit code
     if (stats['errors']! > 0) {
-      log('FAILED: Translation validation found errors', color: colorRed, bold: true);
+      log(
+        'FAILED: Translation validation found errors',
+        color: colorRed,
+        bold: true,
+      );
       exit(1);
     } else if (strict && stats['warnings']! > 0) {
-      log('FAILED: Translation validation found warnings (strict mode)', color: colorYellow, bold: true);
+      log(
+        'FAILED: Translation validation found warnings (strict mode)',
+        color: colorYellow,
+        bold: true,
+      );
       exit(1);
     } else {
       log('SUCCESS: All validations passed', color: colorGreen, bold: true);
@@ -368,12 +481,16 @@ class TranslationValidator {
   }
 
   Future<void> run() async {
-    log('${"=" * 80}', color: colorCyan);
+    log('=' * 80, color: colorCyan);
     log('Translation Validation Script', color: colorCyan, bold: true);
-    log('${"=" * 80}', color: colorCyan);
+    log('=' * 80, color: colorCyan);
 
     if (strict) {
-      log('\n[STRICT MODE] Warnings will be treated as errors', color: colorYellow, bold: true);
+      log(
+        '\n[STRICT MODE] Warnings will be treated as errors',
+        color: colorYellow,
+        bold: true,
+      );
     }
 
     await loadTranslations();
@@ -402,7 +519,7 @@ void main(List<String> arguments) async {
   try {
     await validator.run();
   } catch (e) {
-    stderr.writeln('${colorRed}${colorBold}Fatal error: $e$colorReset');
+    stderr.writeln('$colorRed${colorBold}Fatal error: $e$colorReset');
     exit(1);
   }
 }

@@ -3,6 +3,8 @@
 // Genera SVGs personalizados usando prompts de texto
 // Puede integrar con APIs de generación de imágenes
 
+// ignore_for_file: avoid_print
+
 import 'dart:io';
 import 'dart:convert';
 
@@ -20,34 +22,56 @@ class LocalSVGGenerator {
   }) {
     final svg = StringBuffer();
 
-    svg.writeln('<svg width="$size" height="$size" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">');
+    svg.writeln(
+      '<svg width="$size" height="$size" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">',
+    );
     svg.writeln('  <defs>');
-    svg.writeln('    <radialGradient id="${name}Glow" cx="50%" cy="50%" r="60%">');
-    svg.writeln('      <stop offset="0%" style="stop-color:$primaryColor;stop-opacity:0.7"/>');
-    svg.writeln('      <stop offset="100%" style="stop-color:$secondaryColor;stop-opacity:0"/>');
+    svg.writeln(
+      '    <radialGradient id="${name}Glow" cx="50%" cy="50%" r="60%">',
+    );
+    svg.writeln(
+      '      <stop offset="0%" style="stop-color:$primaryColor;stop-opacity:0.7"/>',
+    );
+    svg.writeln(
+      '      <stop offset="100%" style="stop-color:$secondaryColor;stop-opacity:0"/>',
+    );
     svg.writeln('    </radialGradient>');
-    svg.writeln('    <linearGradient id="${name}Surface" x1="0%" y1="0%" x2="100%" y2="100%">');
+    svg.writeln(
+      '    <linearGradient id="${name}Surface" x1="0%" y1="0%" x2="100%" y2="100%">',
+    );
     svg.writeln('      <stop offset="0%" style="stop-color:$primaryColor"/>');
-    svg.writeln('      <stop offset="100%" style="stop-color:$secondaryColor"/>');
+    svg.writeln(
+      '      <stop offset="100%" style="stop-color:$secondaryColor"/>',
+    );
     svg.writeln('    </linearGradient>');
     svg.writeln('  </defs>');
 
     // Planet glow
-    svg.writeln('  <circle cx="32" cy="32" r="28" fill="url(#${name}Glow)" opacity="0.5">');
-    svg.writeln('    <animate attributeName="opacity" dur="4s" values="0.5;0.7;0.5" repeatCount="indefinite"/>');
+    svg.writeln(
+      '  <circle cx="32" cy="32" r="28" fill="url(#${name}Glow)" opacity="0.5">',
+    );
+    svg.writeln(
+      '    <animate attributeName="opacity" dur="4s" values="0.5;0.7;0.5" repeatCount="indefinite"/>',
+    );
     svg.writeln('  </circle>');
 
     // Main body
-    svg.writeln('  <circle cx="32" cy="32" r="20" fill="url(#${name}Surface)"/>');
+    svg.writeln(
+      '  <circle cx="32" cy="32" r="20" fill="url(#${name}Surface)"/>',
+    );
 
     // Optional rings
     if (hasRings) {
-      svg.writeln('  <ellipse cx="32" cy="32" rx="30" ry="8" fill="none" stroke="$secondaryColor" stroke-width="2" opacity="0.6"/>');
+      svg.writeln(
+        '  <ellipse cx="32" cy="32" rx="30" ry="8" fill="none" stroke="$secondaryColor" stroke-width="2" opacity="0.6"/>',
+      );
     }
 
     // Optional moon
     if (hasMoons) {
-      svg.writeln('  <circle cx="48" cy="20" r="4" fill="#D3D3D3" opacity="0.8"/>');
+      svg.writeln(
+        '  <circle cx="48" cy="20" r="4" fill="#D3D3D3" opacity="0.8"/>',
+      );
     }
 
     svg.writeln('</svg>');
@@ -63,20 +87,28 @@ class LocalSVGGenerator {
   }) {
     final svg = StringBuffer();
 
-    svg.writeln('<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">');
+    svg.writeln(
+      '<svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">',
+    );
 
     // Connect stars with lines
     for (int i = 0; i < stars.length - 1; i++) {
       final star1 = stars[i];
       final star2 = stars[i + 1];
-      svg.writeln('  <line x1="${star1['x']}" y1="${star1['y']}" x2="${star2['x']}" y2="${star2['y']}"');
+      svg.writeln(
+        '  <line x1="${star1['x']}" y1="${star1['y']}" x2="${star2['x']}" y2="${star2['y']}"',
+      );
       svg.writeln('        stroke="$color" stroke-width="1" opacity="0.4"/>');
     }
 
     // Draw stars
     for (final star in stars) {
-      svg.writeln('  <circle cx="${star['x']}" cy="${star['y']}" r="2" fill="$color">');
-      svg.writeln('    <animate attributeName="opacity" dur="2s" values="0.6;1;0.6" repeatCount="indefinite"/>');
+      svg.writeln(
+        '  <circle cx="${star['x']}" cy="${star['y']}" r="2" fill="$color">',
+      );
+      svg.writeln(
+        '    <animate attributeName="opacity" dur="2s" values="0.6;1;0.6" repeatCount="indefinite"/>',
+      );
       svg.writeln('  </circle>');
     }
 
@@ -97,16 +129,19 @@ class AIImageGenerator {
   Future<String?> generateWithDALLE(String prompt) async {
     final url = Uri.parse('https://api.openai.com/v1/images/generations');
 
-    final response = await HttpClient().postUrl(url)
-      ..headers.add('Authorization', 'Bearer $apiKey')
-      ..headers.add('Content-Type', 'application/json')
-      ..write(jsonEncode({
-        'model': 'dall-e-3',
-        'prompt': 'Minimalist SVG style cosmic illustration: $prompt',
-        'size': '1024x1024',
-        'quality': 'standard',
-        'n': 1,
-      }));
+    final response =
+        await HttpClient().postUrl(url)
+          ..headers.add('Authorization', 'Bearer $apiKey')
+          ..headers.add('Content-Type', 'application/json')
+          ..write(
+            jsonEncode({
+              'model': 'dall-e-3',
+              'prompt': 'Minimalist SVG style cosmic illustration: $prompt',
+              'size': '1024x1024',
+              'quality': 'standard',
+              'n': 1,
+            }),
+          );
 
     final httpResponse = await response.close();
 
@@ -123,17 +158,12 @@ class AIImageGenerator {
 /// OPCIÓN 3: TEMPLATES PREDEFINIDOS
 class SVGTemplates {
   /// Nebula template
-  static String nebula({
-    required String name,
-    required List<String> colors,
-  }) {
+  static String nebula({required String name, required List<String> colors}) {
     return '''
 <svg width="200" height="150" viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
   <defs>
     <radialGradient id="${name}Core" cx="50%" cy="50%" r="50%">
-      ${colors.asMap().entries.map((e) =>
-        '<stop offset="${(e.key / (colors.length - 1) * 100).toStringAsFixed(0)}%" style="stop-color:${e.value};stop-opacity:${0.8 - e.key * 0.2}"/>'
-      ).join('\n      ')}
+      ${colors.asMap().entries.map((e) => '<stop offset="${(e.key / (colors.length - 1) * 100).toStringAsFixed(0)}%" style="stop-color:${e.value};stop-opacity:${0.8 - e.key * 0.2}"/>').join('\n      ')}
     </radialGradient>
   </defs>
 
@@ -152,10 +182,7 @@ class SVGTemplates {
   }
 
   /// Empty state template
-  static String emptyState({
-    required String icon,
-    required String message,
-  }) {
+  static String emptyState({required String icon, required String message}) {
     return '''
 <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
   <defs>
@@ -189,12 +216,18 @@ void main(List<String> args) async {
 
   if (args.isEmpty) {
     stdout.writeln('Usage:');
-    stdout.writeln('  dart svg_generator_ai.dart planet <name> <color1> <color2>');
+    stdout.writeln(
+      '  dart svg_generator_ai.dart planet <name> <color1> <color2>',
+    );
     stdout.writeln('  dart svg_generator_ai.dart constellation <name>');
-    stdout.writeln('  dart svg_generator_ai.dart nebula <name> <color1> <color2> <color3>');
+    stdout.writeln(
+      '  dart svg_generator_ai.dart nebula <name> <color1> <color2> <color3>',
+    );
     stdout.writeln('\nExamples:');
     stdout.writeln('  dart svg_generator_ai.dart planet pluto #8B7355 #654321');
-    stdout.writeln('  dart svg_generator_ai.dart nebula orion #FF1493 #8A2BE2 #4B0082');
+    stdout.writeln(
+      '  dart svg_generator_ai.dart nebula orion #FF1493 #8A2BE2 #4B0082',
+    );
     return;
   }
 
@@ -226,10 +259,10 @@ void main(List<String> args) async {
       }
 
       // Generate random star positions for demo
-      final stars = List.generate(5, (i) => {
-        'x': 40.0 + i * 30.0,
-        'y': 50.0 + (i % 2) * 20.0,
-      });
+      final stars = List.generate(
+        5,
+        (i) => {'x': 40.0 + i * 30.0, 'y': 50.0 + (i % 2) * 20.0},
+      );
 
       final svg = LocalSVGGenerator.generateConstellation(
         name: args[1],

@@ -22,32 +22,28 @@ Your AI wellness companion: mood tracking, breathing exercises, smart journal, b
 ## Description (4000 characters max)
 
 ```
-Your personal AI wellness companion. Arcanapp is a comprehensive self-insight platform that combines artificial intelligence, scientifically-grounded biorhythm tracking, guided breathing exercises, mood journaling, and goal management into one beautifully designed experience.
+Your personal AI wellness companion. Arcanapp combines artificial intelligence, biorhythm tracking, breathing exercises, mood journaling, and goal management into one beautifully designed experience.
 
-Whether you want to understand your emotional patterns, build better daily habits, or simply take a mindful pause with guided breathing, Arcanapp gives you the tools to thrive — right from your iPhone, home screen widgets, or Apple Watch.
+Understand your emotional patterns, build better habits, and take mindful pauses with guided breathing — right from your iPhone, widgets, or Apple Watch.
 
-This is not just another wellness app. It is a complete personal growth ecosystem built with professional-grade calculations, AI-powered coaching, and deep personalization that adapts to you over time.
-
-AI WELLNESS COACH - YOUR PERSONAL GUIDE
-Talk to your AI wellness coach anytime. This is a real AI-powered conversation with memory — not generic advice. Ask about your goals, emotional patterns, relationships, career direction, or daily guidance. The AI remembers your previous conversations and personalizes every response to your unique profile and history.
+AI WELLNESS COACH
+Talk to your AI wellness coach anytime. Real AI-powered conversation with memory — not generic advice. Ask about goals, emotional patterns, relationships, career direction, or daily guidance. The AI remembers your conversations and personalizes every response.
 
 MOOD TRACKER & SMART JOURNAL
-Log your daily mood and emotional state with our intuitive tracker. Over time, Arcanapp identifies emotional patterns and cycles, helping you understand what drives your best and most challenging days. The smart journaling feature lets you reflect on your thoughts with AI-assisted prompts designed to foster self-awareness and personal growth.
+Log your daily mood with our intuitive tracker. Over time, Arcanapp identifies emotional patterns and cycles. Smart journaling with AI-assisted prompts fosters self-awareness and personal growth.
 
 BREATHING EXERCISES - 3 GUIDED TECHNIQUES
 Take a mindful pause whenever you need it:
 - Box Breathing (4-4-4-4) for focus and calm
 - Relaxation Breathing (4-7-8) for stress relief
 - Energizing Breathing for a quick mental reset
-Beautiful animations guide you through each session.
 
-BIORHYTHM SCIENCE - MATHEMATICAL WELLNESS TRACKING
+BIORHYTHM SCIENCE
 Track your physical, emotional, and intellectual cycles using established biorhythm mathematics:
 - Physical (23-day), Emotional (28-day), Intellectual (33-day) cycles
 - Plus 4 extended cycles: Intuitive, Spiritual, Aesthetic, Awareness
 - 7-day predictive forecast with sparkline visualization
 - Critical day alerts when cycles cross zero
-- Activity recommendations based on your current state
 
 4 HOME SCREEN WIDGETS + APPLE WATCH
 Stay connected to your wellness data without opening the app:
@@ -58,12 +54,11 @@ Stay connected to your wellness data without opening the app:
 Full Apple Watch app with 5 views + 2 watch face complications.
 
 GOAL & HABIT TRACKING
-Set meaningful personal goals and track daily habits. AI-generated goal suggestions adapt to your current biorhythm state and emotional patterns, helping you focus on what matters most each day. Build streaks and celebrate your consistency.
+Set meaningful personal goals and track daily habits. AI-generated goal suggestions adapt to your biorhythm state and emotional patterns. Build streaks and celebrate your consistency.
 
-SELF-REFLECTION FRAMEWORKS
-Deepen your self-knowledge with multiple reflection tools:
+SELF-REFLECTION TOOLS
 - Birth chart analysis using Swiss Ephemeris precision calculations
-- Relationship compatibility insights across 4 dimensions (emotional, intellectual, physical, spiritual)
+- Relationship compatibility insights across 4 dimensions
 - Zodiac-based personality frameworks and daily reflection prompts
 - All 144 personality combination reports
 
@@ -94,7 +89,7 @@ SUBSCRIPTION OPTIONS
 Subscriptions auto-renew unless cancelled 24 hours before period end.
 
 WHY ARCANAPP?
-While other apps offer isolated wellness features, Arcanapp brings together AI coaching, mood tracking, breathing exercises, biorhythm science, goal management, and self-reflection frameworks into one unified platform. Our home screen widgets and Apple Watch app keep your wellness journey front and center every day.
+Arcanapp brings together AI coaching, mood tracking, breathing exercises, biorhythm science, goal management, and self-reflection frameworks into one unified platform. Our home screen widgets and Apple Watch app keep your wellness journey front and center every day.
 
 Start your wellness journey today.
 
@@ -127,63 +122,58 @@ Tu compañero IA de bienestar: registro de ánimo, ejercicios de respiración, d
 ## Description (4000 characters max)
 
 ```
-Tu compañero personal de bienestar con IA. Arcanapp es una plataforma integral de autoconocimiento que combina inteligencia artificial, seguimiento científico de biorritmos, ejercicios de respiración guiados, diario emocional y gestión de metas en una experiencia bellamente diseñada.
+Tu compañero personal de bienestar con IA. Arcanapp combina inteligencia artificial, seguimiento de biorritmos, ejercicios de respiración, diario emocional y gestión de metas en una experiencia bellamente diseñada.
 
-Ya sea que quieras comprender tus patrones emocionales, construir mejores hábitos diarios o simplemente tomar una pausa consciente con respiración guiada, Arcanapp te da las herramientas para prosperar — directamente desde tu iPhone, widgets de pantalla o Apple Watch.
+Comprende tus patrones emocionales, construye mejores hábitos y toma pausas conscientes con respiración guiada — desde tu iPhone, widgets o Apple Watch.
 
-Esta no es una app de bienestar más. Es un ecosistema completo de crecimiento personal construido con cálculos de grado profesional, coaching impulsado por IA y personalización profunda que se adapta a ti con el tiempo.
-
-COACH DE BIENESTAR IA - TU GUÍA PERSONAL
-Habla con tu coach de bienestar IA en cualquier momento. Es una conversación real impulsada por IA con memoria — no consejos genéricos. Pregunta sobre tus metas, patrones emocionales, relaciones, dirección profesional o guía diaria. La IA recuerda tus conversaciones anteriores y personaliza cada respuesta según tu perfil e historial únicos.
+COACH DE BIENESTAR IA
+Habla con tu coach IA en cualquier momento. Conversación real con memoria, no consejos genéricos. Pregunta sobre metas, patrones emocionales, relaciones o guía diaria. La IA recuerda tus conversaciones y personaliza cada respuesta.
 
 REGISTRO DE ÁNIMO Y DIARIO INTELIGENTE
-Registra tu estado de ánimo y emocional diario con nuestro tracker intuitivo. Con el tiempo, Arcanapp identifica patrones y ciclos emocionales, ayudándote a entender qué impulsa tus mejores y más desafiantes días. El diario inteligente te permite reflexionar con indicaciones asistidas por IA diseñadas para fomentar la autoconciencia y el crecimiento personal.
+Registra tu estado de ánimo diario con nuestro tracker intuitivo. Con el tiempo, Arcanapp identifica patrones y ciclos emocionales. Diario inteligente con indicaciones asistidas por IA fomenta la autoconciencia.
 
 EJERCICIOS DE RESPIRACIÓN - 3 TÉCNICAS GUIADAS
 Toma una pausa consciente cuando la necesites:
 - Respiración Cuadrada (4-4-4-4) para enfoque y calma
 - Respiración de Relajación (4-7-8) para aliviar el estrés
 - Respiración Energizante para un reinicio mental rápido
-Hermosas animaciones te guían en cada sesión.
 
-CIENCIA DEL BIORRITMO - SEGUIMIENTO MATEMÁTICO DE BIENESTAR
-Rastrea tus ciclos físicos, emocionales e intelectuales usando matemáticas establecidas de biorritmo:
+CIENCIA DEL BIORRITMO
+Rastrea tus ciclos físicos, emocionales e intelectuales usando matemáticas establecidas:
 - Ciclos Físico (23 días), Emocional (28 días), Intelectual (33 días)
 - Más 4 ciclos extendidos: Intuitivo, Espiritual, Estético, Conciencia
 - Pronóstico predictivo de 7 días con visualización sparkline
 - Alertas de días críticos cuando los ciclos cruzan cero
-- Recomendaciones de actividades basadas en tu estado actual
 
-4 WIDGETS DE PANTALLA + APPLE WATCH
-Mantente conectado a tus datos de bienestar sin abrir la app:
-- Widget de Insight Diario - Tu mensaje personalizado y nivel de energía
-- Widget de Fase Lunar - Fase lunar actual con % de iluminación
+4 WIDGETS + APPLE WATCH
+Mantente conectado sin abrir la app:
+- Widget de Insight Diario - Mensaje personalizado y nivel de energía
+- Widget de Fase Lunar - Fase actual con % de iluminación
 - Widget de Biorritmo - Pronóstico de 7 días con gráficos sparkline
 - Widget de Números - Números diarios para intención consciente
 App completa para Apple Watch con 5 vistas + 2 complicaciones.
 
 SEGUIMIENTO DE METAS Y HÁBITOS
-Establece metas personales significativas y rastrea hábitos diarios. Las sugerencias de metas generadas por IA se adaptan a tu estado actual de biorritmo y patrones emocionales, ayudándote a enfocarte en lo más importante cada día. Construye rachas y celebra tu consistencia.
+Establece metas personales y rastrea hábitos diarios. Sugerencias de IA adaptadas a tu estado de biorritmo y patrones emocionales. Construye rachas y celebra tu consistencia.
 
-MARCOS DE AUTORREFLEXIÓN
-Profundiza tu autoconocimiento con múltiples herramientas de reflexión:
-- Análisis de carta natal usando cálculos de precisión Swiss Ephemeris
-- Insights de compatibilidad relacional en 4 dimensiones (emocional, intelectual, física, espiritual)
-- Marcos de personalidad basados en el zodíaco y reflexiones diarias
-- Los 144 informes de combinación de personalidad
+HERRAMIENTAS DE AUTORREFLEXIÓN
+- Análisis de carta natal usando cálculos Swiss Ephemeris
+- Insights de compatibilidad en 4 dimensiones
+- Marcos de personalidad basados en el zodíaco
+- 144 informes de combinación de personalidad
 
 GENERACIÓN DE INFORMES PDF
-Crea y descarga informes profesionales de autoconocimiento:
+Crea y descarga informes profesionales:
 - Análisis completo de perfil personal (12+ páginas)
-- Informes de compatibilidad para compartir con pareja o amigos
+- Informes de compatibilidad para compartir
 - Perfectos para imprimir o enviar como regalos
 
 VERDADERAMENTE GLOBAL - 6 IDIOMAS
-Adaptación cultural completa en inglés, español, francés, alemán, italiano y portugués. 2000+ textos por idioma — localización de calidad humana, no traducción automática.
+Adaptación completa en inglés, español, francés, alemán, italiano y portugués. 2000+ textos por idioma.
 
 PRIVACIDAD PRIMERO
 - No se requiere cuenta para funciones básicas
-- Tus datos personales se almacenan localmente, nunca se venden
+- Tus datos se almacenan localmente, nunca se venden
 - Compatible con GDPR
 
 RENDIMIENTO ÓPTIMO
@@ -194,17 +184,17 @@ RENDIMIENTO ÓPTIMO
 
 OPCIONES DE SUSCRIPCIÓN
 - Cosmic ($6.99/mes) - Funciones premium esenciales
-- Pro ($19.99/mes) - Acceso completo al coach IA y funciones avanzadas
+- Pro ($19.99/mes) - Acceso completo al coach IA
 
-Las suscripciones se renuevan automáticamente a menos que se cancelen 24 horas antes del final del período.
+Las suscripciones se renuevan automáticamente.
 
 ¿POR QUÉ ARCANAPP?
-Mientras otras apps ofrecen funciones de bienestar aisladas, Arcanapp reúne coaching IA, registro de ánimo, ejercicios de respiración, ciencia del biorritmo, gestión de metas y marcos de autorreflexión en una plataforma unificada. Nuestros widgets y app de Apple Watch mantienen tu camino de bienestar presente cada día.
+Arcanapp reúne coaching IA, registro de ánimo, ejercicios de respiración, ciencia del biorritmo y herramientas de autorreflexión en una plataforma unificada.
 
 Comienza tu camino de bienestar hoy.
 
-Términos de Uso: https://zodiaclifecoach.app/terms
-Política de Privacidad: https://zodiaclifecoach.app/privacy
+Términos: https://zodiaclifecoach.app/terms
+Privacidad: https://zodiaclifecoach.app/privacy
 ```
 
 ## Keywords (100 characters max)
@@ -232,84 +222,79 @@ Votre compagnon IA bien-être : suivi d'humeur, respiration guidée, journal int
 ## Description (4000 characters max)
 
 ```
-Votre compagnon personnel de bien-être avec IA. Arcanapp est une plateforme complète de connaissance de soi qui combine intelligence artificielle, suivi scientifique des biorythmes, exercices de respiration guidés, journal émotionnel et gestion d'objectifs dans une expérience au design soigné.
+Votre compagnon personnel de bien-être avec IA. Arcanapp combine intelligence artificielle, suivi des biorythmes, exercices de respiration, journal émotionnel et gestion d'objectifs.
 
-Que vous souhaitiez comprendre vos schémas émotionnels, construire de meilleures habitudes quotidiennes ou simplement faire une pause consciente avec la respiration guidée, Arcanapp vous donne les outils pour vous épanouir — directement depuis votre iPhone, vos widgets ou votre Apple Watch.
+Comprendre vos schémas émotionnels, construire de meilleures habitudes et faire des pauses conscientes — depuis votre iPhone, widgets ou Apple Watch.
 
-Ce n'est pas une simple app de bien-être. C'est un écosystème complet de croissance personnelle construit avec des calculs professionnels, un coaching alimenté par IA et une personnalisation profonde qui s'adapte à vous au fil du temps.
-
-COACH BIEN-ÊTRE IA - VOTRE GUIDE PERSONNEL
-Parlez à votre coach bien-être IA à tout moment. C'est une vraie conversation alimentée par IA avec mémoire — pas des conseils génériques. Posez des questions sur vos objectifs, schémas émotionnels, relations, orientation professionnelle ou guidance quotidienne. L'IA se souvient de vos conversations précédentes et personnalise chaque réponse selon votre profil et historique uniques.
+COACH BIEN-ÊTRE IA
+Parlez à votre coach IA à tout moment. Conversation réelle avec mémoire, pas de conseils génériques. L'IA se souvient et personnalise chaque réponse.
 
 SUIVI D'HUMEUR ET JOURNAL INTELLIGENT
-Enregistrez votre humeur et état émotionnel quotidien avec notre tracker intuitif. Au fil du temps, Arcanapp identifie les schémas et cycles émotionnels, vous aidant à comprendre ce qui motive vos meilleurs et plus difficiles jours. Le journal intelligent vous permet de réfléchir avec des suggestions assistées par IA conçues pour favoriser la conscience de soi et la croissance personnelle.
+Enregistrez votre humeur quotidienne. Au fil du temps, Arcanapp identifie les schémas émotionnels. Journal intelligent avec suggestions IA pour la conscience de soi.
 
-EXERCICES DE RESPIRATION - 3 TECHNIQUES GUIDÉES
-Faites une pause consciente quand vous en avez besoin :
-- Respiration Carrée (4-4-4-4) pour la concentration et le calme
-- Respiration de Relaxation (4-7-8) pour le soulagement du stress
-- Respiration Énergisante pour un reset mental rapide
-De belles animations vous guident à chaque session.
+EXERCICES DE RESPIRATION - 3 TECHNIQUES
+Faites une pause consciente :
+- Respiration Carrée (4-4-4-4) pour concentration et calme
+- Respiration de Relaxation (4-7-8) pour le stress
+- Respiration Énergisante pour un reset mental
 
-SCIENCE DU BIORYTHME - SUIVI MATHÉMATIQUE DU BIEN-ÊTRE
-Suivez vos cycles physiques, émotionnels et intellectuels avec les mathématiques établies du biorythme :
+SCIENCE DU BIORYTHME
+Suivez vos cycles avec les mathématiques établies :
 - Cycles Physique (23 jours), Émotionnel (28 jours), Intellectuel (33 jours)
-- Plus 4 cycles étendus : Intuitif, Spirituel, Esthétique, Conscience
-- Prévisions prédictives 7 jours avec visualisation sparkline
+- 4 cycles étendus : Intuitif, Spirituel, Esthétique, Conscience
+- Prévisions 7 jours avec visualisation sparkline
 - Alertes jours critiques quand les cycles croisent zéro
-- Recommandations d'activités basées sur votre état actuel
 
-4 WIDGETS ÉCRAN D'ACCUEIL + APPLE WATCH
-Restez connecté à vos données de bien-être sans ouvrir l'app :
-- Widget Insight Quotidien - Votre message personnalisé et niveau d'énergie
-- Widget Phase Lunaire - Phase lunaire actuelle avec % d'illumination
-- Widget Biorythme - Prévisions 7 jours avec graphiques sparkline
-- Widget Numéros - Numéros quotidiens pour intention consciente
-App Apple Watch complète avec 5 vues + 2 complications de cadran.
+4 WIDGETS + APPLE WATCH
+Restez connecté sans ouvrir l'app :
+- Widget Insight Quotidien - Message et niveau d'énergie
+- Widget Phase Lunaire - Phase actuelle avec % d'illumination
+- Widget Biorythme - Prévisions 7 jours avec graphiques
+- Widget Numéros - Numéros quotidiens
+App Apple Watch complète avec 5 vues + 2 complications.
 
-SUIVI D'OBJECTIFS ET D'HABITUDES
-Fixez des objectifs personnels significatifs et suivez vos habitudes quotidiennes. Les suggestions d'objectifs générées par IA s'adaptent à votre état de biorythme actuel et schémas émotionnels, vous aidant à vous concentrer sur l'essentiel chaque jour. Construisez des séries et célébrez votre régularité.
+SUIVI D'OBJECTIFS
+Fixez des objectifs personnels et suivez vos habitudes. Suggestions IA adaptées à votre état. Construisez des séries et célébrez votre régularité.
 
-CADRES D'AUTORÉFLEXION
-Approfondissez votre connaissance de soi avec plusieurs outils de réflexion :
-- Analyse de thème natal avec calculs de précision Swiss Ephemeris
-- Insights de compatibilité relationnelle sur 4 dimensions (émotionnelle, intellectuelle, physique, spirituelle)
-- Cadres de personnalité basés sur le zodiaque et réflexions quotidiennes
-- Les 144 rapports de combinaison de personnalité
+OUTILS D'AUTORÉFLEXION
+- Analyse de thème natal avec calculs Swiss Ephemeris
+- Insights de compatibilité sur 4 dimensions
+- Cadres de personnalité basés sur le zodiaque
+- 144 rapports de combinaison
 
 GÉNÉRATION DE RAPPORTS PDF
-Créez et téléchargez des rapports professionnels de connaissance de soi :
-- Analyse complète du profil personnel (12+ pages)
-- Rapports de compatibilité à partager avec partenaires ou amis
-- Parfaits pour imprimer ou envoyer en cadeau
+Créez des rapports professionnels :
+- Analyse complète du profil (12+ pages)
+- Rapports de compatibilité à partager
+- Parfaits pour imprimer ou offrir
 
 VRAIMENT GLOBAL - 6 LANGUES
-Adaptation culturelle complète en anglais, espagnol, français, allemand, italien et portugais. 2000+ chaînes par langue — localisation de qualité humaine, pas de traduction automatique.
+Adaptation complète en anglais, espagnol, français, allemand, italien et portugais. 2000+ chaînes par langue.
 
-CONFIDENTIALITÉ D'ABORD
+CONFIDENTIALITÉ
 - Pas de compte requis pour les fonctions de base
-- Vos données personnelles stockées localement, jamais vendues
+- Vos données stockées localement, jamais vendues
 - Conforme RGPD
 
-PERFORMANCE OPTIMALE
+PERFORMANCE
 - Démarrage en moins d'1 seconde
 - Animations fluides à 60 FPS
 - Compatible iOS 17+
 - Support mode sombre
 
-OPTIONS D'ABONNEMENT
-- Cosmic (6,99$/mois) - Fonctions premium essentielles
-- Pro (19,99$/mois) - Accès complet coach IA et fonctions avancées
+ABONNEMENTS
+- Cosmic (6,99€/mois) - Fonctions premium essentielles
+- Pro (19,99€/mois) - Accès complet coach IA
 
-Les abonnements se renouvellent automatiquement sauf annulation 24h avant la fin de période.
+Abonnements renouvelés automatiquement.
 
 POURQUOI ARCANAPP ?
-Alors que d'autres apps offrent des fonctions de bien-être isolées, Arcanapp réunit coaching IA, suivi d'humeur, exercices de respiration, science du biorythme, gestion d'objectifs et cadres d'autoréflexion en une plateforme unifiée. Nos widgets et app Apple Watch gardent votre parcours bien-être au premier plan chaque jour.
+Arcanapp réunit coaching IA, suivi d'humeur, respiration, biorythmes et autoréflexion en une plateforme unifiée.
 
 Commencez votre parcours bien-être aujourd'hui.
 
-Conditions d'Utilisation : https://zodiaclifecoach.app/terms
-Politique de Confidentialité : https://zodiaclifecoach.app/privacy
+Conditions: https://zodiaclifecoach.app/terms
+Confidentialité: https://zodiaclifecoach.app/privacy
 ```
 
 ## Keywords (100 characters max)
@@ -337,84 +322,79 @@ Dein KI-Wellness-Begleiter: Stimmungstracking, Atemübungen, smartes Tagebuch, B
 ## Description (4000 characters max)
 
 ```
-Dein persönlicher KI-Wellness-Begleiter. Arcanapp ist eine umfassende Selbsterkenntnis-Plattform, die künstliche Intelligenz, wissenschaftlich fundiertes Biorhythmus-Tracking, geführte Atemübungen, Stimmungstagebuch und Zielmanagement in einem wunderschön gestalteten Erlebnis vereint.
+Dein persönlicher KI-Wellness-Begleiter. Arcanapp kombiniert KI, Biorhythmus-Tracking, Atemübungen, Stimmungstagebuch und Zielmanagement.
 
-Ob du deine emotionalen Muster verstehen, bessere tägliche Gewohnheiten aufbauen oder einfach eine achtsame Pause mit geführter Atmung einlegen möchtest — Arcanapp gibt dir die Werkzeuge zum Aufblühen — direkt von deinem iPhone, Startbildschirm-Widgets oder deiner Apple Watch.
+Verstehe emotionale Muster, baue bessere Gewohnheiten auf und mache achtsame Pausen — direkt von iPhone, Widgets oder Apple Watch.
 
-Dies ist nicht nur eine weitere Wellness-App. Es ist ein komplettes Ökosystem für persönliches Wachstum, gebaut mit professionellen Berechnungen, KI-gestütztem Coaching und tiefer Personalisierung, die sich mit der Zeit an dich anpasst.
-
-KI-WELLNESS-COACH - DEIN PERSÖNLICHER GUIDE
-Sprich jederzeit mit deinem KI-Wellness-Coach. Das ist ein echtes KI-gestütztes Gespräch mit Gedächtnis — keine generischen Ratschläge. Frage zu deinen Zielen, emotionalen Mustern, Beziehungen, Karriererichtung oder täglicher Führung. Die KI erinnert sich an deine vorherigen Gespräche und personalisiert jede Antwort auf dein einzigartiges Profil und deine Geschichte.
+KI-WELLNESS-COACH
+Sprich jederzeit mit deinem KI-Coach. Echte KI-Konversation mit Gedächtnis. Die KI erinnert sich und personalisiert jede Antwort.
 
 STIMMUNGSTRACKER & SMARTES TAGEBUCH
-Erfasse deine tägliche Stimmung und deinen emotionalen Zustand mit unserem intuitiven Tracker. Im Laufe der Zeit identifiziert Arcanapp emotionale Muster und Zyklen und hilft dir zu verstehen, was deine besten und herausforderndsten Tage antreibt. Das smarte Tagebuch lässt dich mit KI-unterstützten Prompts reflektieren, die Selbstbewusstsein und persönliches Wachstum fördern.
+Erfasse deine tägliche Stimmung. Im Laufe der Zeit identifiziert Arcanapp emotionale Muster. Smartes Tagebuch mit KI-Prompts fördert Selbstbewusstsein.
 
 ATEMÜBUNGEN - 3 GEFÜHRTE TECHNIKEN
-Nimm dir eine achtsame Pause, wann immer du sie brauchst:
+Nimm dir eine achtsame Pause:
 - Quadrat-Atmung (4-4-4-4) für Fokus und Ruhe
 - Entspannungs-Atmung (4-7-8) für Stressabbau
-- Energie-Atmung für einen schnellen mentalen Reset
-Schöne Animationen führen dich durch jede Session.
+- Energie-Atmung für einen mentalen Reset
 
-BIORHYTHMUS-WISSENSCHAFT - MATHEMATISCHES WELLNESS-TRACKING
-Verfolge deine physischen, emotionalen und intellektuellen Zyklen mit etablierter Biorhythmus-Mathematik:
-- Physischer (23-Tage), Emotionaler (28-Tage), Intellektueller (33-Tage) Zyklus
-- Plus 4 erweiterte Zyklen: Intuitiv, Spirituell, Ästhetisch, Bewusstsein
-- 7-Tage prädiktive Prognose mit Sparkline-Visualisierung
-- Kritische-Tage-Warnungen wenn Zyklen Null kreuzen
-- Aktivitätsempfehlungen basierend auf deinem aktuellen Zustand
+BIORHYTHMUS-WISSENSCHAFT
+Verfolge deine Zyklen mit etablierter Mathematik:
+- Physischer (23-Tage), Emotionaler (28-Tage), Intellektueller (33-Tage)
+- 4 erweiterte Zyklen: Intuitiv, Spirituell, Ästhetisch, Bewusstsein
+- 7-Tage prädiktive Prognose mit Sparkline
+- Kritische-Tage-Warnungen
 
-4 STARTBILDSCHIRM-WIDGETS + APPLE WATCH
-Bleibe mit deinen Wellness-Daten verbunden, ohne die App zu öffnen:
-- Tägliches Insight-Widget - Deine personalisierte Nachricht & Energielevel
-- Mondphasen-Widget - Aktuelle Mondphase mit Beleuchtungs-%
-- Biorhythmus-Widget - 7-Tage-Prognose mit Sparkline-Diagrammen
-- Zahlen-Widget - Tägliche Zahlen für achtsame Intention
-Vollständige Apple Watch App mit 5 Ansichten + 2 Zifferblatt-Komplikationen.
+4 WIDGETS + APPLE WATCH
+Bleibe verbunden ohne die App zu öffnen:
+- Tägliches Insight-Widget - Personalisierte Nachricht & Energielevel
+- Mondphasen-Widget - Aktuelle Phase mit Beleuchtungs-%
+- Biorhythmus-Widget - 7-Tage-Prognose mit Diagrammen
+- Zahlen-Widget - Tägliche Zahlen
+Vollständige Apple Watch App mit 5 Ansichten + 2 Komplikationen.
 
-ZIEL- & GEWOHNHEITSTRACKING
-Setze bedeutungsvolle persönliche Ziele und verfolge tägliche Gewohnheiten. KI-generierte Zielvorschläge passen sich deinem aktuellen Biorhythmus-Zustand und emotionalen Mustern an und helfen dir, dich jeden Tag auf das Wichtigste zu konzentrieren. Baue Serien auf und feiere deine Beständigkeit.
+ZIEL-TRACKING
+Setze persönliche Ziele und verfolge Gewohnheiten. KI-Vorschläge passen sich an. Baue Serien auf und feiere Beständigkeit.
 
-SELBSTREFLEXIONS-RAHMEN
-Vertiefe deine Selbsterkenntnis mit mehreren Reflexions-Tools:
-- Geburtshoroskop-Analyse mit Swiss Ephemeris Präzisionsberechnungen
-- Beziehungskompatibilitäts-Insights über 4 Dimensionen (emotional, intellektuell, physisch, spirituell)
-- Tierkreis-basierte Persönlichkeitsrahmen und tägliche Reflexionsimpulse
-- Alle 144 Persönlichkeitskombinations-Berichte
+SELBSTREFLEXIONS-TOOLS
+- Geburtshoroskop-Analyse mit Swiss Ephemeris
+- Beziehungskompatibilität über 4 Dimensionen
+- Tierkreis-basierte Persönlichkeitsrahmen
+- 144 Persönlichkeitskombinations-Berichte
 
-PDF-BERICHT-GENERIERUNG
-Erstelle und lade professionelle Selbsterkenntnis-Berichte herunter:
-- Vollständige persönliche Profilanalyse (12+ Seiten)
-- Kompatibilitätsberichte zum Teilen mit Partnern oder Freunden
-- Perfekt zum Drucken oder als Geschenk
+PDF-BERICHTE
+Erstelle professionelle Berichte:
+- Vollständige Profilanalyse (12+ Seiten)
+- Kompatibilitätsberichte zum Teilen
+- Perfekt zum Drucken oder Verschenken
 
 WIRKLICH GLOBAL - 6 SPRACHEN
-Vollständige kulturelle Anpassung in Englisch, Spanisch, Französisch, Deutsch, Italienisch und Portugiesisch. 2000+ Zeichenketten pro Sprache — menschliche Lokalisierungsqualität, keine maschinelle Übersetzung.
+Vollständige Anpassung in Englisch, Spanisch, Französisch, Deutsch, Italienisch und Portugiesisch. 2000+ Zeichenketten pro Sprache.
 
-DATENSCHUTZ ZUERST
-- Kein Konto für Basisfunktionen erforderlich
-- Deine persönlichen Daten lokal gespeichert, niemals verkauft
+DATENSCHUTZ
+- Kein Konto für Basisfunktionen nötig
+- Daten lokal gespeichert, niemals verkauft
 - DSGVO-konform
 
-OPTIMALE LEISTUNG
+LEISTUNG
 - Start in unter 1 Sekunde
 - Flüssige 60 FPS Animationen
 - iOS 17+ kompatibel
-- Dunkelmodus-Unterstützung
+- Dunkelmodus
 
-ABO-OPTIONEN
-- Cosmic (6,99$/Monat) - Essentielle Premium-Funktionen
-- Pro (19,99$/Monat) - Voller KI-Coach-Zugang & erweiterte Funktionen
+ABOS
+- Cosmic (6,99€/Monat) - Essentielle Premium-Funktionen
+- Pro (19,99€/Monat) - Voller KI-Coach-Zugang
 
-Abos verlängern sich automatisch, wenn nicht 24 Stunden vor Periodenende gekündigt.
+Abos verlängern sich automatisch.
 
 WARUM ARCANAPP?
-Während andere Apps isolierte Wellness-Funktionen bieten, vereint Arcanapp KI-Coaching, Stimmungstracking, Atemübungen, Biorhythmus-Wissenschaft, Zielmanagement und Selbstreflexions-Rahmen in einer einheitlichen Plattform. Unsere Startbildschirm-Widgets und Apple Watch App halten deine Wellness-Reise jeden Tag im Vordergrund.
+Arcanapp vereint KI-Coaching, Stimmungstracking, Atemübungen, Biorhythmen und Selbstreflexion in einer Plattform.
 
 Starte deine Wellness-Reise heute.
 
 Nutzungsbedingungen: https://zodiaclifecoach.app/terms
-Datenschutzrichtlinie: https://zodiaclifecoach.app/privacy
+Datenschutz: https://zodiaclifecoach.app/privacy
 ```
 
 ## Keywords (100 characters max)
@@ -442,84 +422,79 @@ Il tuo compagno IA di benessere: tracciamento umore, esercizi di respirazione, d
 ## Description (4000 characters max)
 
 ```
-Il tuo compagno personale di benessere con IA. Arcanapp è una piattaforma completa di conoscenza di sé che combina intelligenza artificiale, tracciamento scientifico dei bioritmi, esercizi di respirazione guidati, diario emotivo e gestione degli obiettivi in un'esperienza dal design curato.
+Il tuo compagno personale di benessere con IA. Arcanapp combina intelligenza artificiale, tracciamento bioritmi, esercizi di respirazione, diario emotivo e gestione obiettivi.
 
-Che tu voglia comprendere i tuoi schemi emotivi, costruire migliori abitudini quotidiane o semplicemente prenderti una pausa consapevole con la respirazione guidata, Arcanapp ti dà gli strumenti per fiorire — direttamente dal tuo iPhone, dai widget o dall'Apple Watch.
+Comprendi schemi emotivi, costruisci abitudini migliori e fai pause consapevoli — direttamente da iPhone, widget o Apple Watch.
 
-Questa non è una semplice app di benessere. È un ecosistema completo di crescita personale costruito con calcoli professionali, coaching alimentato da IA e personalizzazione profonda che si adatta a te nel tempo.
-
-COACH BENESSERE IA - LA TUA GUIDA PERSONALE
-Parla con il tuo coach benessere IA in qualsiasi momento. È una vera conversazione alimentata da IA con memoria — non consigli generici. Chiedi dei tuoi obiettivi, schemi emotivi, relazioni, direzione professionale o guida quotidiana. L'IA ricorda le tue conversazioni precedenti e personalizza ogni risposta sul tuo profilo e storia unici.
+COACH BENESSERE IA
+Parla con il tuo coach IA in qualsiasi momento. Vera conversazione IA con memoria. L'IA ricorda e personalizza ogni risposta.
 
 TRACCIAMENTO UMORE E DIARIO INTELLIGENTE
-Registra il tuo umore e stato emotivo quotidiano con il nostro tracker intuitivo. Nel tempo, Arcanapp identifica schemi e cicli emotivi, aiutandoti a capire cosa guida i tuoi giorni migliori e più impegnativi. Il diario intelligente ti permette di riflettere con suggerimenti assistiti da IA progettati per favorire la consapevolezza di sé e la crescita personale.
+Registra il tuo umore quotidiano. Nel tempo, Arcanapp identifica schemi emotivi. Diario intelligente con suggerimenti IA per consapevolezza di sé.
 
-ESERCIZI DI RESPIRAZIONE - 3 TECNICHE GUIDATE
-Prenditi una pausa consapevole quando ne hai bisogno:
+ESERCIZI DI RESPIRAZIONE - 3 TECNICHE
+Prenditi una pausa consapevole:
 - Respirazione Quadrata (4-4-4-4) per concentrazione e calma
-- Respirazione di Rilassamento (4-7-8) per alleviare lo stress
-- Respirazione Energizzante per un reset mentale rapido
-Belle animazioni ti guidano in ogni sessione.
+- Respirazione di Rilassamento (4-7-8) per stress
+- Respirazione Energizzante per reset mentale
 
-SCIENZA DEL BIORITMO - TRACCIAMENTO MATEMATICO DEL BENESSERE
-Monitora i tuoi cicli fisici, emotivi e intellettuali usando la matematica consolidata del bioritmo:
-- Cicli Fisico (23 giorni), Emotivo (28 giorni), Intellettuale (33 giorni)
-- Più 4 cicli estesi: Intuitivo, Spirituale, Estetico, Consapevolezza
-- Previsioni predittive 7 giorni con visualizzazione sparkline
-- Avvisi giorni critici quando i cicli attraversano lo zero
-- Raccomandazioni di attività basate sul tuo stato attuale
+SCIENZA DEL BIORITMO
+Monitora cicli con matematica consolidata:
+- Cicli Fisico (23 giorni), Emotivo (28), Intellettuale (33)
+- 4 cicli estesi: Intuitivo, Spirituale, Estetico, Consapevolezza
+- Previsioni 7 giorni con visualizzazione sparkline
+- Avvisi giorni critici
 
-4 WIDGET SCHERMATA HOME + APPLE WATCH
-Resta connesso ai tuoi dati di benessere senza aprire l'app:
-- Widget Insight Giornaliero - Il tuo messaggio personalizzato e livello di energia
-- Widget Fase Lunare - Fase lunare attuale con % di illuminazione
-- Widget Bioritmo - Previsioni 7 giorni con grafici sparkline
-- Widget Numeri - Numeri giornalieri per intenzione consapevole
-App Apple Watch completa con 5 viste + 2 complicazioni per quadrante.
+4 WIDGET + APPLE WATCH
+Resta connesso senza aprire l'app:
+- Widget Insight Giornaliero - Messaggio personalizzato
+- Widget Fase Lunare - Fase attuale con % illuminazione
+- Widget Bioritmo - Previsioni 7 giorni con grafici
+- Widget Numeri - Numeri giornalieri
+App Apple Watch completa con 5 viste + 2 complicazioni.
 
-TRACCIAMENTO OBIETTIVI E ABITUDINI
-Fissa obiettivi personali significativi e monitora le abitudini quotidiane. I suggerimenti di obiettivi generati da IA si adattano al tuo stato di bioritmo attuale e schemi emotivi, aiutandoti a concentrarti su ciò che conta di più ogni giorno. Costruisci serie e celebra la tua costanza.
+TRACCIAMENTO OBIETTIVI
+Fissa obiettivi personali e monitora abitudini. Suggerimenti IA adattati al tuo stato. Costruisci serie e celebra costanza.
 
-STRUMENTI DI AUTORIFLESSIONE
-Approfondisci la tua conoscenza di sé con molteplici strumenti di riflessione:
-- Analisi del tema natale con calcoli di precisione Swiss Ephemeris
-- Insight di compatibilità relazionale su 4 dimensioni (emotiva, intellettuale, fisica, spirituale)
-- Framework di personalità basati sullo zodiaco e riflessioni quotidiane
-- Tutti i 144 report di combinazione di personalità
+STRUMENTI AUTORIFLESSIONE
+- Analisi tema natale con Swiss Ephemeris
+- Insight compatibilità su 4 dimensioni
+- Framework personalità basati sullo zodiaco
+- 144 report combinazione personalità
 
 GENERAZIONE REPORT PDF
-Crea e scarica report professionali di conoscenza di sé:
-- Analisi completa del profilo personale (12+ pagine)
-- Report di compatibilità da condividere con partner o amici
-- Perfetti per stampare o inviare come regali
+Crea report professionali:
+- Analisi completa profilo (12+ pagine)
+- Report compatibilità da condividere
+- Perfetti per stampare o regalare
 
 VERAMENTE GLOBALE - 6 LINGUE
-Adattamento culturale completo in inglese, spagnolo, francese, tedesco, italiano e portoghese. 2000+ stringhe per lingua — localizzazione di qualità umana, non traduzione automatica.
+Adattamento completo in 6 lingue. 2000+ stringhe per lingua.
 
-PRIVACY PRIMA
-- Nessun account richiesto per funzioni base
-- I tuoi dati personali memorizzati localmente, mai venduti
+PRIVACY
+- Nessun account per funzioni base
+- Dati locali, mai venduti
 - Conforme GDPR
 
-PRESTAZIONI OTTIMALI
+PRESTAZIONI
 - Avvio in meno di 1 secondo
-- Animazioni fluide a 60 FPS
+- Animazioni fluide 60 FPS
 - Compatibile iOS 17+
 - Supporto modalità scura
 
-OPZIONI DI ABBONAMENTO
-- Cosmic ($6,99/mese) - Funzioni premium essenziali
-- Pro ($19,99/mese) - Accesso completo coach IA e funzioni avanzate
+ABBONAMENTI
+- Cosmic (6,99€/mese) - Funzioni premium essenziali
+- Pro (19,99€/mese) - Accesso completo coach IA
 
-Gli abbonamenti si rinnovano automaticamente se non annullati 24 ore prima della fine del periodo.
+Abbonamenti rinnovati automaticamente.
 
 PERCHÉ ARCANAPP?
-Mentre altre app offrono funzioni di benessere isolate, Arcanapp riunisce coaching IA, tracciamento umore, esercizi di respirazione, scienza del bioritmo, gestione obiettivi e strumenti di autoriflessione in una piattaforma unificata. I nostri widget e l'app Apple Watch mantengono il tuo percorso di benessere in primo piano ogni giorno.
+Arcanapp riunisce coaching IA, tracciamento umore, respirazione, bioritmi e autoriflessione in una piattaforma unificata.
 
-Inizia il tuo percorso di benessere oggi.
+Inizia il tuo percorso oggi.
 
-Termini di Utilizzo: https://zodiaclifecoach.app/terms
-Informativa sulla Privacy: https://zodiaclifecoach.app/privacy
+Termini: https://zodiaclifecoach.app/terms
+Privacy: https://zodiaclifecoach.app/privacy
 ```
 
 ## Keywords (100 characters max)
@@ -547,84 +522,79 @@ Seu companheiro IA de bem-estar: rastreio de humor, exercícios de respiração,
 ## Description (4000 characters max)
 
 ```
-Seu companheiro pessoal de bem-estar com IA. Arcanapp é uma plataforma completa de autoconhecimento que combina inteligência artificial, rastreamento científico de biorritmos, exercícios de respiração guiados, diário emocional e gestão de metas em uma experiência lindamente projetada.
+Seu companheiro pessoal de bem-estar com IA. Arcanapp combina inteligência artificial, rastreamento de biorritmos, exercícios de respiração, diário emocional e gestão de metas.
 
-Seja para entender seus padrões emocionais, construir melhores hábitos diários ou simplesmente fazer uma pausa consciente com respiração guiada, Arcanapp te dá as ferramentas para prosperar — diretamente do seu iPhone, widgets de tela ou Apple Watch.
+Entenda padrões emocionais, construa hábitos melhores e faça pausas conscientes — diretamente do iPhone, widgets ou Apple Watch.
 
-Este não é apenas mais um app de bem-estar. É um ecossistema completo de crescimento pessoal construído com cálculos profissionais, coaching alimentado por IA e personalização profunda que se adapta a você ao longo do tempo.
-
-COACH DE BEM-ESTAR IA - SEU GUIA PESSOAL
-Fale com seu coach de bem-estar IA a qualquer momento. É uma conversa real alimentada por IA com memória — não conselhos genéricos. Pergunte sobre suas metas, padrões emocionais, relacionamentos, direção profissional ou orientação diária. A IA lembra suas conversas anteriores e personaliza cada resposta ao seu perfil e histórico únicos.
+COACH DE BEM-ESTAR IA
+Fale com seu coach IA a qualquer momento. Conversa real com memória. A IA lembra e personaliza cada resposta.
 
 RASTREIO DE HUMOR E DIÁRIO INTELIGENTE
-Registre seu humor e estado emocional diário com nosso tracker intuitivo. Com o tempo, Arcanapp identifica padrões e ciclos emocionais, ajudando você a entender o que impulsiona seus melhores e mais desafiadores dias. O diário inteligente permite refletir com sugestões assistidas por IA projetadas para promover autoconhecimento e crescimento pessoal.
+Registre seu humor diário. Com o tempo, Arcanapp identifica padrões emocionais. Diário inteligente com sugestões IA promove autoconhecimento.
 
-EXERCÍCIOS DE RESPIRAÇÃO - 3 TÉCNICAS GUIADAS
-Faça uma pausa consciente quando precisar:
+EXERCÍCIOS DE RESPIRAÇÃO - 3 TÉCNICAS
+Faça uma pausa consciente:
 - Respiração Quadrada (4-4-4-4) para foco e calma
 - Respiração de Relaxamento (4-7-8) para alívio do estresse
-- Respiração Energizante para um reset mental rápido
-Belas animações guiam você em cada sessão.
+- Respiração Energizante para reset mental
 
-CIÊNCIA DO BIORRITMO - RASTREAMENTO MATEMÁTICO DE BEM-ESTAR
-Acompanhe seus ciclos físicos, emocionais e intelectuais usando a matemática estabelecida do biorritmo:
-- Ciclos Físico (23 dias), Emocional (28 dias), Intelectual (33 dias)
-- Mais 4 ciclos estendidos: Intuitivo, Espiritual, Estético, Consciência
+CIÊNCIA DO BIORRITMO
+Acompanhe ciclos com matemática estabelecida:
+- Ciclos Físico (23 dias), Emocional (28), Intelectual (33)
+- 4 ciclos estendidos: Intuitivo, Espiritual, Estético, Consciência
 - Previsão preditiva de 7 dias com visualização sparkline
-- Alertas de dias críticos quando os ciclos cruzam zero
-- Recomendações de atividades baseadas no seu estado atual
+- Alertas de dias críticos
 
-4 WIDGETS DE TELA + APPLE WATCH
-Fique conectado aos seus dados de bem-estar sem abrir o app:
-- Widget de Insight Diário - Sua mensagem personalizada e nível de energia
-- Widget de Fase Lunar - Fase lunar atual com % de iluminação
-- Widget de Biorritmo - Previsão de 7 dias com gráficos sparkline
-- Widget de Números - Números diários para intenção consciente
-App Apple Watch completo com 5 visualizações + 2 complicações de mostrador.
+4 WIDGETS + APPLE WATCH
+Fique conectado sem abrir o app:
+- Widget de Insight Diário - Mensagem personalizada e nível de energia
+- Widget de Fase Lunar - Fase atual com % de iluminação
+- Widget de Biorritmo - Previsão de 7 dias com gráficos
+- Widget de Números - Números diários
+App Apple Watch completa com 5 visualizações + 2 complicações.
 
-RASTREAMENTO DE METAS E HÁBITOS
-Defina metas pessoais significativas e rastreie hábitos diários. As sugestões de metas geradas por IA se adaptam ao seu estado de biorritmo atual e padrões emocionais, ajudando você a focar no que mais importa a cada dia. Construa sequências e celebre sua consistência.
+RASTREAMENTO DE METAS
+Defina metas pessoais e rastreie hábitos. Sugestões IA adaptadas ao seu estado. Construa sequências e celebre consistência.
 
 FERRAMENTAS DE AUTORREFLEXÃO
-Aprofunde seu autoconhecimento com múltiplas ferramentas de reflexão:
-- Análise de mapa natal usando cálculos de precisão Swiss Ephemeris
-- Insights de compatibilidade relacional em 4 dimensões (emocional, intelectual, física, espiritual)
-- Frameworks de personalidade baseados no zodíaco e reflexões diárias
-- Todos os 144 relatórios de combinação de personalidade
+- Análise de mapa natal com Swiss Ephemeris
+- Insights de compatibilidade em 4 dimensões
+- Frameworks de personalidade baseados no zodíaco
+- 144 relatórios de combinação de personalidade
 
 GERAÇÃO DE RELATÓRIOS PDF
-Crie e baixe relatórios profissionais de autoconhecimento:
-- Análise completa do perfil pessoal (12+ páginas)
-- Relatórios de compatibilidade para compartilhar com parceiros ou amigos
-- Perfeitos para imprimir ou enviar como presentes
+Crie relatórios profissionais:
+- Análise completa do perfil (12+ páginas)
+- Relatórios de compatibilidade para compartilhar
+- Perfeitos para imprimir ou presentear
 
 VERDADEIRAMENTE GLOBAL - 6 IDIOMAS
-Adaptação cultural completa em inglês, espanhol, francês, alemão, italiano e português. 2000+ strings por idioma — localização de qualidade humana, não tradução automática.
+Adaptação completa em 6 idiomas. 2000+ strings por idioma.
 
-PRIVACIDADE PRIMEIRO
+PRIVACIDADE
 - Nenhuma conta necessária para funções básicas
-- Seus dados pessoais armazenados localmente, nunca vendidos
+- Dados armazenados localmente, nunca vendidos
 - Compatível com LGPD/GDPR
 
-DESEMPENHO OTIMIZADO
+DESEMPENHO
 - Inicialização em menos de 1 segundo
 - Animações fluidas a 60 FPS
 - Compatível com iOS 17+
 - Suporte a modo escuro
 
-OPÇÕES DE ASSINATURA
-- Cosmic ($6,99/mês) - Recursos premium essenciais
-- Pro ($19,99/mês) - Acesso completo ao coach IA e recursos avançados
+ASSINATURAS
+- Cosmic (R$ 6,99/mês) - Recursos premium essenciais
+- Pro (R$ 19,99/mês) - Acesso completo ao coach IA
 
-As assinaturas renovam automaticamente, a menos que canceladas 24 horas antes do final do período.
+Assinaturas renovam automaticamente.
 
 POR QUE ARCANAPP?
-Enquanto outros apps oferecem funções de bem-estar isoladas, Arcanapp reúne coaching IA, rastreio de humor, exercícios de respiração, ciência do biorritmo, gestão de metas e ferramentas de autorreflexão em uma plataforma unificada. Nossos widgets e app Apple Watch mantêm sua jornada de bem-estar em destaque todos os dias.
+Arcanapp reúne coaching IA, rastreio de humor, respiração, biorritmos e autorreflexão em uma plataforma unificada.
 
 Comece sua jornada de bem-estar hoje.
 
-Termos de Uso: https://zodiaclifecoach.app/terms
-Política de Privacidade: https://zodiaclifecoach.app/privacy
+Termos: https://zodiaclifecoach.app/terms
+Privacidade: https://zodiaclifecoach.app/privacy
 ```
 
 ## Keywords (100 characters max)

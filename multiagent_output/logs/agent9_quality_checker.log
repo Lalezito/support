@@ -1,6 +1,0 @@
-🔍 AGENT 9: QUALITY_CHECKER - Iniciando verificación de calidad...
-
-📁 Directorio: /Users/alejandrocaceres/Desktop/appstore.zodia/multiagent_output/features/cosmic_coach
-
-./09_quality_checker.sh: line 30: declare: -A: invalid option
-declare: usage: declare [-afFirtx] [-p] [name[=value] ...]

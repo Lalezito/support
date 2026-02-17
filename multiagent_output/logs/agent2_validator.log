@@ -1,8 +1,0 @@
-🟢 AGENT 2: VALIDATOR - Iniciando validación...
-
-📁 Directorio: /Users/alejandrocaceres/Desktop/appstore.zodia/zodiac_app/assets/l10n
-
-1️⃣ Validando 187 keys en 6 idiomas...
-
-./02_validator.sh: line 43: declare: -A: invalid option
-declare: usage: declare [-afFirtx] [-p] [name[=value] ...]
